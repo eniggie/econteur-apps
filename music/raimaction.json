@@ -1,42 +1,56 @@
 {
  "artist": "RAIMZY",
- "note": "Songs by RAIMZY (Dr. Ephraim Oviawe), streamed by ECONTEUR LLC games. Owner-chosen 2026-10-14.",
+ "note": "Songs by RAIMZY (Dr. Ephraim Oviawe). Only tracks Apple Music lists as NOT explicit (checked 2026-10-14). listen = song.link page for the released track (Apple Music, Spotify, YouTube Music, ...): those streams pay the artist; in-game playback does not.",
+ "artist_link": "https://unitedmasters.com/raimzy",
  "tracks": [
   {
    "id": "heartbeatboy-returns",
    "title": "The Heartbeatboy Returns",
    "album": "THE HEARTBEATBOY",
-   "file": "heartbeatboy-returns.mp3"
-  },
-  {
-   "id": "legacy",
-   "title": "Legacy",
-   "album": "THE HEARTBEATBOY",
-   "file": "legacy.mp3"
+   "file": "heartbeatboy-returns.mp3",
+   "listen": "https://song.link/i/1889545630"
   },
   {
    "id": "war",
    "title": "War",
    "album": "THE RECLAIMED VOICE",
-   "file": "war.mp3"
+   "file": "war.mp3",
+   "listen": "https://song.link/i/6796768002"
+  },
+  {
+   "id": "one-blood",
+   "title": "One Blood",
+   "album": "THE HEARTBEATBOY",
+   "file": "one-blood.mp3",
+   "listen": "https://song.link/i/1889545639"
   },
   {
    "id": "the-reclaimed-voice",
    "title": "The Reclaimed Voice",
    "album": "THE RECLAIMED VOICE",
-   "file": "the-reclaimed-voice.mp3"
+   "file": "the-reclaimed-voice.mp3",
+   "listen": "https://song.link/i/6796768013"
+  },
+  {
+   "id": "we-up",
+   "title": "We Up",
+   "album": "THE HEARTBEATBOY",
+   "file": "we-up.mp3",
+   "listen": "https://song.link/i/1889545632"
   },
   {
    "id": "we-miss-you",
    "title": "We Miss You",
    "album": "THE RECLAIMED VOICE",
-   "file": "we-miss-you.mp3"
+   "file": "we-miss-you.mp3",
+   "listen": "https://song.link/i/6796768012"
   },
   {
    "id": "warning",
    "title": "Warning",
    "album": "THE RECLAIMED VOICE",
-   "file": "warning.mp3"
+   "file": "warning.mp3",
+   "listen": "https://song.link/i/6796768016"
   }
  ]
 }
