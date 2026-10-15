@@ -1,0 +1,42 @@
+{
+ "artist": "RAIMZY",
+ "note": "Songs by RAIMZY (Dr. Ephraim Oviawe), streamed by ECONTEUR LLC games. Owner-chosen 2026-10-14.",
+ "tracks": [
+  {
+   "id": "heartbeatboy-returns",
+   "title": "The Heartbeatboy Returns",
+   "album": "THE HEARTBEATBOY",
+   "file": "heartbeatboy-returns.mp3"
+  },
+  {
+   "id": "legacy",
+   "title": "Legacy",
+   "album": "THE HEARTBEATBOY",
+   "file": "legacy.mp3"
+  },
+  {
+   "id": "war",
+   "title": "War",
+   "album": "THE RECLAIMED VOICE",
+   "file": "war.mp3"
+  },
+  {
+   "id": "the-reclaimed-voice",
+   "title": "The Reclaimed Voice",
+   "album": "THE RECLAIMED VOICE",
+   "file": "the-reclaimed-voice.mp3"
+  },
+  {
+   "id": "we-miss-you",
+   "title": "We Miss You",
+   "album": "THE RECLAIMED VOICE",
+   "file": "we-miss-you.mp3"
+  },
+  {
+   "id": "warning",
+   "title": "Warning",
+   "album": "THE RECLAIMED VOICE",
+   "file": "warning.mp3"
+  }
+ ]
+}
