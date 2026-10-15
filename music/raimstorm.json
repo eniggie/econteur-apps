@@ -1,6 +1,6 @@
 {
  "artist": "RAIMZY",
- "note": "Songs by RAIMZY (Dr. Ephraim Oviawe). Only tracks Apple Music lists as NOT explicit (checked 2026-10-14). listen = song.link page for the released track (Apple Music, Spotify, YouTube Music, ...): those streams pay the artist; in-game playback does not.",
+ "note": "Owner, 2026-10-14: only 2025-and-newer releases (THE HEARTBEATBOY, THE RECLAMED VOICE), curated to the game, only tracks Apple lists as NOT explicit. listen = song.link for the released track: streams there pay the artist; in-game playback does not.",
  "artist_link": "https://unitedmasters.com/raimzy",
  "tracks": [
   {
@@ -9,6 +9,27 @@
    "album": "THE RECLAIMED VOICE",
    "file": "we-miss-you.mp3",
    "listen": "https://song.link/i/6796768012"
+  },
+  {
+   "id": "one-blood",
+   "title": "One Blood",
+   "album": "THE HEARTBEATBOY",
+   "file": "one-blood.mp3",
+   "listen": "https://song.link/i/1889545639"
+  },
+  {
+   "id": "we-up",
+   "title": "We Up",
+   "album": "THE HEARTBEATBOY",
+   "file": "we-up.mp3",
+   "listen": "https://song.link/i/1889545632"
+  },
+  {
+   "id": "heartbeatboy-returns",
+   "title": "The Heartbeatboy Returns",
+   "album": "THE HEARTBEATBOY",
+   "file": "heartbeatboy-returns.mp3",
+   "listen": "https://song.link/i/1889545630"
   },
   {
    "id": "war-instrumental",
