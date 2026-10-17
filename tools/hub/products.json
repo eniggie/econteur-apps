@@ -1,0 +1,3407 @@
+{
+  "baseUrl": "https://www.econteur.com",
+  "pathPrefix": "/econteur-apps",
+  "email": "developer@econteur.com",
+  "founder": "Dr. Ephraim Oviawe",
+  "foundingDate": "2011-11-11",
+  "since": " since 2011",
+  "logo": "/assets/favicon.svg",
+  "heroEyebrow": "ECONTEUR LLC · Independent software since 2011",
+  "heroTitleHtml": "Apps for your health, your business and your downtime, <span class=\"grad\">made honestly</span>",
+  "heroLede": "ECONTEUR LLC makes RAIMZEAL, RaimCalls, Raimovia, V3EDGE and more: AI tools and games with real free plans, clear prices and no Chinese AI models. Every page tells you exactly where each app is available today.",
+  "productsLede": "Every product here is created and designed by ECONTEUR LLC. Filter by what you need; each page shows what's free, what it costs and where you can get it today.",
+  "aboutTitle": "One founder, one standard",
+  "aboutText": "ECONTEUR LLC was founded on 11 November 2011 by Dr. Ephraim Oviawe, who worked in caregiving and healthcare services before he wrote software. He saw that the people who most need help are often priced out of the tools that offer it. So ECONTEUR builds products with real free plans, plain prices and honest limits, and paid tiers exist to keep the free ones free.",
+  "roadmapLede": "Apps waiting for store review, products in development and features we're building. We add a date only when it's certain.",
+  "seoTitle": "ECONTEUR LLC: AI Apps for Health, Business, Creating & Play",
+  "seoDescription": "ECONTEUR LLC makes RAIMZEAL, RaimCalls, Raimovia, V3EDGE, GetIntoStores, RAIMFUN and more: AI apps and games with real free plans and no Chinese AI.",
+  "facts": [
+    {
+      "n": 13,
+      "label": "products, live and in the works"
+    },
+    {
+      "n": 7,
+      "label": "apps live on Google Play"
+    },
+    {
+      "n": 45,
+      "label": "ebooks on GetIntoStores"
+    },
+    {
+      "n": 33,
+      "label": "games in RAIMFUN"
+    },
+    {
+      "n": 2011,
+      "label": "the year ECONTEUR LLC was founded"
+    }
+  ],
+  "values": [
+    {
+      "icon": "🆓",
+      "t": "Free plans that stay free",
+      "d": "RAIMZEAL's Foundation plan is free forever, not a trial, and RAIMFUN has no ads or purchases at all. Paid plans pay for the free ones."
+    },
+    {
+      "icon": "🛡️",
+      "t": "No Chinese AI models",
+      "d": "No ECONTEUR product uses a Chinese AI model. Our AI features run on providers such as OpenAI."
+    },
+    {
+      "icon": "🔒",
+      "t": "Your data, your call",
+      "d": "Every app has a privacy policy and a clear way to delete your data. SparkReset keeps your history on your device."
+    },
+    {
+      "icon": "⚖️",
+      "t": "Honest comparisons",
+      "d": "We compare our apps with the best-known alternatives, cite our sources, and say where others are stronger."
+    },
+    {
+      "icon": "📱",
+      "t": "Built for tablets and phones",
+      "d": "Layouts are designed and checked on iPad and Android tablets, not just phones."
+    },
+    {
+      "icon": "🤝",
+      "t": "Founder-led",
+      "d": "Dr. Ephraim Oviawe leads every product. Questions go to developer@econteur.com."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who makes RAIMZEAL, V3EDGE, RaimCalls and Raimovia?",
+      "a": "ECONTEUR LLC, a software company founded on 11 November 2011 by Dr. Ephraim Oviawe. Every product on this site, including GetIntoStores, RAIMFUN, RaimAction and SparkReset, is created and designed by ECONTEUR LLC."
+    },
+    {
+      "q": "Which ECONTEUR apps are free?",
+      "a": "RAIMZEAL's Foundation plan is free forever. RAIMFUN is free with no ads or purchases. V3EDGE is free with no paid plans today. RaimAction has 35 free operations and optional packs, and SparkReset has a free version with optional Premium. RaimCalls and Raimovia are paid business tools; Raimovia starts with a 7-day trial."
+    },
+    {
+      "q": "Do ECONTEUR apps use Chinese AI?",
+      "a": "No. No ECONTEUR product uses a Chinese AI model. Our AI features run on providers such as OpenAI, and apps like RaimCalls and V3EDGE ask for your consent before using them."
+    },
+    {
+      "q": "Is the RAIMZEAL Health Foundation a charity?",
+      "a": "RAIMZEAL Health Foundation, Inc. is a Georgia nonprofit corporation. It is not a registered charity and not a 501(c)(3): its application for federal tax exemption was filed in September 2026 and has not been granted. Donations to it are not tax-deductible."
+    },
+    {
+      "q": "When is V3EDGE coming to iPhone and Android?",
+      "a": "There's no date yet. The iPhone, iPad and Android apps are in progress, and we won't announce a date until they're approved. Today, V3EDGE works free in your browser at v3edge.app/app."
+    },
+    {
+      "q": "How do I delete my data?",
+      "a": "Open the app's Delete your data page from Privacy, terms & support, or email developer@econteur.com from the address on your account. Apps that keep data only on your device, such as SparkReset, are cleared when you delete the app."
+    },
+    {
+      "q": "Which ECONTEUR apps are on iPhone today?",
+      "a": "RAIMZEAL is live on the App Store. RaimCalls, GetIntoStores, RAIMFUN, RaimAction and SparkReset are waiting for App Store review, and all of them are already live on Google Play."
+    },
+    {
+      "q": "Is RAIMZEAL medical advice?",
+      "a": "No. RAIMZEAL is a wellness app. It doesn't diagnose or treat anything; for medical questions, talk to a qualified health professional."
+    },
+    {
+      "q": "What's the difference between RaimCalls and Raimovia?",
+      "a": "RaimCalls is the phone app: it makes calls for you and answers your business line. Raimovia is the web platform for the rest of your business: inbox, CRM, bookings, payments and automations. Raimovia itself doesn't handle phone calls."
+    },
+    {
+      "q": "Do ECONTEUR games have ads or loot boxes?",
+      "a": "No. RAIMFUN, RaimAction and SparkReset contain no ads, and RaimAction has no loot boxes."
+    },
+    {
+      "q": "How do I contact ECONTEUR?",
+      "a": "Email developer@econteur.com."
+    }
+  ],
+  "filterNames": {
+    "health": "Health",
+    "business": "Business",
+    "create": "Create",
+    "play": "Games",
+    "money": "Money",
+    "home": "Home & life",
+    "books": "Books",
+    "music": "Music"
+  },
+  "legal": [
+    {
+      "name": "RaimCalls",
+      "links": [
+        {
+          "label": "Privacy policy",
+          "path": "/raimcalls/privacy.html"
+        },
+        {
+          "label": "Terms of use",
+          "path": "/raimcalls/terms.html"
+        },
+        {
+          "label": "Support",
+          "path": "/raimcalls/support.html"
+        },
+        {
+          "label": "Delete your data",
+          "path": "/raimcalls/delete-data.html"
+        },
+        {
+          "label": "Owner's manual (PDF)",
+          "path": "/raimcalls/manual.pdf"
+        }
+      ]
+    },
+    {
+      "name": "RAIMFUN",
+      "links": [
+        {
+          "label": "Privacy policy",
+          "path": "/raimfun/privacy.html"
+        },
+        {
+          "label": "Terms of use",
+          "path": "/raimfun/terms.html"
+        },
+        {
+          "label": "Support",
+          "path": "/raimfun/support.html"
+        },
+        {
+          "label": "Delete your data",
+          "path": "/raimfun/delete-data.html"
+        }
+      ]
+    },
+    {
+      "name": "RaimAction",
+      "links": [
+        {
+          "label": "Game page",
+          "path": "/raimaction/"
+        },
+        {
+          "label": "Privacy policy",
+          "path": "/raimaction/privacy.html"
+        },
+        {
+          "label": "Terms of use",
+          "path": "/raimaction/terms.html"
+        },
+        {
+          "label": "Support",
+          "path": "/raimaction/support.html"
+        },
+        {
+          "label": "Delete your data",
+          "path": "/raimaction/delete-data.html"
+        }
+      ]
+    },
+    {
+      "name": "SparkReset",
+      "links": [
+        {
+          "label": "Privacy policy",
+          "path": "/sparkreset/privacy.html"
+        },
+        {
+          "label": "Terms of use",
+          "path": "/sparkreset/terms.html"
+        },
+        {
+          "label": "Support",
+          "path": "/sparkreset/support.html"
+        },
+        {
+          "label": "Delete your data",
+          "path": "/sparkreset/delete-data.html"
+        }
+      ]
+    },
+    {
+      "name": "RAIMSTORM",
+      "links": [
+        {
+          "label": "Privacy policy",
+          "path": "/raimstorm/privacy.html"
+        },
+        {
+          "label": "Terms of use",
+          "path": "/raimstorm/terms.html"
+        },
+        {
+          "label": "Support",
+          "path": "/raimstorm/support.html"
+        },
+        {
+          "label": "Delete your data",
+          "path": "/raimstorm/delete-data.html"
+        }
+      ]
+    }
+  ],
+  "llmsNotes": [
+    "Founder Dr. Ephraim Oviawe holds a PhD; he is not a medical doctor. RAIMZEAL is a wellness app and does not give medical advice.",
+    "RAIMZEAL Health Foundation, Inc. is a Georgia nonprofit corporation, not a registered charity or 501(c)(3); donations to it are not tax-deductible.",
+    "Raimovia does not answer or place phone calls; AI phone calling is the separate RaimCalls app.",
+    "V3EDGE is web-only today; its iPhone, iPad and Android apps have no release date."
+  ],
+  "products": [
+    {
+      "slug": "raimzeal",
+      "name": "RAIMZEAL",
+      "category": "AI health coach",
+      "schemaCategory": "HealthApplication",
+      "filters": [
+        "health"
+      ],
+      "icon": "/assets/icons/raimzeal.png",
+      "tagline": "A free-forever AI health coach for food, workouts, sleep and women's health, all in one app.",
+      "summary": "RAIMZEAL brings nutrition, workouts, sleep, mindfulness and women's health tracking together with Ovia AI, a coach you can chat with every day. The Foundation plan is free forever: it is the product, not a trial.",
+      "who": "For anyone who wants one place to eat better, move more and understand their body, without paying for four separate apps.",
+      "status": {
+        "iOS": "live",
+        "Android": "live",
+        "Web": "live"
+      },
+      "get": [
+        {
+          "label": "Download on the App Store",
+          "url": "https://apps.apple.com/us/app/id6773363801",
+          "platform": "iOS"
+        },
+        {
+          "label": "Get it on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.econteur.raimzeal",
+          "platform": "Android"
+        },
+        {
+          "label": "Visit raimzeal.com",
+          "url": "https://www.raimzeal.com",
+          "platform": "Web"
+        }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Foundation (free forever)",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Rise",
+          "price": "9.99",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Rise",
+          "price": "99.00",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed yearly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Reign",
+          "price": "19.99",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Reign",
+          "price": "199.00",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed yearly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Legacy",
+          "price": "49.99",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Legacy",
+          "price": "499.00",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed yearly"
+        }
+      ],
+      "features": [
+        {
+          "t": "Ovia AI chat, free every day",
+          "d": "Ask Ovia AI about meals, training, sleep or your cycle. The free plan includes 10 chats a day; paid plans include more."
+        },
+        {
+          "t": "Barcode macro tracking, free",
+          "d": "Scan a barcode to log calories and macros in seconds. No upgrade needed."
+        },
+        {
+          "t": "Workouts on the free plan",
+          "d": "Follow guided workouts at no cost. The AI Workout Generator, which builds sessions around you, comes with Rise."
+        },
+        {
+          "t": "Women's health, fully included",
+          "d": "Period tracking, cycle sync, PCOS, pregnancy and menopause modes are all part of the free Foundation plan."
+        },
+        {
+          "t": "Sleep, water, fasting and calm",
+          "d": "Track sleep, hydration and fasting windows, and take a breathing or mindfulness break when you need one."
+        },
+        {
+          "t": "A daily Foundations lesson",
+          "d": "One short lesson a day to help healthy habits stick."
+        },
+        {
+          "t": "Community and challenges",
+          "d": "Join challenges and keep each other going."
+        },
+        {
+          "t": "Apple Watch app",
+          "d": "RAIMZEAL comes with a companion app for Apple Watch."
+        },
+        {
+          "t": "AI meal scanner (Rise)",
+          "d": "Photograph your plate for an AI estimate of calories and macros. Part of Rise, $9.99 a month."
+        },
+        {
+          "t": "Talk to Ovia AI out loud (Reign)",
+          "d": "Real-time voice conversation with your coach: 90 minutes a month on Reign ($19.99/month) or 240 on Legacy ($49.99/month)."
+        }
+      ],
+      "notes": [
+        "RAIMZEAL is a wellness app. It does not give medical advice, diagnosis or treatment. For medical questions, talk to a qualified health professional.",
+        "Paid plans: Rise $9.99/month or $99/year, Reign $19.99/month or $199/year, Legacy $49.99/month or $499/year. Voice conversation and AI meal-photo scanning are paid features; daily Ovia AI chat is free."
+      ],
+      "howto": [
+        "Download RAIMZEAL from the App Store or Google Play, or open raimzeal.com in your browser.",
+        "Create your free account and tell Ovia AI what you want to work on.",
+        "Use the free Foundation plan for as long as you like. Upgrade only if you want voice coaching or the AI meal scanner."
+      ],
+      "seoTitle": "RAIMZEAL: Free AI Health Coach for Fitness & Nutrition",
+      "seoDescription": "RAIMZEAL is a free-forever AI health coach: daily Ovia AI chat, barcode macros, workouts and women's health tracking on iPhone, Android and web.",
+      "faq": [
+        {
+          "q": "Is RAIMZEAL really free?",
+          "a": "Yes. The Foundation plan is free forever, not a trial. It includes daily Ovia AI chat (10 a day), barcode macro tracking, workouts, women's health trackers, sleep, hydration, fasting and mindfulness tools, the daily lesson and community challenges."
+        },
+        {
+          "q": "What do the paid plans add?",
+          "a": "Rise ($9.99/month) adds the AI meal scanner, the AI Workout Generator and more chat. Reign ($19.99/month) adds real-time voice conversation with Ovia AI, 90 minutes a month. Legacy ($49.99/month) raises voice to 240 minutes a month."
+        },
+        {
+          "q": "Is there a free MyFitnessPal alternative with barcode scanning?",
+          "a": "Yes. RAIMZEAL's free Foundation plan scans barcodes, and so does Cronometer's free tier. MyFitnessPal lists barcode scanning as a Premium feature."
+        },
+        {
+          "q": "What app tracks workouts, food and my period in one place?",
+          "a": "RAIMZEAL does all three on its free plan, including PCOS, pregnancy and menopause modes. Google Health Premium also combines them, at $9.99 a month."
+        },
+        {
+          "q": "Can I talk to an AI fitness coach out loud?",
+          "a": "Yes. RAIMZEAL's Reign plan ($19.99/month) includes real-time voice conversation with Ovia AI, 90 minutes a month."
+        },
+        {
+          "q": "What is a free alternative to Fitbod?",
+          "a": "Fitbod has no permanent free tier; its App Store price is $15.99 a month. RAIMZEAL's free plan includes guided workouts, and its AI Workout Generator is part of Rise ($9.99/month)."
+        },
+        {
+          "q": "Is RAIMZEAL a medical app?",
+          "a": "No. RAIMZEAL is a wellness coach. It does not diagnose or treat any condition, and it is not a substitute for a qualified health professional."
+        },
+        {
+          "q": "Who makes RAIMZEAL?",
+          "a": "RAIMZEAL is created and designed by ECONTEUR LLC, founded in 2011 by Dr. Ephraim Oviawe."
+        }
+      ],
+      "compare": {
+        "competitors": [
+          "MyFitnessPal",
+          "Noom",
+          "WeightWatchers",
+          "Lose It!",
+          "Cronometer",
+          "Flo",
+          "Fitbod",
+          "Google Health Premium"
+        ],
+        "checked": "2026-10-17",
+        "blurb": "Food, workouts, women's health and AI chat on one free plan, next to the eight best-known health apps.",
+        "rows": [
+          {
+            "feature": "Paid plan from",
+            "us": "$9.99/mo",
+            "them": [
+              "$19.99/mo",
+              "IAP from $44.99",
+              "$19.99/mo",
+              "$79.99/yr",
+              "$10.99/mo",
+              "$39.99/yr",
+              "$15.99/mo",
+              "$9.99/mo"
+            ]
+          },
+          {
+            "feature": "Free plan with no time limit",
+            "us": "y",
+            "them": [
+              "y",
+              "?",
+              "?",
+              "y",
+              "y",
+              "y",
+              "n",
+              "p"
+            ]
+          },
+          {
+            "feature": "AI coach chat",
+            "us": "Free daily",
+            "them": [
+              "p",
+              "?",
+              "?",
+              "?",
+              "p",
+              "p",
+              "n",
+              "p"
+            ]
+          },
+          {
+            "feature": "Live voice conversation with the coach",
+            "us": "Reign plan",
+            "them": [
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "n",
+              "?"
+            ]
+          },
+          {
+            "feature": "Meal photo logging",
+            "us": "Rise plan",
+            "them": [
+              "p",
+              "y",
+              "y",
+              "p",
+              "p",
+              "n",
+              "n",
+              "p"
+            ]
+          },
+          {
+            "feature": "Free barcode scanning",
+            "us": "y",
+            "them": [
+              "n",
+              "?",
+              "?",
+              "n",
+              "y",
+              "n",
+              "n",
+              "?"
+            ]
+          },
+          {
+            "feature": "Workouts and programs",
+            "us": "y",
+            "them": [
+              "p",
+              "?",
+              "?",
+              "p",
+              "n",
+              "n",
+              "y",
+              "y"
+            ]
+          },
+          {
+            "feature": "Cycle and women's health tracking",
+            "us": "y",
+            "them": [
+              "?",
+              "?",
+              "p",
+              "?",
+              "?",
+              "y",
+              "p",
+              "y"
+            ]
+          },
+          {
+            "feature": "Apple Watch app",
+            "us": "y",
+            "them": [
+              "y",
+              "?",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "?"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "name": "MyFitnessPal Premium",
+            "url": "https://www.myfitnesspal.com/premium"
+          },
+          {
+            "name": "MyFitnessPal (App Store)",
+            "url": "https://apps.apple.com/us/app/myfitnesspal-calorie-counter/id341232718"
+          },
+          {
+            "name": "Noom (App Store)",
+            "url": "https://apps.apple.com/us/app/noom-weight-loss-health/id634598719"
+          },
+          {
+            "name": "WeightWatchers plans",
+            "url": "https://www.weightwatchers.com/us/plans"
+          },
+          {
+            "name": "WeightWatchers (App Store)",
+            "url": "https://apps.apple.com/us/app/weightwatchers-program/id331308914"
+          },
+          {
+            "name": "Lose It! (App Store)",
+            "url": "https://apps.apple.com/us/app/lose-it-calorie-counter/id297368629"
+          },
+          {
+            "name": "Lose It! review (Bento Bunny)",
+            "url": "https://www.bentobunny.app/reviews/lose-it-review"
+          },
+          {
+            "name": "Cronometer (App Store)",
+            "url": "https://apps.apple.com/us/app/cronometer-nutrition-tracker/id1145935738"
+          },
+          {
+            "name": "Flo (App Store)",
+            "url": "https://apps.apple.com/us/app/flo-cycle-period-tracker/id1038369065"
+          },
+          {
+            "name": "Flo free version (Flo help)",
+            "url": "https://help.flo.health/hc/en-us/articles/4411293934740-What-s-included-in-the-free-version"
+          },
+          {
+            "name": "Flo pricing (Healthline)",
+            "url": "https://www.healthline.com/health/flo-period-tracker"
+          },
+          {
+            "name": "Fitbod (App Store)",
+            "url": "https://apps.apple.com/us/app/fitbod-gym-fitness-planner/id1041517543"
+          },
+          {
+            "name": "Google Health Premium (TechCrunch)",
+            "url": "https://techcrunch.com/2026/05/07/googles-9-99-per-month-ai-health-coach-launches-may-19/"
+          }
+        ],
+        "advantages": [
+          {
+            "t": "One free plan covers nearly everything",
+            "d": "Nutrition, workouts, women's health and daily AI chat sit on a plan that is free forever. Flo covers cycles but not fitness, Fitbod covers workouts but not food, and the calorie trackers don't track cycles."
+          },
+          {
+            "t": "Barcode scanning stays free",
+            "d": "MyFitnessPal and Lose It! put barcode scanning behind Premium. On RAIMZEAL it is part of the free plan."
+          },
+          {
+            "t": "No extra hardware needed",
+            "d": "Fitness, nutrition and cycle tracking work together in one app on your phone, tablet or browser. Google's coach launched first for Fitbit and Pixel Watch owners."
+          }
+        ],
+        "honest": [
+          {
+            "t": "Scale and track record",
+            "d": "MyFitnessPal, WeightWatchers and Flo each show around two million or more App Store ratings. RAIMZEAL is new and has no public rating yet."
+          },
+          {
+            "t": "Clinical and human support",
+            "d": "WeightWatchers and Noom offer GLP-1 programs and human coaching, and Google's coach can read US medical records. RAIMZEAL is a wellness coach and does not provide medical care."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "raimcalls",
+      "name": "RaimCalls",
+      "category": "AI calling assistant",
+      "schemaCategory": "BusinessApplication",
+      "filters": [
+        "business",
+        "home"
+      ],
+      "icon": "/assets/icons/raimcalls.png",
+      "tagline": "AI that calls and texts for you: it waits on hold, cancels plans and answers your business line 24/7.",
+      "summary": "RaimCalls makes the calls you keep putting off. It works the phone menu, waits on hold for up to 45 minutes, and cancels, books or chases things for you. For your business, it answers your line day and night and books callers into your real calendar.",
+      "who": "For busy people who hate phone queues, and for small-business owners who can't pick up every call.",
+      "status": {
+        "iOS": "review",
+        "Android": "live"
+      },
+      "statusNote": {
+        "iOS": "Waiting for App Store review"
+      },
+      "get": [
+        {
+          "label": "Get it on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.econteur.raimvoice",
+          "platform": "Android"
+        }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Foundation",
+          "price": "49.00",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Rise",
+          "price": "149.00",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Reign",
+          "price": "349.00",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Legacy",
+          "price": "799.00",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        }
+      ],
+      "features": [
+        {
+          "t": "Call for me",
+          "d": "Say what you need: cancel a plan, chase an order, ask for a better price or make a booking. RaimCalls places the call, works the phone menu and waits on hold for up to 45 minutes."
+        },
+        {
+          "t": "Honest on every call",
+          "d": "It tells the other side it is an AI, never shares passwords or card numbers, and never agrees to pay for anything."
+        },
+        {
+          "t": "Answers your business line 24/7",
+          "d": "Eve or Adam picks up day and night, using your own services, prices and hours."
+        },
+        {
+          "t": "Books into your real calendar",
+          "d": "Callers are booked straight into your calendar, not into a separate list you have to copy over."
+        },
+        {
+          "t": "Texts drafted for you",
+          "d": "RaimCalls writes the text; nothing is sent until you tap Send. It only texts people who have agreed to hear from you."
+        },
+        {
+          "t": "Ask your assistant",
+          "d": "Ask questions, keep to-dos and check your calendar in the same app."
+        },
+        {
+          "t": "Bills, subscriptions and expenses",
+          "d": "Keep track of bills and subscriptions, log expenses and export them as PDF or CSV."
+        },
+        {
+          "t": "Respectful calling rules",
+          "d": "Calls to your own clients need their consent, happen only between 8am and 9pm their time, and STOP is always honoured."
+        },
+        {
+          "t": "A business number",
+          "d": "Paid plans come with a business phone number."
+        }
+      ],
+      "notes": [
+        "RaimCalls uses OpenAI for speech and understanding. The in-app consent screen names the provider before you start.",
+        "Plans are monthly in-app subscriptions: Foundation $49, Rise $149, Reign $349 and Legacy $799. The iPhone app, which includes a 7-day Foundation trial, is waiting for App Store review."
+      ],
+      "howto": [
+        "Install RaimCalls from Google Play. The iPhone app is waiting for App Store review.",
+        "Choose a plan and add your details: your services, prices and opening hours.",
+        "Tap Call for me and describe what you need, or switch on 24/7 answering for your business line."
+      ],
+      "seoTitle": "RaimCalls: AI That Calls, Waits on Hold & Answers for You",
+      "seoDescription": "RaimCalls is an AI phone assistant that waits on hold, cancels plans and makes bookings for you, and answers your business line 24/7. On Google Play.",
+      "faq": [
+        {
+          "q": "Is there an AI that waits on hold for you?",
+          "a": "Yes. RaimCalls' Call for me waits on hold for up to 45 minutes and handles the call when someone picks up. Google's Hold for Me also waits on hold, but only on Pixel phones in Australia, Canada, Japan, the UK and the US."
+        },
+        {
+          "q": "Can AI call a business for me?",
+          "a": "Yes. Google Search can call some US local businesses to check prices and availability. RaimCalls goes further and handles tasks such as cancelling a plan, chasing an order or booking an appointment."
+        },
+        {
+          "q": "Is there an AI that cancels subscriptions by phone?",
+          "a": "Yes. RaimCalls places cancellation calls for you. Pine AI also advertises cancellations and bill negotiation, from $99.9 a month billed annually."
+        },
+        {
+          "q": "Does RaimCalls tell people it is an AI?",
+          "a": "Yes, on every call. It also never shares passwords or card numbers and never agrees to pay for anything on your behalf."
+        },
+        {
+          "q": "What is the cheapest AI receptionist for a small business?",
+          "a": "Smith.ai has a free plan with 25 calls, and Rosie starts at $49 a month for 250 minutes. RaimCalls also starts at $49 a month and adds something they don't: it makes calls for you too."
+        },
+        {
+          "q": "Is Ruby worth it versus an AI receptionist?",
+          "a": "Ruby uses live human receptionists, from $250 a month for 50 minutes. AI services such as Rosie, Goodcall or RaimCalls cost much less per minute, but they are not human."
+        },
+        {
+          "q": "Does OpenPhone have an AI receptionist?",
+          "a": "Yes. OpenPhone is now called Quo, and its Sona agent answers calls 24/7, with 10 calls included and add-on tiers from $25 a month."
+        },
+        {
+          "q": "Is RaimCalls on iPhone?",
+          "a": "Not yet. RaimCalls is live on Google Play, and the iPhone app is waiting for App Store review."
+        }
+      ],
+      "poweredByRaimovia": true,
+      "compare": {
+        "competitors": [
+          "Google (Hold for Me + AI calling)",
+          "Pine AI",
+          "Smith.ai",
+          "Ruby",
+          "Goodcall",
+          "Rosie",
+          "My AI Front Desk",
+          "Quo (OpenPhone)"
+        ],
+        "checked": "2026-10-17",
+        "blurb": "The only one here that both makes calls for you and answers your business line.",
+        "rows": [
+          {
+            "feature": "Price from",
+            "us": "$49/mo",
+            "them": [
+              "Free",
+              "$99.9/mo (annual)",
+              "Free (25 calls)",
+              "$250/mo",
+              "$79/mo",
+              "$49/mo",
+              "$99/mo",
+              "$15/user/mo"
+            ]
+          },
+          {
+            "feature": "Calls businesses for you",
+            "us": "y",
+            "them": [
+              "p",
+              "y",
+              "n",
+              "p",
+              "n",
+              "n",
+              "p",
+              "n"
+            ]
+          },
+          {
+            "feature": "Waits on hold for you",
+            "us": "Up to 45 min",
+            "them": [
+              "Pixel only",
+              "?",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n"
+            ]
+          },
+          {
+            "feature": "Cancels plans for you",
+            "us": "y",
+            "them": [
+              "n",
+              "y",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n"
+            ]
+          },
+          {
+            "feature": "Answers your business line 24/7",
+            "us": "y",
+            "them": [
+              "n",
+              "n",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y"
+            ]
+          },
+          {
+            "feature": "Books into your calendar",
+            "us": "y",
+            "them": [
+              "n",
+              "?",
+              "y",
+              "y",
+              "?",
+              "p",
+              "y",
+              "?"
+            ]
+          },
+          {
+            "feature": "Texting",
+            "us": "Drafts, you send",
+            "them": [
+              "n",
+              "?",
+              "?",
+              "?",
+              "?",
+              "y",
+              "y",
+              "y"
+            ]
+          },
+          {
+            "feature": "Bills and expense tracking",
+            "us": "y",
+            "them": [
+              "n",
+              "p",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n"
+            ]
+          },
+          {
+            "feature": "Mobile app",
+            "us": "Android (iOS in review)",
+            "them": [
+              "y",
+              "Android",
+              "?",
+              "?",
+              "?",
+              "y",
+              "?",
+              "y"
+            ]
+          },
+          {
+            "feature": "Free plan",
+            "us": "n",
+            "them": [
+              "y",
+              "p",
+              "y",
+              "n",
+              "p",
+              "n",
+              "n",
+              "n"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "name": "Google AI business calling (TechCrunch)",
+            "url": "https://techcrunch.com/2025/07/16/google-rolls-out-ai-powered-business-calling-feature-brings-gemini-2-5-pro-to-ai-mode"
+          },
+          {
+            "name": "Google Hold for Me",
+            "url": "https://support.google.com/pixelphone/answer/10071878?hl=en"
+          },
+          {
+            "name": "Pine AI pricing",
+            "url": "https://www.19pine.ai/pricing"
+          },
+          {
+            "name": "Pine AI (Google Play)",
+            "url": "https://play.google.com/store/apps/details?id=com.pineai.app.release&hl=en_CA"
+          },
+          {
+            "name": "Smith.ai pricing",
+            "url": "https://smith.ai/pricing/ai-receptionist"
+          },
+          {
+            "name": "Ruby pricing",
+            "url": "https://www.ruby.com/pricing/"
+          },
+          {
+            "name": "Goodcall pricing",
+            "url": "https://www.goodcall.com/pricing"
+          },
+          {
+            "name": "Rosie pricing",
+            "url": "https://heyrosie.com/pricing"
+          },
+          {
+            "name": "My AI Front Desk pricing",
+            "url": "https://www.myaifrontdesk.com/pricing"
+          },
+          {
+            "name": "Quo pricing",
+            "url": "https://www.quo.com/pricing"
+          }
+        ],
+        "advantages": [
+          {
+            "t": "Both directions in one app",
+            "d": "RaimCalls makes calls for you and answers your own line. Google and Pine only call out; the receptionist services only answer."
+          },
+          {
+            "t": "Hold for Me without a Pixel",
+            "d": "Google's Hold for Me needs a Pixel phone in one of five countries. RaimCalls waits on hold from its own app, on Android today and on iPhone once it is approved."
+          },
+          {
+            "t": "Your admin in the same place",
+            "d": "Bills, subscriptions and expenses with PDF and CSV export live next to your calls. None of the receptionist services track these."
+          }
+        ],
+        "honest": [
+          {
+            "t": "More minutes per dollar elsewhere",
+            "d": "Rosie includes 250 minutes for $49 a month and My AI Front Desk 200 minutes for $99. If you only need answering, they give you more minutes for the money, and Smith.ai and Google have free plans."
+          },
+          {
+            "t": "Human backup and specialist tools",
+            "d": "Smith.ai and Ruby can hand calls to live receptionists and offer legal-practice integrations, and Pine specialises in bill negotiation."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "raimovia",
+      "name": "Raimovia",
+      "category": "AI business platform",
+      "schemaCategory": "BusinessApplication",
+      "filters": [
+        "business"
+      ],
+      "icon": "/assets/icons/raimovia.png",
+      "tagline": "Run your business from one place: AI employees, inbox, CRM, bookings, payments and a weekly report.",
+      "summary": "Raimovia is an AI business operating platform for small businesses. Role-based AI employees work from knowledge you approve, alongside a unified inbox, CRM, bookings, quotes, invoices and automations, and a weekly report tells you how the business is doing.",
+      "who": "For owner-operators and small teams, such as consultants, studios and local services, who want one workspace instead of a stack of subscriptions.",
+      "status": {
+        "Android": "live",
+        "Web": "live"
+      },
+      "get": [
+        {
+          "label": "Visit raimovia.com",
+          "url": "https://raimovia.com",
+          "platform": "Web"
+        },
+        {
+          "label": "Get it on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.econteur.raimovia",
+          "platform": "Android"
+        }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Foundation",
+          "price": "99.00",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Rise",
+          "price": "299.00",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Reign",
+          "price": "799.00",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Legacy",
+          "price": "2499.00",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        }
+      ],
+      "features": [
+        {
+          "t": "AI employees",
+          "d": "Role-based AI assistants that answer from the knowledge you approve, so they stay on-message."
+        },
+        {
+          "t": "Website chatbot",
+          "d": "Answer visitors on your site and turn questions into leads."
+        },
+        {
+          "t": "One inbox for every channel",
+          "d": "Email, SMS and web chat in a single inbox."
+        },
+        {
+          "t": "CRM, pipeline and lead scoring",
+          "d": "See every contact and deal, and know which leads to call back first."
+        },
+        {
+          "t": "Bookings and public booking pages",
+          "d": "Share a booking page and let clients pick a time that suits you both."
+        },
+        {
+          "t": "Quotes, invoices and payments",
+          "d": "Send a quote, turn it into an invoice and get paid in the same place."
+        },
+        {
+          "t": "Automations and campaigns",
+          "d": "Follow up automatically and run campaigns without extra tools."
+        },
+        {
+          "t": "Weekly owner report",
+          "d": "A weekly summary of how your business is doing, delivered to you."
+        },
+        {
+          "t": "Knowledge base and Ask Ovia AI",
+          "d": "Keep your answers in one place and ask Ovia AI about your business."
+        },
+        {
+          "t": "Reviews, client portal and white-label",
+          "d": "Collect reviews, give clients their own portal, and present it all under your brand."
+        }
+      ],
+      "notes": [
+        "Raimovia does not answer or place phone calls. For AI phone calls, use RaimCalls, a separate ECONTEUR app.",
+        "Plans are billed monthly: Foundation $99, Rise $299 and Reign $799. Legacy ($2,499) is arranged directly. Foundation starts with a 7-day trial."
+      ],
+      "howto": [
+        "Go to raimovia.com and start the 7-day Foundation trial, or install the Android app from Google Play.",
+        "Add your services, prices and approved knowledge so your AI employees answer accurately.",
+        "Connect your inbox and booking page, then let the weekly report show you what's working."
+      ],
+      "seoTitle": "Raimovia: AI Business Platform for Small Businesses",
+      "seoDescription": "Raimovia gives small businesses AI employees, a unified inbox, CRM, bookings, quotes, invoices, automations and a weekly owner report in one place.",
+      "faq": [
+        {
+          "q": "Is Raimovia a HubSpot alternative for small businesses?",
+          "a": "Yes, for owners who want leads, quotes, payments, bookings and follow-ups in one AI-assisted workspace. HubSpot has a free CRM for up to two users and a much larger ecosystem; Raimovia is narrower and built for owner-operators."
+        },
+        {
+          "q": "Raimovia or GoHighLevel: which is simpler?",
+          "a": "GoHighLevel is built for agencies, starting at $97 a month, and its AI Employee is a $50 to $97 add-on per sub-account. Raimovia is built for a single business, with AI employees included in the plan."
+        },
+        {
+          "q": "Does Raimovia answer phone calls?",
+          "a": "No. Raimovia handles your inbox, CRM, bookings, payments, automations and reports. Phone calls are handled by RaimCalls, a separate ECONTEUR app."
+        },
+        {
+          "q": "Can Raimovia send quotes and take payments?",
+          "a": "Yes. Quotes, invoices and payments are part of every plan's core workflow."
+        },
+        {
+          "q": "Is there a Raimovia iPhone app?",
+          "a": "Not on the App Store today. Raimovia runs in any browser at raimovia.com, and there is an Android app on Google Play."
+        },
+        {
+          "q": "Does Raimovia send a weekly business report?",
+          "a": "Yes. Owners receive a weekly report summarising how the business is doing. None of the competitor pricing pages we reviewed list an equivalent."
+        },
+        {
+          "q": "Raimovia or Jobber for a business that isn't a trade?",
+          "a": "Jobber is designed for home-service trades with crews and dispatch. Raimovia is general-purpose, so it suits consultants, studios and local services that don't send out crews."
+        },
+        {
+          "q": "How much does Raimovia cost?",
+          "a": "Foundation is $99 a month with a 7-day trial, Rise is $299 and Reign is $799. Legacy, at $2,499 a month, is arranged directly."
+        }
+      ],
+      "compare": {
+        "competitors": [
+          "HubSpot Starter",
+          "GoHighLevel",
+          "Zoho Bigin",
+          "Jobber",
+          "Housecall Pro",
+          "Keap",
+          "Pipedrive",
+          "HoneyBook"
+        ],
+        "checked": "2026-10-17",
+        "blurb": "AI employees, CRM, bookings, payments and a weekly report in one workspace, next to eight small-business platforms.",
+        "rows": [
+          {
+            "feature": "Price from",
+            "us": "$99/mo",
+            "them": [
+              "Free; from $7/seat",
+              "$97/mo",
+              "Free; $7/user (yearly)",
+              "$29/mo",
+              "$59/mo (annual)",
+              "$299/mo",
+              "?",
+              "$29/mo (annual)"
+            ]
+          },
+          {
+            "feature": "Free plan",
+            "us": "n",
+            "them": [
+              "y",
+              "n",
+              "y",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n"
+            ]
+          },
+          {
+            "feature": "AI assistants / AI employees",
+            "us": "y",
+            "them": [
+              "p",
+              "Add-on",
+              "p",
+              "p",
+              "y",
+              "y",
+              "y",
+              "y"
+            ]
+          },
+          {
+            "feature": "CRM and lead capture",
+            "us": "y",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "p",
+              "p",
+              "y",
+              "y",
+              "y"
+            ]
+          },
+          {
+            "feature": "Quotes and estimates",
+            "us": "y",
+            "them": [
+              "?",
+              "?",
+              "?",
+              "y",
+              "y",
+              "y",
+              "?",
+              "y"
+            ]
+          },
+          {
+            "feature": "Invoices and payments",
+            "us": "y",
+            "them": [
+              "?",
+              "y",
+              "Payment links",
+              "y",
+              "y",
+              "y",
+              "p",
+              "y"
+            ]
+          },
+          {
+            "feature": "Online booking",
+            "us": "y",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "p"
+            ]
+          },
+          {
+            "feature": "Automated follow-ups",
+            "us": "y",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "?",
+              "p"
+            ]
+          },
+          {
+            "feature": "Weekly owner report",
+            "us": "y",
+            "them": [
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?"
+            ]
+          },
+          {
+            "feature": "iPhone app",
+            "us": "n",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "?",
+              "y",
+              "?"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "name": "HubSpot pricing",
+            "url": "https://www.hubspot.com/pricing/crm"
+          },
+          {
+            "name": "GoHighLevel pricing",
+            "url": "https://www.gohighlevel.com/pricing"
+          },
+          {
+            "name": "Zoho Bigin pricing",
+            "url": "https://www.bigin.com/pricing.html"
+          },
+          {
+            "name": "Jobber pricing",
+            "url": "https://www.getjobber.com/pricing/"
+          },
+          {
+            "name": "Housecall Pro pricing",
+            "url": "https://www.housecallpro.com/pricing/"
+          },
+          {
+            "name": "Keap pricing",
+            "url": "https://keap.com/pricing"
+          },
+          {
+            "name": "Pipedrive products",
+            "url": "https://www.pipedrive.com/en-gb/products"
+          },
+          {
+            "name": "HoneyBook pricing",
+            "url": "https://www.honeybook.com/pricing"
+          }
+        ],
+        "advantages": [
+          {
+            "t": "One AI layer across the whole loop",
+            "d": "Lead, quote, payment, booking and follow-up run in one place with AI employees included, instead of a $97 platform plus a $50 to $97 AI add-on per sub-account on GoHighLevel."
+          },
+          {
+            "t": "A weekly report on your business",
+            "d": "None of the competitor pricing pages we checked advertise one."
+          },
+          {
+            "t": "Not tied to one trade",
+            "d": "Jobber and Housecall Pro are built around field-service dispatch. Raimovia works for any service business."
+          }
+        ],
+        "honest": [
+          {
+            "t": "Native iPhone apps",
+            "d": "HubSpot, GoHighLevel, Bigin, Jobber, Housecall Pro and Pipedrive all have iPhone apps. Raimovia is on the web and Android today."
+          },
+          {
+            "t": "Free plans and ecosystems",
+            "d": "HubSpot and Bigin offer free plans with large integration ecosystems, and Bigin's paid plan starts at $7 per user a month."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "v3edge",
+      "name": "V3EDGE",
+      "category": "AI video editor",
+      "schemaCategory": "MultimediaApplication",
+      "filters": [
+        "create"
+      ],
+      "icon": "/assets/icons/v3edge.png",
+      "tagline": "A free video editor with one-tap background removal, auto-captions and AI scene edits. No watermark.",
+      "summary": "V3EDGE is a video editor for creators, free today with no paid plans and no watermark. Remove your background in one tap, caption and translate automatically, and change the scene, outfit or lighting with AI Edit. It runs in your browser now, with mobile apps on the way.",
+      "who": "For creators who make short videos and want polished results without a subscription.",
+      "status": {
+        "iOS": "soon",
+        "Android": "soon",
+        "Web": "web"
+      },
+      "statusNote": {
+        "iOS": "iPhone and iPad app in progress, date not set",
+        "Android": "In progress, date not set"
+      },
+      "get": [
+        {
+          "label": "Open the web app",
+          "url": "https://v3edge.app/app/",
+          "platform": "Web"
+        }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "V3EDGE (free, no paid plans)",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      ],
+      "features": [
+        {
+          "t": "One-tap background removal",
+          "d": "Cut yourself out of any clip, then fill the background with a colour, a blur or a photo."
+        },
+        {
+          "t": "Green screen",
+          "d": "Key out a green background for a clean composite."
+        },
+        {
+          "t": "A real timeline",
+          "d": "Trim, split, change speed from 0.25x to 4x, and crop to 9:16, 1:1, 4:5 or 16:9."
+        },
+        {
+          "t": "18 transitions and 15 effects",
+          "d": "Enough to give every edit its own look, all included."
+        },
+        {
+          "t": "Auto-captions and lyrics",
+          "d": "Generate captions or on-screen lyrics automatically, then tweak them."
+        },
+        {
+          "t": "Caption translation",
+          "d": "Translate your captions into 26 languages."
+        },
+        {
+          "t": "AI voice-over",
+          "d": "Add a narrated voice-over without recording one yourself."
+        },
+        {
+          "t": "AI Edit",
+          "d": "Describe a change, such as a new background, location or outfit, adding or removing something, or new lighting, on clips up to 60 seconds. V3EDGE asks your permission before sending a clip to an AI provider."
+        },
+        {
+          "t": "Free, with no watermark",
+          "d": "No paid plans, no in-app purchases and no watermark on your exports."
+        }
+      ],
+      "coming": [
+        {
+          "t": "iPhone and iPad app",
+          "d": "The full editor on Apple devices, with rendering on the device.",
+          "when": "Date not set"
+        },
+        {
+          "t": "Android app",
+          "d": "The full editor on Android phones and tablets.",
+          "when": "Date not set"
+        }
+      ],
+      "notes": [
+        "V3EDGE is not in the App Store or Google Play yet. Today it runs in your browser, where background cut-out is processed on V3EDGE's own server.",
+        "AI Edit sends a clip to an outside AI provider only after you give permission. V3EDGE does not use Chinese AI models."
+      ],
+      "howto": [
+        "Open v3edge.app/app in your browser.",
+        "Import a clip, then remove the background in one tap or start cutting on the timeline.",
+        "Add captions, transitions or an AI Edit, and export free, with no watermark."
+      ],
+      "seoTitle": "V3EDGE: Free Video Editor with AI Background Removal",
+      "seoDescription": "V3EDGE is a free video editor with one-tap background removal, auto-captions in 26 languages, AI Edit and no watermark. Use it in your browser today.",
+      "faq": [
+        {
+          "q": "Is V3EDGE free?",
+          "a": "Yes. V3EDGE is free to use today, with no paid plans, no in-app purchases and no watermark."
+        },
+        {
+          "q": "When is V3EDGE coming to iPhone and Android?",
+          "a": "There is no date yet. The iPhone, iPad and Android apps are in progress, and we will only announce a date once they are actually approved. Until then, the full editor works in your browser at v3edge.app/app."
+        },
+        {
+          "q": "What is a good CapCut alternative without Chinese AI?",
+          "a": "Adobe Premiere mobile and Edits by Instagram are free, US-owned and available now. V3EDGE uses only non-Chinese AI providers and asks before sending any clip; it runs in the browser today, with mobile apps coming."
+        },
+        {
+          "q": "What is the best free video editor with no watermark?",
+          "a": "Adobe Premiere mobile and Edits both export without a watermark for free. V3EDGE is also free with no watermark and no paid plans."
+        },
+        {
+          "q": "How do I remove a video background for free?",
+          "a": "In V3EDGE, open your clip and tap background removal; then fill the background with a colour, a blur or a photo. CapCut, InShot, VN, Premiere and Edits also offer one-tap cut-out."
+        },
+        {
+          "q": "Is there an AI that changes my outfit or lighting in a video?",
+          "a": "Yes. V3EDGE's AI Edit takes a typed request, such as a new background, outfit or lighting, on clips up to 60 seconds. Premiere offers Firefly Generative Fill, but its listing does not describe outfit changes."
+        },
+        {
+          "q": "What is a cheaper alternative to the Captions app?",
+          "a": "Captions' first paid tier is $24.99 a month. Free auto-caption options include V3EDGE, Premiere mobile, Edits and VN, though only Captions advertises 100+ caption languages."
+        }
+      ],
+      "compare": {
+        "competitors": [
+          "CapCut",
+          "InShot",
+          "VN",
+          "Adobe Premiere (mobile)",
+          "Edits (Instagram)",
+          "Captions",
+          "VEED",
+          "LumaFusion"
+        ],
+        "checked": "2026-10-17",
+        "blurb": "Free with no watermark, generative AI edits and non-Chinese AI, next to the eight best-known editors.",
+        "rows": [
+          {
+            "feature": "Price",
+            "us": "Free",
+            "them": [
+              "$9.99/mo",
+              "$4.99/mo",
+              "Pro from $7.99",
+              "Free",
+              "Free",
+              "$24.99/mo",
+              "$12/mo (annual)",
+              "$29.99 once"
+            ]
+          },
+          {
+            "feature": "Free with no watermark",
+            "us": "y",
+            "them": [
+              "p",
+              "?",
+              "?",
+              "y",
+              "y",
+              "p",
+              "n",
+              "n"
+            ]
+          },
+          {
+            "feature": "One-tap video background removal",
+            "us": "y",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "?",
+              "y",
+              "p"
+            ]
+          },
+          {
+            "feature": "Auto-captions",
+            "us": "y",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "?"
+            ]
+          },
+          {
+            "feature": "Caption translation",
+            "us": "26 languages",
+            "them": [
+              "p",
+              "p",
+              "p",
+              "?",
+              "?",
+              "y",
+              "y",
+              "?"
+            ]
+          },
+          {
+            "feature": "Generative AI edits (outfit, light, background)",
+            "us": "y",
+            "them": [
+              "p",
+              "n",
+              "n",
+              "p",
+              "p",
+              "p",
+              "p",
+              "n"
+            ]
+          },
+          {
+            "feature": "On iPhone today",
+            "us": "n",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "?",
+              "y"
+            ]
+          },
+          {
+            "feature": "On Android today",
+            "us": "n",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "?",
+              "y"
+            ]
+          },
+          {
+            "feature": "Web editor",
+            "us": "y",
+            "them": [
+              "y",
+              "n",
+              "?",
+              "n",
+              "n",
+              "?",
+              "y",
+              "n"
+            ]
+          },
+          {
+            "feature": "Not owned by a Chinese company",
+            "us": "y",
+            "them": [
+              "n",
+              "?",
+              "?",
+              "y",
+              "y",
+              "?",
+              "?",
+              "y"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "name": "CapCut (App Store)",
+            "url": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883"
+          },
+          {
+            "name": "CapCut",
+            "url": "https://www.capcut.com/"
+          },
+          {
+            "name": "InShot (App Store)",
+            "url": "https://apps.apple.com/us/app/inshot-video-editor/id997362197"
+          },
+          {
+            "name": "VN (App Store)",
+            "url": "https://apps.apple.com/us/app/vn-video-editor/id1343581380"
+          },
+          {
+            "name": "Adobe Premiere on Android (Adobe blog)",
+            "url": "https://blog.adobe.com/en/publish/2026/09/22/adobe-premiere-expands-android-fast-powerful-easy-mobile-video-editing"
+          },
+          {
+            "name": "Adobe Premiere mobile release notes",
+            "url": "https://helpx.adobe.com/au/premiere/mobile/whats-new/release-notes.html"
+          },
+          {
+            "name": "Edits (App Store)",
+            "url": "https://apps.apple.com/us/app/-/id6738967378"
+          },
+          {
+            "name": "Captions pricing",
+            "url": "https://www.captions.ai/pricing"
+          },
+          {
+            "name": "VEED pricing",
+            "url": "https://www.veed.io/pricing"
+          },
+          {
+            "name": "VEED (Toolradar)",
+            "url": "https://toolradar.com/tools/veed"
+          },
+          {
+            "name": "LumaFusion (App Store)",
+            "url": "https://apps.apple.com/us/app/lumafusion/id1062022008"
+          },
+          {
+            "name": "V3EDGE",
+            "url": "https://v3edge.app"
+          }
+        ],
+        "advantages": [
+          {
+            "t": "Free, with nothing to buy",
+            "d": "No paid plans and no in-app purchases today. CapCut Pro is $19.99 a month and Captions Max is $24.99."
+          },
+          {
+            "t": "Generative edits on a real timeline",
+            "d": "Change the outfit, lighting or background in the same app where you trim and caption. Most editors here stop at cut-out and captions."
+          },
+          {
+            "t": "Non-Chinese AI, with your permission",
+            "d": "V3EDGE uses only non-Chinese AI providers and asks before sending a clip. CapCut's App Store seller is Bytedance Pte. Ltd."
+          }
+        ],
+        "honest": [
+          {
+            "t": "You can download them today",
+            "d": "All eight are live now, most with large numbers of ratings. V3EDGE's mobile apps are not released yet."
+          },
+          {
+            "t": "Depth and polish",
+            "d": "LumaFusion and Premiere offer pro timelines and 4K/HDR export, Captions supports 100+ caption languages to V3EDGE's 26, and CapCut's template library is far larger."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "getintostores",
+      "name": "GetIntoStores",
+      "category": "Ebooks & digital store",
+      "schemaCategory": "ShoppingApplication",
+      "filters": [
+        "books",
+        "business"
+      ],
+      "icon": "/assets/icons/getintostores.png",
+      "tagline": "Buy DRM-free ebooks and digital products straight from independent creators. Read a free sample first.",
+      "summary": "GetIntoStores is a store for DRM-free ebooks and digital products from independent creators, with built-in readers for PDF, EPUB, audio and video. It opens with 45 ebooks by Dr. Ephraim Oviawe, priced from $6.69 to $10.99, each with a free sample.",
+      "who": "For readers who want to buy direct from authors, and for creators who want their own store without building one.",
+      "status": {
+        "iOS": "review",
+        "Android": "live",
+        "Web": "live"
+      },
+      "statusNote": {
+        "iOS": "Waiting for App Store review"
+      },
+      "get": [
+        {
+          "label": "Visit getintostores.com",
+          "url": "https://www.getintostores.com",
+          "platform": "Web"
+        },
+        {
+          "label": "Get it on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.econteur.getintostores",
+          "platform": "Android"
+        }
+      ],
+      "features": [
+        {
+          "t": "DRM-free downloads",
+          "d": "What you buy isn't locked to one app or device."
+        },
+        {
+          "t": "45 ebooks by Dr. Ephraim Oviawe",
+          "d": "Priced at $6.69, $8.89, $9.99 or $10.99."
+        },
+        {
+          "t": "Free samples",
+          "d": "Read the opening of a book before you decide."
+        },
+        {
+          "t": "Readers built in",
+          "d": "Read PDF and EPUB, and play audio and video, without leaving the app."
+        },
+        {
+          "t": "Storefronts for creators",
+          "d": "Creators get their own storefront and a seller workflow. GetIntoStores keeps a 10% commission on sales."
+        },
+        {
+          "t": "Discount codes and affiliates",
+          "d": "Run a sale with a code, or let affiliates share your books."
+        },
+        {
+          "t": "Reviews",
+          "d": "Read what other buyers thought, and leave your own."
+        },
+        {
+          "t": "Gifts and bundles on the web",
+          "d": "Send a book as a gift or buy a bundle at getintostores.com."
+        },
+        {
+          "t": "Easy sign-in, easy exit",
+          "d": "Sign in with Apple or Google, and delete your account whenever you choose."
+        }
+      ],
+      "notes": [
+        "Gifts and bundles are available on getintostores.com only, not inside the iPhone or Android apps."
+      ],
+      "howto": [
+        "Open getintostores.com or install the Android app. The iPhone app is waiting for App Store review.",
+        "Browse the books and read a free sample of any title.",
+        "Sign in with Apple or Google, buy, and read in the built-in reader."
+      ],
+      "seoTitle": "GetIntoStores: DRM-Free Ebooks Direct from Creators",
+      "seoDescription": "Buy DRM-free ebooks straight from independent creators on GetIntoStores. 45 ebooks by Dr. Ephraim Oviawe from $6.69, each with a free sample.",
+      "faq": [
+        {
+          "q": "Why buy from GetIntoStores instead of Amazon?",
+          "a": "You buy directly from the creator, the files are DRM-free, and every book has a free sample. Amazon offers far more reach and Kindle Unlimited, and pays authors a 70% royalty only on ebooks priced $2.99 to $12.99."
+        },
+        {
+          "q": "How much are the ebooks?",
+          "a": "The 45 ebooks by Dr. Ephraim Oviawe cost $6.69, $8.89, $9.99 or $10.99. Discount codes and web bundles can lower the price."
+        },
+        {
+          "q": "Can I read a sample first?",
+          "a": "Yes. Every one of the 45 ebooks has a free sample."
+        },
+        {
+          "q": "Can I gift an ebook?",
+          "a": "Yes, on getintostores.com. Gifts and bundles aren't available inside the iPhone or Android apps."
+        },
+        {
+          "q": "What formats can I read?",
+          "a": "The built-in readers handle PDF and EPUB, and play audio and video products."
+        },
+        {
+          "q": "Can I sell my own books on GetIntoStores?",
+          "a": "Yes. Creators get a storefront and seller workflow, with discount codes and affiliates. GetIntoStores keeps a 10% commission on each sale."
+        },
+        {
+          "q": "GetIntoStores or Gumroad for creators?",
+          "a": "Gumroad charges 10% plus $0.50 per direct sale and 30% on sales through its Discover marketplace. GetIntoStores keeps 10% and includes built-in readers for your buyers."
+        }
+      ],
+      "compare": {
+        "competitors": [
+          "Amazon Kindle (KDP)",
+          "Apple Books",
+          "Google Play Books",
+          "Kobo",
+          "B&N Press",
+          "Gumroad",
+          "Payhip",
+          "Shopify"
+        ],
+        "checked": "2026-10-17",
+        "blurb": "Buy direct from creators, DRM-free, with readers built in, next to the big ebook stores and creator platforms.",
+        "rows": [
+          {
+            "feature": "Platform's cut on an ebook sale",
+            "us": "10%",
+            "them": [
+              "30% + delivery fee",
+              "30%",
+              "30% (most countries)",
+              "30% at $2.99+",
+              "?",
+              "10% + $0.50",
+              "5% (free plan)",
+              "$29/mo + card fees"
+            ]
+          },
+          {
+            "feature": "Creator's own storefront",
+            "us": "y",
+            "them": [
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "y",
+              "y",
+              "y"
+            ]
+          },
+          {
+            "feature": "Free sample on every title",
+            "us": "y",
+            "them": [
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?"
+            ]
+          },
+          {
+            "feature": "Discount codes",
+            "us": "y",
+            "them": [
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "y",
+              "y",
+              "?"
+            ]
+          },
+          {
+            "feature": "Affiliates",
+            "us": "y",
+            "them": [
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "y",
+              "?",
+              "?"
+            ]
+          },
+          {
+            "feature": "Bundles and gifts",
+            "us": "Web only",
+            "them": [
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "p",
+              "?"
+            ]
+          },
+          {
+            "feature": "Built-in reader",
+            "us": "y",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "?",
+              "?",
+              "n"
+            ]
+          },
+          {
+            "feature": "Huge built-in audience",
+            "us": "n",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "p",
+              "n",
+              "n"
+            ]
+          },
+          {
+            "feature": "Subscription reading",
+            "us": "n",
+            "them": [
+              "y",
+              "n",
+              "n",
+              "y",
+              "?",
+              "p",
+              "?",
+              "n"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "name": "KDP pricing",
+            "url": "https://kdp.amazon.com/en_US/help/topic/G200634560"
+          },
+          {
+            "name": "KDP royalties",
+            "url": "https://kdp.amazon.com/en_US/help/topic/G200644210"
+          },
+          {
+            "name": "Apple Books for Authors",
+            "url": "https://authors.apple.com/"
+          },
+          {
+            "name": "Google Play Books revenue share",
+            "url": "https://support.google.com/books/partner/answer/9331459"
+          },
+          {
+            "name": "Kobo requirements (Cambric)",
+            "url": "https://cambric.pub/guides/kobo-requirements"
+          },
+          {
+            "name": "B&N Press (Good e-Reader)",
+            "url": "https://goodereader.com/blog/digital-publishing/bn-press-just-sweetened-its-deal-for-indie-authors"
+          },
+          {
+            "name": "Gumroad pricing",
+            "url": "https://gumroad.com/pricing"
+          },
+          {
+            "name": "Gumroad affiliates",
+            "url": "https://gumroad.com/help/article/333-affiliates-on-gumroad"
+          },
+          {
+            "name": "Payhip pricing",
+            "url": "https://payhip.com/pricing"
+          },
+          {
+            "name": "Shopify pricing",
+            "url": "https://www.shopify.com/pricing"
+          }
+        ],
+        "advantages": [
+          {
+            "t": "Buy direct, DRM-free",
+            "d": "Your money goes to the creator through their own storefront, and the file isn't locked to one device."
+          },
+          {
+            "t": "Store tools in one place",
+            "d": "Discount codes, affiliates, reviews, and gifts and bundles on the web, without stitching together Shopify apps."
+          },
+          {
+            "t": "Readers built in",
+            "d": "Buyers read PDF and EPUB, and play audio and video, inside GetIntoStores instead of juggling files."
+          }
+        ],
+        "honest": [
+          {
+            "t": "Reach",
+            "d": "Amazon, Apple, Google and Kobo bring millions of existing buyers, plus subscription programmes such as Kindle Unlimited and Kobo Plus."
+          },
+          {
+            "t": "Mature creator tooling",
+            "d": "Gumroad acts as merchant of record for tax, and Payhip handles EU and UK VAT and offers PDF stamping and download limits."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "raimfun",
+      "name": "RAIMFUN",
+      "category": "Thinking games",
+      "kind": "game",
+      "schemaCategory": "GameApplication",
+      "filters": [
+        "play"
+      ],
+      "icon": "/assets/icons/raimfun.png",
+      "tagline": "33 thinking games for kids, seniors and everyone: free, with no ads, no purchases and no sign-in.",
+      "summary": "RAIMFUN is a collection of 33 thinking games with big buttons, a relaxed mode with no clock, and layouts that fit any phone or tablet. It is free, with no ads, no in-app purchases and no tracking, and it plays offline.",
+      "who": "For kids, grandparents and everyone in between who want a calm, fair game to play.",
+      "status": {
+        "iOS": "review",
+        "Android": "live"
+      },
+      "statusNote": {
+        "iOS": "Waiting for App Store review"
+      },
+      "get": [
+        {
+          "label": "Get it on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.econteur.raimfun",
+          "platform": "Android"
+        }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "RAIMFUN (free)",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      ],
+      "features": [
+        {
+          "t": "33 games in one app",
+          "d": "Puzzles, word games, memory and logic games, each with its own Champion Board."
+        },
+        {
+          "t": "Free, for real",
+          "d": "No ads, no in-app purchases, no subscription and no tracking."
+        },
+        {
+          "t": "Plays offline",
+          "d": "Every game works without a connection. Only the Champion Board needs the internet."
+        },
+        {
+          "t": "No sign-in",
+          "d": "Pick a nickname and play. No email, no password."
+        },
+        {
+          "t": "Relaxed mode",
+          "d": "Turn off the clock and play at your own pace."
+        },
+        {
+          "t": "Big, clear buttons",
+          "d": "Large controls that are easy to see and tap."
+        },
+        {
+          "t": "Works at any text size",
+          "d": "Games stay readable even with your device's largest text setting."
+        },
+        {
+          "t": "Fits every screen",
+          "d": "Every game is laid out to fit phones and tablets."
+        }
+      ],
+      "notes": [
+        "RAIMFUN is made for fun. It makes no claims about improving memory, intelligence or health.",
+        "RAIMFUN is sponsored by RAIMZEAL Health Foundation, Inc., a Georgia nonprofit corporation. It is not a registered charity, and donations to it are not tax-deductible."
+      ],
+      "howto": [
+        "Install RAIMFUN from Google Play. The iPhone and iPad app is waiting for App Store review.",
+        "Choose a nickname. There's no account to create.",
+        "Pick any of the 33 games, and switch on relaxed mode if you'd rather play without a clock."
+      ],
+      "seoTitle": "RAIMFUN: 33 Free Thinking Games, No Ads, No Sign-In",
+      "seoDescription": "RAIMFUN is 33 free thinking games for kids, seniors and everyone: no ads, no in-app purchases, no sign-in, big buttons, and it plays offline.",
+      "faq": [
+        {
+          "q": "Is RAIMFUN a free alternative to Lumosity?",
+          "a": "RAIMFUN is a free collection of 33 thinking games with no ads, purchases or sign-in. Lumosity sells Premium plans priced from $11.99 to $89.00 on the App Store. RAIMFUN is for fun and makes no brain-training claims."
+        },
+        {
+          "q": "Is RAIMFUN really free?",
+          "a": "Yes. There are no ads, no in-app purchases and no subscription."
+        },
+        {
+          "q": "Can I play RAIMFUN offline?",
+          "a": "Yes. Every game plays without internet. Posting to or viewing the Champion Board needs a connection."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. You choose a nickname; there's no email, password or social sign-in."
+        },
+        {
+          "q": "Is RAIMFUN good for seniors and kids?",
+          "a": "It was designed with both in mind: big buttons, a relaxed mode with no clock, support for large text, and layouts that fit phones and tablets."
+        },
+        {
+          "q": "Does RAIMFUN improve memory or IQ?",
+          "a": "RAIMFUN makes no medical or cognitive-improvement claims. It is a collection of games to enjoy."
+        },
+        {
+          "q": "RAIMFUN or Elevate?",
+          "a": "Elevate offers 40+ skill games on a subscription, and its App Store listing shows advertising. RAIMFUN is free, with no ads and no account."
+        }
+      ],
+      "compare": {
+        "competitors": [
+          "Lumosity",
+          "Elevate",
+          "Peak",
+          "NeuroNation",
+          "CogniFit",
+          "Impulse",
+          "Brain Test",
+          "Words With Friends 2"
+        ],
+        "checked": "2026-10-17",
+        "blurb": "33 games, free with no ads, purchases or sign-in, next to the best-known puzzle and brain-game apps.",
+        "rows": [
+          {
+            "feature": "Price",
+            "us": "Free",
+            "them": [
+              "IAP $11.99–$89",
+              "$9.99/mo",
+              "$34.99/yr",
+              "About $41.99/yr",
+              "$19.99/mo",
+              "$9.99/wk",
+              "Free + IAP",
+              "Free + IAP"
+            ]
+          },
+          {
+            "feature": "Every game without a subscription",
+            "us": "y",
+            "them": [
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "y",
+              "y"
+            ]
+          },
+          {
+            "feature": "No in-app purchases at all",
+            "us": "y",
+            "them": [
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n"
+            ]
+          },
+          {
+            "feature": "Ad-free",
+            "us": "y",
+            "them": [
+              "?",
+              "n",
+              "Ads (free tier)",
+              "?",
+              "?",
+              "n",
+              "p",
+              "p"
+            ]
+          },
+          {
+            "feature": "Plays offline",
+            "us": "y",
+            "them": [
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "p",
+              "?"
+            ]
+          },
+          {
+            "feature": "No account needed",
+            "us": "y",
+            "them": [
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "p"
+            ]
+          },
+          {
+            "feature": "30+ distinct games",
+            "us": "33",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "?",
+              "?",
+              "n",
+              "n"
+            ]
+          },
+          {
+            "feature": "Leaderboards",
+            "us": "y",
+            "them": [
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "p"
+            ]
+          },
+          {
+            "feature": "Live play against friends",
+            "us": "n",
+            "them": [
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "y"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "name": "Lumosity (App Store)",
+            "url": "https://apps.apple.com/us/app/lumosity-brain-training-games/id577232024"
+          },
+          {
+            "name": "Elevate (App Store)",
+            "url": "https://apps.apple.com/us/app/elevate-brain-training-games/id875063456"
+          },
+          {
+            "name": "Peak",
+            "url": "https://get.peak.net/en/gift"
+          },
+          {
+            "name": "Peak pricing (Nibble)",
+            "url": "https://nibble-app.com/blog/peak-pricing-cost"
+          },
+          {
+            "name": "NeuroNation (App Store)",
+            "url": "https://apps.apple.com/us/app/-/id821549680"
+          },
+          {
+            "name": "CogniFit (Nibble)",
+            "url": "https://nibble-app.com/blog/cognifit"
+          },
+          {
+            "name": "Impulse (App Store)",
+            "url": "https://apps.apple.com/us/app/impulse-brain-training/id1451295827"
+          },
+          {
+            "name": "Brain Test (App Store)",
+            "url": "https://apps.apple.com/app/id6447440666"
+          },
+          {
+            "name": "Words With Friends 2 (App Store)",
+            "url": "https://apps.apple.com/us/app/words-with-friends-2-word-game/id1196764367"
+          }
+        ],
+        "advantages": [
+          {
+            "t": "Nothing to buy, nothing to sign",
+            "d": "No ads, no purchases, no subscription and no account. You only choose a nickname."
+          },
+          {
+            "t": "33 games and a Champion Board",
+            "d": "A wide range of games with a board for each, and the whole library is open to everyone."
+          },
+          {
+            "t": "Made for every player",
+            "d": "Big buttons, a no-clock relaxed mode, large-text support and layouts that fit phones and tablets."
+          }
+        ],
+        "honest": [
+          {
+            "t": "Personalised daily plans",
+            "d": "Lumosity, Elevate and Peak build daily sessions that adapt to how you play."
+          },
+          {
+            "t": "Live multiplayer",
+            "d": "Words With Friends 2 lets you play against friends in real time; RAIMFUN is single-player."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "raimaction",
+      "name": "RaimAction",
+      "category": "Action game",
+      "kind": "game",
+      "schemaCategory": "GameApplication",
+      "filters": [
+        "play"
+      ],
+      "icon": "/assets/icons/raimaction.png",
+      "tagline": "Courage, not violence: 35 free operations, online co-op for up to four, and no ads or loot boxes.",
+      "summary": "RaimAction is a third-person action game about courage, not violence. Play 35 free operations on your own, even offline, or team up online with two to four players using a room code. There are no ads and no loot boxes.",
+      "who": "For players who want tight action and co-op with friends, without ads or loot boxes.",
+      "status": {
+        "iOS": "review",
+        "Android": "live"
+      },
+      "statusNote": {
+        "iOS": "Waiting for App Store review"
+      },
+      "get": [
+        {
+          "label": "Get it on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.raimzy.raimaction",
+          "platform": "Android"
+        }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "RaimAction (free)",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium pack",
+          "price": "4.49",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "All premium packs",
+          "price": "8.89",
+          "priceCurrency": "USD"
+        }
+      ],
+      "features": [
+        {
+          "t": "35 free operations",
+          "d": "A full set of missions you can play without paying anything."
+        },
+        {
+          "t": "16 operators, 9 weapons",
+          "d": "Pick the operator and loadout that suit your style."
+        },
+        {
+          "t": "Three difficulty levels",
+          "d": "EASY, MEDIUM or HARD, so new and seasoned players both get a fair fight."
+        },
+        {
+          "t": "Online co-op for 2 to 4",
+          "d": "Share a room code and play together. Co-op needs an internet connection."
+        },
+        {
+          "t": "Solo play offline",
+          "d": "Play operations on your own with no connection at all."
+        },
+        {
+          "t": "Champions boards",
+          "d": "Compare runs with other players, with report and block tools built in."
+        },
+        {
+          "t": "Optional RAIMZY soundtrack",
+          "d": "Switch on music by RAIMZY, or turn it off."
+        },
+        {
+          "t": "Fair extras",
+          "d": "Four premium packs at $4.49 each, or all of them for $8.89. No loot boxes and no ads."
+        }
+      ],
+      "coming": [
+        {
+          "t": "Guardian Pass and regalia skins",
+          "d": "A season track with new skins, planned for version 2.6.1.",
+          "when": "Date not set"
+        },
+        {
+          "t": "STORM NIGHT rescue chapter",
+          "d": "A new chapter built around rescue missions.",
+          "when": "Date not set"
+        }
+      ],
+      "howto": [
+        "Install RaimAction from Google Play. The iPhone and iPad version is waiting for App Store review.",
+        "Choose your operator, weapon and difficulty.",
+        "Play an operation solo, or share a room code to bring in up to three friends online."
+      ],
+      "seoTitle": "RaimAction: Free Co-op Action Game, No Ads or Loot Boxes",
+      "seoDescription": "RaimAction is a third-person action game about courage, not violence: 35 free operations, online co-op for 2–4 players, no ads and no loot boxes.",
+      "faq": [
+        {
+          "q": "Is RaimAction free?",
+          "a": "Yes. The 35 operations are free. Four optional premium packs cost $4.49 each, or $8.89 for all of them, and there's no subscription."
+        },
+        {
+          "q": "Can I play RaimAction offline?",
+          "a": "Yes, solo operations play offline. Co-op needs an internet connection."
+        },
+        {
+          "q": "How does co-op work?",
+          "a": "One player creates a room and shares the code; two to four players can join online."
+        },
+        {
+          "q": "Does RaimAction have loot boxes or ads?",
+          "a": "No. There are no loot boxes and no ads. Extras are clearly priced, one-time packs."
+        },
+        {
+          "q": "RaimAction or Call of Duty: Mobile?",
+          "a": "Call of Duty: Mobile requires an internet connection and centres on competitive multiplayer. RaimAction focuses on solo and co-op operations, and solo play works offline."
+        },
+        {
+          "q": "Is RaimAction like Space Marshals?",
+          "a": "Both are action games with campaign missions. Space Marshals 3 sells chapters at $4.99 each and lists no multiplayer; RaimAction adds online co-op."
+        },
+        {
+          "q": "Is RaimAction on iPhone?",
+          "a": "Not yet. It is live on Google Play, and the iPhone and iPad version is waiting for App Store review."
+        }
+      ],
+      "compare": {
+        "competitors": [
+          "Call of Duty: Mobile",
+          "Warframe",
+          "Destiny: Rising",
+          "Shadowgun Legends",
+          "Space Marshals 3",
+          "Dead Trigger 2",
+          "Mech Arena",
+          "Pixel Gun 3D"
+        ],
+        "checked": "2026-10-17",
+        "blurb": "Free operations, offline solo and co-op with no ads or loot boxes, next to eight mobile action games.",
+        "rows": [
+          {
+            "feature": "How you pay",
+            "us": "Free + $4.49 packs",
+            "them": [
+              "Free + IAP",
+              "Free to play",
+              "Free to play",
+              "Free to play",
+              "$4.99/chapter",
+              "Free + IAP",
+              "Free + IAP",
+              "Free + IAP"
+            ]
+          },
+          {
+            "feature": "Solo play offline",
+            "us": "y",
+            "them": [
+              "n",
+              "?",
+              "?",
+              "p",
+              "?",
+              "y",
+              "n",
+              "?"
+            ]
+          },
+          {
+            "feature": "Online co-op",
+            "us": "2–4 players",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "n",
+              "?",
+              "p",
+              "y"
+            ]
+          },
+          {
+            "feature": "PvP",
+            "us": "n",
+            "them": [
+              "y",
+              "p",
+              "?",
+              "y",
+              "n",
+              "p",
+              "y",
+              "y"
+            ]
+          },
+          {
+            "feature": "Campaign or missions",
+            "us": "35 operations",
+            "them": [
+              "p",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "n",
+              "y"
+            ]
+          },
+          {
+            "feature": "No loot boxes",
+            "us": "y",
+            "them": [
+              "n",
+              "?",
+              "?",
+              "?",
+              "y",
+              "?",
+              "n",
+              "n"
+            ]
+          },
+          {
+            "feature": "No ads",
+            "us": "y",
+            "them": [
+              "n",
+              "?",
+              "?",
+              "?",
+              "?",
+              "n",
+              "?",
+              "n"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "name": "Call of Duty: Mobile (App Store)",
+            "url": "https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214"
+          },
+          {
+            "name": "Warframe mobile (mein-mmo)",
+            "url": "https://mein-mmo.de/en/warframe-mobile-release-infos,1548361"
+          },
+          {
+            "name": "Warframe (ESRB)",
+            "url": "https://www.esrb.org/ratings/40330"
+          },
+          {
+            "name": "Destiny: Rising (GamingTrend)",
+            "url": "https://gamingtrend.com/news/destiny-rising-arrives-on-the-mobile-scene-and-you-can-download-it-now"
+          },
+          {
+            "name": "Shadowgun Legends (App Store)",
+            "url": "https://apps.apple.com/gb/app/shadowgun-legends-online-fps/id1091251242"
+          },
+          {
+            "name": "Space Marshals 3 (App Store)",
+            "url": "https://apps.apple.com/us/app/space-marshals-3/id1501495423"
+          },
+          {
+            "name": "Dead Trigger 2 (App Store)",
+            "url": "https://apps.apple.com/us/app/dead-trigger-2-zombie-games/id720063540"
+          },
+          {
+            "name": "Mech Arena (App Store)",
+            "url": "https://apps.apple.com/us/app/mech-arena-shooting-game/id1377591228"
+          },
+          {
+            "name": "Pixel Gun 3D (App Store)",
+            "url": "https://apps.apple.com/us/app/pixel-gun-3d-fps-shooter/id640111933"
+          }
+        ],
+        "advantages": [
+          {
+            "t": "No ads, no loot boxes",
+            "d": "Extras are clearly priced one-time packs. Call of Duty: Mobile, Mech Arena and Pixel Gun 3D list loot boxes on the App Store."
+          },
+          {
+            "t": "Solo play works offline",
+            "d": "Call of Duty: Mobile states that an internet connection is required."
+          },
+          {
+            "t": "35 operations free",
+            "d": "A full campaign to play before you ever consider a pack."
+          }
+        ],
+        "honest": [
+          {
+            "t": "Scale and live content",
+            "d": "Warframe, Destiny: Rising and Call of Duty: Mobile have big studios behind them, large player bases and PvP modes."
+          },
+          {
+            "t": "Store presence",
+            "d": "RaimAction's iPhone and iPad version is still waiting for its first App Store approval."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "sparkreset",
+      "name": "SparkReset",
+      "category": "Home tidying",
+      "schemaCategory": "LifestyleApplication",
+      "filters": [
+        "home"
+      ],
+      "icon": "/assets/icons/sparkreset.png",
+      "tagline": "One small tidying task matched to your room, energy and time, with a timer and no backlog of chores.",
+      "summary": "SparkReset gives you one small tidying task that fits the room you're in, the energy you have and the time you've got, then times it for you. Swap it, pause it or finish early. There's never a backlog of missed chores, and your history stays on your device.",
+      "who": "For anyone who feels buried by chore lists and just wants an easy place to start.",
+      "status": {
+        "iOS": "review",
+        "Android": "live"
+      },
+      "statusNote": {
+        "iOS": "Waiting for App Store review"
+      },
+      "get": [
+        {
+          "label": "Get it on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.raimzy.sparkreset",
+          "platform": "Android"
+        }
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "SparkReset (free)",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium",
+          "price": "5.99",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        },
+        {
+          "@type": "Offer",
+          "name": "Premium",
+          "price": "29.99",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed yearly"
+        }
+      ],
+      "features": [
+        {
+          "t": "One task, not a list",
+          "d": "SparkReset picks a single small task so you can start right away."
+        },
+        {
+          "t": "Matched to you",
+          "d": "Tell it the room, your energy and your time, and the task fits all three."
+        },
+        {
+          "t": "A built-in timer",
+          "d": "Each task comes with a timer. Swap, pause or finish early whenever you like."
+        },
+        {
+          "t": "No backlog, ever",
+          "d": "Skipped a day? Nothing piles up. The next session starts fresh."
+        },
+        {
+          "t": "129 tasks across 10 rooms",
+          "d": "Three rooms are free; Premium opens all ten."
+        },
+        {
+          "t": "Sparks and a forgiving streak",
+          "d": "Earn sparks as you go, with a streak that doesn't punish one missed day."
+        },
+        {
+          "t": "Private by design",
+          "d": "No account needed and no ads. Your history stays on your device."
+        },
+        {
+          "t": "Premium extras",
+          "d": "5- and 10-minute sessions, guided programs, Night Reset, smart pick, recaps and streak shields."
+        }
+      ],
+      "notes": [
+        "Premium costs $5.99 a month or $29.99 a year, with a 7-day free trial on the yearly plan. You can cancel in your App Store or Google Play subscriptions at any time."
+      ],
+      "howto": [
+        "Install SparkReset from Google Play. The iPhone and iPad app is waiting for App Store review.",
+        "Choose the room you're in, your energy and the time you have.",
+        "Start the timer and do the one task in front of you."
+      ],
+      "seoTitle": "SparkReset: Quick Tidying Tasks, No Chore Backlog",
+      "seoDescription": "SparkReset gives you one small tidying task matched to your room, energy and time, with a timer and no backlog. 129 tasks across 10 rooms.",
+      "faq": [
+        {
+          "q": "What is SparkReset?",
+          "a": "A tidying app that gives you one small task matched to your room, energy and time, with a timer. There's no list of missed chores waiting for you."
+        },
+        {
+          "q": "Is SparkReset free?",
+          "a": "Yes. The free version includes three of the ten rooms. Premium, at $5.99 a month or $29.99 a year, opens all ten rooms and adds longer sessions, guided programs and more."
+        },
+        {
+          "q": "SparkReset or Tody?",
+          "a": "Tody tracks when each room task is due, with colour indicators and family sync. SparkReset skips due dates and gives you one small task now."
+        },
+        {
+          "q": "SparkReset or Sweepy?",
+          "a": "Sweepy scores tasks by effort and builds a schedule, and its automatic daily schedule is a Premium feature. SparkReset picks a task by your time and energy instead."
+        },
+        {
+          "q": "What happens if I skip a day?",
+          "a": "Nothing piles up. SparkReset has no overdue list, and its streak is forgiving, so the next session simply starts fresh."
+        },
+        {
+          "q": "Can my household share SparkReset?",
+          "a": "Not today. SparkReset keeps your history on your own device. Tody, Sweepy and OurHome offer shared households if you need that."
+        },
+        {
+          "q": "Does SparkReset have ads?",
+          "a": "No. SparkReset contains no advertising."
+        }
+      ],
+      "compare": {
+        "competitors": [
+          "Tody",
+          "Sweepy",
+          "FlyLadyPlus",
+          "Habitica",
+          "Home Routines",
+          "OurHome",
+          "Unfilth Your Habitat",
+          "Donetick"
+        ],
+        "checked": "2026-10-17",
+        "blurb": "One energy-matched task with no backlog, next to eight cleaning and chore apps.",
+        "rows": [
+          {
+            "feature": "Price",
+            "us": "Free; $5.99/mo or $29.99/yr",
+            "them": [
+              "From $9.99",
+              "$3.99/mo",
+              "$1.99/wk",
+              "$4.99/mo",
+              "Free + extras",
+              "Free (reported)",
+              "$0.99",
+              "Free (self-hosted)"
+            ]
+          },
+          {
+            "feature": "Short timed tasks (2/5/10 min)",
+            "us": "y",
+            "them": [
+              "n",
+              "p",
+              "p",
+              "n",
+              "n",
+              "n",
+              "p",
+              "n"
+            ]
+          },
+          {
+            "feature": "Pick a task by energy level",
+            "us": "y",
+            "them": [
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n",
+              "n"
+            ]
+          },
+          {
+            "feature": "Built-in timer",
+            "us": "y",
+            "them": [
+              "?",
+              "?",
+              "p",
+              "n",
+              "y",
+              "?",
+              "y",
+              "n"
+            ]
+          },
+          {
+            "feature": "Organised by room",
+            "us": "10 rooms",
+            "them": [
+              "y",
+              "p",
+              "y",
+              "n",
+              "y",
+              "n",
+              "y",
+              "n"
+            ]
+          },
+          {
+            "feature": "No overdue pile",
+            "us": "y",
+            "them": [
+              "n",
+              "n",
+              "y",
+              "n",
+              "p",
+              "n",
+              "y",
+              "n"
+            ]
+          },
+          {
+            "feature": "Household sharing",
+            "us": "n",
+            "them": [
+              "y",
+              "y",
+              "n",
+              "y",
+              "?",
+              "y",
+              "n",
+              "y"
+            ]
+          },
+          {
+            "feature": "Free core",
+            "us": "y",
+            "them": [
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "y",
+              "n",
+              "y"
+            ]
+          },
+          {
+            "feature": "Android",
+            "us": "y",
+            "them": [
+              "y",
+              "y",
+              "?",
+              "?",
+              "?",
+              "?",
+              "?",
+              "p"
+            ]
+          }
+        ],
+        "sources": [
+          {
+            "name": "Tody (App Store)",
+            "url": "https://apps.apple.com/us/app/tody-smarter-cleaning/id595339588"
+          },
+          {
+            "name": "Sweepy",
+            "url": "https://sweepy.com/"
+          },
+          {
+            "name": "Sweepy (App Store)",
+            "url": "https://apps.apple.com/app/id1498897320"
+          },
+          {
+            "name": "FlyLadyPlus (App Store)",
+            "url": "https://apps.apple.com/us/app/flyladyplus/id1115477521"
+          },
+          {
+            "name": "Habitica (Fitgap)",
+            "url": "https://us.fitgap.com/products/habitica"
+          },
+          {
+            "name": "Home Routines (App Store)",
+            "url": "https://apps.apple.com/app/id1448556668"
+          },
+          {
+            "name": "OurHome (iPhoneAddict)",
+            "url": "https://www.iphoneaddict.fr/apps/style-de-vie/ourhome-chores-rewards-groceries-and-calendar.html"
+          },
+          {
+            "name": "Unfilth Your Habitat (App Store)",
+            "url": "https://apps.apple.com/us/app/unfilth-your-habitat/id542909191"
+          },
+          {
+            "name": "Donetick (Railway)",
+            "url": "https://railway.com/deploy/donetick"
+          }
+        ],
+        "advantages": [
+          {
+            "t": "No backlog by design",
+            "d": "You get one small task now, not an overdue list. Tody's and Sweepy's due-date schedules build up pending tasks."
+          },
+          {
+            "t": "Matched to your energy",
+            "d": "None of the eight lets you choose a task by how much energy you have."
+          },
+          {
+            "t": "Ready from the first tap",
+            "d": "129 tasks across 10 rooms, each with a timer, so there's nothing to set up first."
+          }
+        ],
+        "honest": [
+          {
+            "t": "Shared households",
+            "d": "Tody, Sweepy and OurHome let a whole household share chores and leaderboards."
+          },
+          {
+            "t": "Full planned schedules",
+            "d": "Tody, Sweepy and Home Routines suit people who want every chore on a calendar."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "raimzy",
+      "name": "RAIMZY",
+      "category": "Artist & brand hub",
+      "schemaCategory": "EntertainmentApplication",
+      "filters": [
+        "music",
+        "books"
+      ],
+      "tagline": "The music, books, merch and academy of RAIMZY, \"The Heartbeatboy\", all in one place.",
+      "summary": "RAIMZY is the artist and personal-brand hub of Dr. Ephraim Oviawe, who performs as RAIMZY, \"The Heartbeatboy\". Find his music, books, merch store and academy at raimzy.com.",
+      "who": "For fans of RAIMZY's music and readers of Dr. Ephraim Oviawe's books.",
+      "status": {
+        "Web": "live"
+      },
+      "get": [
+        {
+          "label": "Visit raimzy.com",
+          "url": "https://raimzy.com",
+          "platform": "Web"
+        }
+      ],
+      "features": [
+        {
+          "t": "Music",
+          "d": "Listen to RAIMZY's music."
+        },
+        {
+          "t": "Books",
+          "d": "Browse the books by Dr. Ephraim Oviawe."
+        },
+        {
+          "t": "Merch store",
+          "d": "Shop RAIMZY merchandise."
+        },
+        {
+          "t": "Academy",
+          "d": "Explore the RAIMZY academy."
+        },
+        {
+          "t": "Hear RAIMZY in RaimAction",
+          "d": "RaimAction includes an optional RAIMZY soundtrack."
+        },
+        {
+          "t": "Made by ECONTEUR LLC",
+          "d": "raimzy.com is created and designed by ECONTEUR LLC, like every product on this site."
+        }
+      ],
+      "howto": [
+        "Open raimzy.com in any browser.",
+        "Listen to the music, browse the books or visit the merch store.",
+        "Explore the academy."
+      ],
+      "seoTitle": "RAIMZY: Music, Books, Merch & Academy of The Heartbeatboy",
+      "seoDescription": "RAIMZY is the artist hub of Dr. Ephraim Oviawe, \"The Heartbeatboy\": music, books, a merch store and an academy, all at raimzy.com.",
+      "faq": [
+        {
+          "q": "Who is RAIMZY?",
+          "a": "RAIMZY, \"The Heartbeatboy\", is the artist name of Dr. Ephraim Oviawe, the founder of ECONTEUR LLC."
+        },
+        {
+          "q": "Where can I listen to RAIMZY?",
+          "a": "Start at raimzy.com. RAIMZY's music is also an optional soundtrack in the game RaimAction."
+        },
+        {
+          "q": "Where can I buy RAIMZY merch?",
+          "a": "In the merch store at raimzy.com."
+        },
+        {
+          "q": "Where can I find Dr. Ephraim Oviawe's books?",
+          "a": "On raimzy.com, and as 45 DRM-free ebooks with free samples on GetIntoStores."
+        },
+        {
+          "q": "Who makes raimzy.com?",
+          "a": "raimzy.com is created and designed by ECONTEUR LLC."
+        }
+      ]
+    },
+    {
+      "slug": "riosovia",
+      "name": "RIOSOVIA",
+      "category": "Money app (in testing)",
+      "schemaCategory": "FinanceApplication",
+      "filters": [
+        "money"
+      ],
+      "tagline": "Send money, practice investing and learn money skills: a pan-African app now in sandbox testing.",
+      "summary": "RIOSOVIA is a pan-African money app in testing. It lets you send money between users, practice investing, take short money lessons and quizzes, and ask the Ovia AI money coach. Everything runs in sandbox mode today, so no real money moves.",
+      "who": "Built first for people in Nigeria, Ghana, Kenya and South Africa.",
+      "status": {
+        "iOS": "soon",
+        "Android": "soon"
+      },
+      "statusNote": {
+        "iOS": "Internal testing only",
+        "Android": "Not on Google Play yet"
+      },
+      "features": [
+        {
+          "t": "Send money between users",
+          "d": "Transfers between RIOSOVIA users, running in sandbox mode during testing."
+        },
+        {
+          "t": "Practice investing",
+          "d": "Build a practice portfolio and learn how investing works, with no real money at stake."
+        },
+        {
+          "t": "Money lessons and quizzes",
+          "d": "Short lessons with quizzes to build everyday money skills."
+        },
+        {
+          "t": "Ovia AI money coach",
+          "d": "Ask questions about budgeting, saving and the app itself."
+        },
+        {
+          "t": "Africa first",
+          "d": "Designed for Nigeria, Ghana, Kenya and South Africa from the start."
+        },
+        {
+          "t": "Established payment partners",
+          "d": "Planned payment rails are Paystack and Stripe."
+        }
+      ],
+      "coming": [
+        {
+          "t": "Public release",
+          "d": "RIOSOVIA in the App Store and on Google Play.",
+          "when": "Date not set"
+        },
+        {
+          "t": "Real-money transfers",
+          "d": "Only once the required licences are in place.",
+          "when": "Date not set"
+        }
+      ],
+      "notes": [
+        "RIOSOVIA is in sandbox testing. No real money is sent, held or invested, and RIOSOVIA is not yet licensed to provide financial services.",
+        "Nothing in RIOSOVIA, including the Ovia AI money coach, is financial or investment advice."
+      ],
+      "howto": [
+        "RIOSOVIA is in internal testing and isn't available to download yet.",
+        "Check this page or Coming next for its release.",
+        "Questions about RIOSOVIA? Email developer@econteur.com."
+      ],
+      "seoTitle": "RIOSOVIA: Pan-African Money App (Sandbox Testing)",
+      "seoDescription": "RIOSOVIA is a pan-African money app in testing: send money, practice investing, learn money skills and ask Ovia AI. Sandbox only, no real money yet.",
+      "faq": [
+        {
+          "q": "Can I download RIOSOVIA?",
+          "a": "Not yet. RIOSOVIA is in internal testing and isn't in the App Store or on Google Play. There's no release date yet."
+        },
+        {
+          "q": "Does RIOSOVIA move real money?",
+          "a": "No. Everything runs in sandbox mode today, and RIOSOVIA is not yet licensed to provide financial services."
+        },
+        {
+          "q": "Which countries is RIOSOVIA for?",
+          "a": "It is built first for Nigeria, Ghana, Kenya and South Africa."
+        },
+        {
+          "q": "Can I invest with RIOSOVIA?",
+          "a": "Only in practice. The investing feature is a sandbox for learning; no real money is invested."
+        },
+        {
+          "q": "Which payment providers will RIOSOVIA use?",
+          "a": "The planned payment rails are Paystack and Stripe."
+        },
+        {
+          "q": "Does RIOSOVIA give financial advice?",
+          "a": "No. The lessons and the Ovia AI money coach are educational and are not financial or investment advice."
+        }
+      ]
+    },
+    {
+      "slug": "raimosa",
+      "name": "RAIMOSA",
+      "category": "Desktop AI commander",
+      "schemaCategory": "UtilitiesApplication",
+      "filters": [
+        "business"
+      ],
+      "tagline": "A private desktop AI that plans a task, asks your approval, then does it and keeps a tamper-evident receipt.",
+      "summary": "RAIMOSA (Sentinel) is a local desktop AI commander for macOS, Windows and Linux. It plans each task, waits for your approval, carries it out and writes a tamper-evident receipt, with no cloud and no telemetry.",
+      "who": "For people who want an AI that works on their own computer and never acts without asking.",
+      "status": {
+        "Desktop": "soon"
+      },
+      "statusNote": {
+        "Desktop": "macOS, Windows and Linux, date not set"
+      },
+      "features": [
+        {
+          "t": "Plan, approve, execute",
+          "d": "RAIMOSA shows you its plan first and acts only after you approve it."
+        },
+        {
+          "t": "Tamper-evident receipts",
+          "d": "Every completed task leaves a receipt that shows if it has been altered."
+        },
+        {
+          "t": "Runs on your machine",
+          "d": "No cloud: your tasks stay on your own computer."
+        },
+        {
+          "t": "No telemetry",
+          "d": "RAIMOSA doesn't send usage data back to us."
+        },
+        {
+          "t": "macOS, Windows and Linux",
+          "d": "One app for all three desktop systems."
+        },
+        {
+          "t": "Free tier and Pro",
+          "d": "A free tier, plus Pro as a one-time purchase rather than a subscription."
+        }
+      ],
+      "coming": [
+        {
+          "t": "Public release for macOS, Windows and Linux",
+          "d": "Free tier and one-time Pro purchase.",
+          "when": "Date not set"
+        }
+      ],
+      "notes": [
+        "RAIMOSA is in development and not available to download yet. Pro pricing will be announced at launch."
+      ],
+      "howto": [
+        "RAIMOSA is in development and isn't available to download yet.",
+        "Check this page or Coming next for its release.",
+        "Questions about RAIMOSA? Email developer@econteur.com."
+      ],
+      "seoTitle": "RAIMOSA: Private Desktop AI That Asks Before It Acts",
+      "seoDescription": "RAIMOSA (Sentinel) is a private desktop AI for macOS, Windows and Linux: it plans, asks your approval, acts and keeps a tamper-evident receipt.",
+      "faq": [
+        {
+          "q": "What is RAIMOSA?",
+          "a": "A local desktop AI commander, also called Sentinel. It plans a task, asks for your approval, carries it out and writes a tamper-evident receipt."
+        },
+        {
+          "q": "Does RAIMOSA send my data to the cloud?",
+          "a": "No. RAIMOSA runs locally, with no cloud and no telemetry."
+        },
+        {
+          "q": "Which computers will RAIMOSA run on?",
+          "a": "macOS, Windows and Linux."
+        },
+        {
+          "q": "How much will RAIMOSA cost?",
+          "a": "There will be a free tier and a Pro version sold as a one-time purchase. Pro pricing will be announced at launch."
+        },
+        {
+          "q": "When is RAIMOSA coming out?",
+          "a": "There's no release date yet. We'll announce one only when it's certain."
+        }
+      ]
+    },
+    {
+      "slug": "loveonplanet",
+      "name": "LoveOnPlanet",
+      "category": "Dating app (in development)",
+      "schemaCategory": "SocialNetworkingApplication",
+      "filters": [
+        "home"
+      ],
+      "tagline": "A dating app built around verified profiles and easy reporting. In development.",
+      "summary": "LoveOnPlanet is an AI-supported dating app in development, built around profile verification and simple report and block tools.",
+      "who": "For people who want to meet someone in a space that takes safety seriously.",
+      "status": {
+        "iOS": "soon",
+        "Android": "soon"
+      },
+      "statusNote": {
+        "iOS": "In development, date not set",
+        "Android": "In development, date not set"
+      },
+      "features": [
+        {
+          "t": "Profile verification",
+          "d": "Verification helps show that people are who they say they are."
+        },
+        {
+          "t": "Report and block",
+          "d": "Report or block anyone, quickly."
+        },
+        {
+          "t": "AI support",
+          "d": "AI features to help you along the way."
+        }
+      ],
+      "coming": [
+        {
+          "t": "iPhone and Android release",
+          "d": "LoveOnPlanet in the App Store and on Google Play.",
+          "when": "Date not set"
+        }
+      ],
+      "howto": [
+        "LoveOnPlanet is in development and isn't available to download yet.",
+        "Check this page or Coming next for its release.",
+        "Questions? Email developer@econteur.com."
+      ],
+      "seoTitle": "LoveOnPlanet: A Dating App with Verified Profiles",
+      "seoDescription": "LoveOnPlanet is an AI-supported dating app in development from ECONTEUR LLC, built around profile verification and easy report and block tools.",
+      "faq": [
+        {
+          "q": "Is LoveOnPlanet available?",
+          "a": "Not yet. LoveOnPlanet is in development."
+        },
+        {
+          "q": "When will LoveOnPlanet launch?",
+          "a": "There's no release date yet. We'll announce one only when it's certain."
+        },
+        {
+          "q": "Does LoveOnPlanet verify profiles?",
+          "a": "Yes, profile verification is a core part of the app."
+        },
+        {
+          "q": "Can I report or block someone?",
+          "a": "Yes. Report and block tools are built in."
+        },
+        {
+          "q": "Who makes LoveOnPlanet?",
+          "a": "LoveOnPlanet is created and designed by ECONTEUR LLC."
+        }
+      ]
+    },
+    {
+      "slug": "raimwire",
+      "name": "RaimWire",
+      "category": "Action game (in development)",
+      "kind": "game",
+      "schemaCategory": "GameApplication",
+      "filters": [
+        "play"
+      ],
+      "tagline": "Grapple, swing and fly across six city districts, plus an endless mode. In development.",
+      "summary": "RaimWire is a grapple-swing action game in development: swing through six districts, then test yourself in an endless mode.",
+      "who": "For players who love fast, fluid movement games.",
+      "status": {
+        "iOS": "soon",
+        "Android": "soon"
+      },
+      "statusNote": {
+        "iOS": "In development, date not set",
+        "Android": "In development, date not set"
+      },
+      "features": [
+        {
+          "t": "Grapple-swing movement",
+          "d": "Fire a line, swing and keep your momentum going."
+        },
+        {
+          "t": "Six districts",
+          "d": "Six distinct districts to swing through."
+        },
+        {
+          "t": "Endless mode",
+          "d": "Keep going as far as you can."
+        }
+      ],
+      "coming": [
+        {
+          "t": "iPhone and Android release",
+          "d": "RaimWire in the App Store and on Google Play.",
+          "when": "Date not set"
+        }
+      ],
+      "howto": [
+        "RaimWire is in development and isn't available to download yet.",
+        "Check this page or Coming next for its release.",
+        "Questions? Email developer@econteur.com."
+      ],
+      "seoTitle": "RaimWire: Grapple-Swing Action Game (In Development)",
+      "seoDescription": "RaimWire is a grapple-swing action game in development from ECONTEUR LLC: six city districts to swing through, plus an endless mode.",
+      "faq": [
+        {
+          "q": "Is RaimWire available?",
+          "a": "Not yet. RaimWire is in development."
+        },
+        {
+          "q": "When will RaimWire launch?",
+          "a": "There's no release date yet. We'll announce one only when it's certain."
+        },
+        {
+          "q": "What kind of game is RaimWire?",
+          "a": "A grapple-swing action game with six districts and an endless mode."
+        },
+        {
+          "q": "Which platforms will RaimWire be on?",
+          "a": "iPhone and Android are planned."
+        },
+        {
+          "q": "Who makes RaimWire?",
+          "a": "RaimWire is created and designed by ECONTEUR LLC."
+        }
+      ]
+    }
+  ]
+}

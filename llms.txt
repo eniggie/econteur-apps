@@ -1,0 +1,28 @@
+# ECONTEUR LLC
+
+> ECONTEUR LLC makes RAIMZEAL, RaimCalls, Raimovia, V3EDGE, GetIntoStores, RAIMFUN and more: AI apps and games with real free plans and no Chinese AI.
+
+Founder: Dr. Ephraim Oviawe. Contact: developer@econteur.com.
+
+## Products
+- [RAIMZEAL](https://www.econteur.com/products/raimzeal/): RAIMZEAL brings nutrition, workouts, sleep, mindfulness and women's health tracking together with Ovia AI, a coach you can chat with every day. The Foundation plan is free forever: it is the product, not a trial. Status: iOS live, Android live, Web live.
+- [RaimCalls](https://www.econteur.com/products/raimcalls/): RaimCalls makes the calls you keep putting off. It works the phone menu, waits on hold for up to 45 minutes, and cancels, books or chases things for you. For your business, it answers your line day and night and books callers into your real calendar. Status: iOS in review, Android live.
+- [Raimovia](https://www.econteur.com/products/raimovia/): Raimovia is an AI business operating platform for small businesses. Role-based AI employees work from knowledge you approve, alongside a unified inbox, CRM, bookings, quotes, invoices and automations, and a weekly report tells you how the business is doing. Status: Android live, Web live.
+- [V3EDGE](https://www.econteur.com/products/v3edge/): V3EDGE is a video editor for creators, free today with no paid plans and no watermark. Remove your background in one tap, caption and translate automatically, and change the scene, outfit or lighting with AI Edit. It runs in your browser now, with mobile apps on the way. Status: iOS coming soon, Android coming soon, Web live on the web.
+- [GetIntoStores](https://www.econteur.com/products/getintostores/): GetIntoStores is a store for DRM-free ebooks and digital products from independent creators, with built-in readers for PDF, EPUB, audio and video. It opens with 45 ebooks by Dr. Ephraim Oviawe, priced from $6.69 to $10.99, each with a free sample. Status: iOS in review, Android live, Web live.
+- [RAIMFUN](https://www.econteur.com/products/raimfun/): RAIMFUN is a collection of 33 thinking games with big buttons, a relaxed mode with no clock, and layouts that fit any phone or tablet. It is free, with no ads, no in-app purchases and no tracking, and it plays offline. Status: iOS in review, Android live.
+- [RaimAction](https://www.econteur.com/products/raimaction/): RaimAction is a third-person action game about courage, not violence. Play 35 free operations on your own, even offline, or team up online with two to four players using a room code. There are no ads and no loot boxes. Status: iOS in review, Android live.
+- [SparkReset](https://www.econteur.com/products/sparkreset/): SparkReset gives you one small tidying task that fits the room you're in, the energy you have and the time you've got, then times it for you. Swap it, pause it or finish early. There's never a backlog of missed chores, and your history stays on your device. Status: iOS in review, Android live.
+- [RAIMZY](https://www.econteur.com/products/raimzy/): RAIMZY is the artist and personal-brand hub of Dr. Ephraim Oviawe, who performs as RAIMZY, "The Heartbeatboy". Find his music, books, merch store and academy at raimzy.com. Status: Web live.
+- [RIOSOVIA](https://www.econteur.com/products/riosovia/): RIOSOVIA is a pan-African money app in testing. It lets you send money between users, practice investing, take short money lessons and quizzes, and ask the Ovia AI money coach. Everything runs in sandbox mode today, so no real money moves. Status: iOS coming soon, Android coming soon.
+- [RAIMOSA](https://www.econteur.com/products/raimosa/): RAIMOSA (Sentinel) is a local desktop AI commander for macOS, Windows and Linux. It plans each task, waits for your approval, carries it out and writes a tamper-evident receipt, with no cloud and no telemetry. Status: Desktop coming soon.
+- [LoveOnPlanet](https://www.econteur.com/products/loveonplanet/): LoveOnPlanet is an AI-supported dating app in development, built around profile verification and simple report and block tools. Status: iOS coming soon, Android coming soon.
+- [RaimWire](https://www.econteur.com/products/raimwire/): RaimWire is a grapple-swing action game in development: swing through six districts, then test yourself in an endless mode. Status: iOS coming soon, Android coming soon.
+
+## Notes
+- Every product is created and designed by ECONTEUR LLC.
+- ECONTEUR products do not use Chinese AI models.
+- Founder Dr. Ephraim Oviawe holds a PhD; he is not a medical doctor. RAIMZEAL is a wellness app and does not give medical advice.
+- RAIMZEAL Health Foundation, Inc. is a Georgia nonprofit corporation, not a registered charity or 501(c)(3); donations to it are not tax-deductible.
+- Raimovia does not answer or place phone calls; AI phone calling is the separate RaimCalls app.
+- V3EDGE is web-only today; its iPhone, iPad and Android apps have no release date.
