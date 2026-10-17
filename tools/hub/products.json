@@ -1386,8 +1386,8 @@
         "create"
       ],
       "icon": "/assets/icons/v3edge.png",
-      "tagline": "A free video editor with one-tap background removal, auto-captions and AI scene edits. No watermark.",
-      "summary": "V3EDGE is a video editor for creators, free today with no paid plans and no watermark. Remove your background in one tap, caption and translate automatically, and change the scene, outfit or lighting with AI Edit. It runs in your browser now, with mobile apps on the way.",
+      "tagline": "A free video editor with green screen, auto-captions, AI B-roll and AI scene edits, in your browser. No watermark.",
+      "summary": "V3EDGE is a video editor for creators, free today with no paid plans and no watermark. Key out a green screen, caption and translate automatically, add an AI voice-over or AI B-roll, and change the scene, outfit or lighting with AI Edit. It runs in your browser now, with mobile apps on the way.",
       "who": "For creators who make short videos and want polished results without a subscription.",
       "status": {
         "iOS": "soon",
@@ -1415,19 +1415,15 @@
       ],
       "features": [
         {
-          "t": "One-tap background removal",
-          "d": "Cut yourself out of any clip, then fill the background with a colour, a blur or a photo."
-        },
-        {
           "t": "Green screen",
-          "d": "Key out a green background for a clean composite."
+          "d": "Key out a green background on any clip and replace it with a photo or a video."
         },
         {
           "t": "A real timeline",
-          "d": "Trim, split, change speed from 0.25x to 4x, and crop to 9:16, 1:1, 4:5 or 16:9."
+          "d": "Trim and split clips, change the speed of the whole edit from 0.25x to 4x, and crop to 9:16, 1:1, 4:5 or 16:9."
         },
         {
-          "t": "18 transitions and 15 effects",
+          "t": "17 transitions and 15 effects",
           "d": "Enough to give every edit its own look, all included."
         },
         {
@@ -1440,21 +1436,25 @@
         },
         {
           "t": "AI voice-over",
-          "d": "Add a narrated voice-over without recording one yourself."
+          "d": "Add a narrated voice-over in one of 13 AI voices, without recording one yourself."
+        },
+        {
+          "t": "AI B-roll",
+          "d": "Generate a 4, 6 or 8 second clip with sound from a short description (Google Veo)."
         },
         {
           "t": "AI Edit",
-          "d": "Describe a change, such as a new background, location or outfit, adding or removing something, or new lighting, on clips up to 60 seconds. V3EDGE asks your permission before sending a clip to an AI provider."
+          "d": "Describe a change, such as a new background, location or outfit, adding or removing something, or new lighting, on clips up to 60 seconds. V3EDGE names the AI provider and asks your permission before anything is sent."
         },
         {
           "t": "Free, with no watermark",
-          "d": "No paid plans, no in-app purchases and no watermark on your exports."
+          "d": "No paid plans, no in-app purchases and no watermark on your exports. Export mixes in one extra audio track: a voice-over or music."
         }
       ],
       "coming": [
         {
           "t": "iPhone and iPad app",
-          "d": "The full editor on Apple devices, with rendering on the device.",
+          "d": "The full editor on Apple devices, with rendering on the device and one-tap video background removal (cut yourself out, then fill with a colour, a blur or a photo).",
           "when": "Date not set"
         },
         {
@@ -1464,16 +1464,16 @@
         }
       ],
       "notes": [
-        "V3EDGE is not in the App Store or Google Play yet. Today it runs in your browser, where background cut-out is processed on V3EDGE's own server.",
-        "AI Edit sends a clip to an outside AI provider only after you give permission. V3EDGE does not use Chinese AI models."
+        "V3EDGE is not in the App Store or Google Play yet. Today it runs in your browser.",
+        "AI features send your request to an outside AI provider (OpenAI, Google, Decart or Luma AI) only after you give permission. V3EDGE does not use Chinese AI models."
       ],
       "howto": [
         "Open v3edge.app/app in your browser.",
-        "Import a clip, then remove the background in one tap or start cutting on the timeline.",
-        "Add captions, transitions or an AI Edit, and export free, with no watermark."
+        "Import a clip and start cutting on the timeline, or key out a green screen.",
+        "Add captions, transitions, a voice-over, AI B-roll or an AI Edit, and export free, with no watermark."
       ],
-      "seoTitle": "V3EDGE: Free Video Editor with AI Background Removal",
-      "seoDescription": "V3EDGE is a free video editor with one-tap background removal, auto-captions in 26 languages, AI Edit and no watermark. Use it in your browser today.",
+      "seoTitle": "V3EDGE: Free AI Video Editor, No Watermark",
+      "seoDescription": "V3EDGE is a free browser video editor with green screen, auto-captions in 26 languages, AI voice-over, AI B-roll, AI Edit and no watermark.",
       "faq": [
         {
           "q": "Is V3EDGE free?",
@@ -1481,7 +1481,7 @@
         },
         {
           "q": "When is V3EDGE coming to iPhone and Android?",
-          "a": "There is no date yet. The iPhone, iPad and Android apps are in progress, and we will only announce a date once they are actually approved. Until then, the full editor works in your browser at v3edge.app/app."
+          "a": "There is no date yet. The iPhone, iPad and Android apps are in progress, and we will only announce a date once they are actually approved. Until then, V3EDGE works free in your browser at v3edge.app/app."
         },
         {
           "q": "What is a good CapCut alternative without Chinese AI?",
@@ -1492,8 +1492,8 @@
           "a": "Adobe Premiere mobile and Edits both export without a watermark for free. V3EDGE is also free with no watermark and no paid plans."
         },
         {
-          "q": "How do I remove a video background for free?",
-          "a": "In V3EDGE, open your clip and tap background removal; then fill the background with a colour, a blur or a photo. CapCut, InShot, VN, Premiere and Edits also offer one-tap cut-out."
+          "q": "How do I replace a video background for free?",
+          "a": "In V3EDGE on the web, film against a green screen, key it out and drop in a photo or video background. One-tap cut-out without a green screen is coming in the iPhone and iPad app. CapCut, InShot, VN, Premiere and Edits offer one-tap cut-out today."
         },
         {
           "q": "Is there an AI that changes my outfit or lighting in a video?",
@@ -1548,7 +1548,7 @@
           },
           {
             "feature": "One-tap video background removal",
-            "us": "y",
+            "us": "p",
             "them": [
               "y",
               "y",
@@ -1731,6 +1731,10 @@
           {
             "t": "Depth and polish",
             "d": "LumaFusion and Premiere offer pro timelines and 4K/HDR export, Captions supports 100+ caption languages to V3EDGE's 26, and CapCut's template library is far larger."
+          },
+          {
+            "t": "Background cut-out is iPhone and iPad only",
+            "d": "One-tap video background removal is coming in the iPhone and iPad app; on the web, V3EDGE replaces backgrounds with a green screen."
           }
         ]
       }

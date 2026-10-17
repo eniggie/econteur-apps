@@ -266,6 +266,10 @@ def check():
             n = len(c["competitors"])
             for r in c["rows"]:
                 if len(r["them"]) != n: errs.append(f"{p['slug']}: row '{r['feature']}' has {len(r['them'])} cells, expected {n}")
+        for key in ("advantages", "honest"):
+            for a in (p.get("compare") or {}).get(key, []):
+                if not (isinstance(a, dict) and a.get("t") and a.get("d")):
+                    errs.append(f"{p['slug']}: compare.{key} entries need t and d")
         if p.get("poweredByRaimovia") and p["slug"] != "raimcalls":
             errs.append(f"{p['slug']}: poweredByRaimovia is only true for RaimCalls")
         text = json.dumps(p).lower()
