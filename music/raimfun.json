@@ -1,0 +1,63 @@
+{
+ "artist": "RAIMZY",
+ "note": "RAIMFUN (calm thinking games for kids, seniors and everyone), 2026-10-18: only 2025-and-newer releases, only tracks Apple lists as NOT explicit (iTunes lookup trackExplicitness), nothing with violent, drug or club words in the title or lyrics, calm and uplifting first. Left out on purpose for this audience: War, Warning, War (Instrumental), The Reclaimed Voice, Hustle and Struggle, I'm the Bang, We Miss You, Love in the Club. listen = song.link for the released track: streams there pay the artist; in-game playback does not.",
+ "artist_link": "https://unitedmasters.com/raimzy",
+ "tracks": [
+  {
+   "id": "birthday",
+   "title": "Birthday",
+   "album": "THE RECLAIMED VOICE",
+   "file": "birthday.mp3",
+   "appleTrackId": 6796768008,
+   "listen": "https://song.link/i/6796768008"
+  },
+  {
+   "id": "we-up",
+   "title": "We Up",
+   "album": "THE HEARTBEATBOY",
+   "file": "we-up.mp3",
+   "appleTrackId": 1889545632,
+   "listen": "https://song.link/i/1889545632"
+  },
+  {
+   "id": "im-saying-sorry-instrumental",
+   "title": "I'm Saying Sorry (Instrumental)",
+   "album": "THE RECLAIMED VOICE",
+   "file": "im-saying-sorry-instrumental.mp3",
+   "appleTrackId": 6796768011,
+   "listen": "https://song.link/i/6796768011"
+  },
+  {
+   "id": "love-is-not-enough",
+   "title": "Love Is Not Enough",
+   "album": "THE RECLAIMED VOICE",
+   "file": "love-is-not-enough.mp3",
+   "appleTrackId": 6796768010,
+   "listen": "https://song.link/i/6796768010"
+  },
+  {
+   "id": "one-blood",
+   "title": "One Blood",
+   "album": "THE HEARTBEATBOY",
+   "file": "one-blood.mp3",
+   "appleTrackId": 1889545639,
+   "listen": "https://song.link/i/1889545639"
+  },
+  {
+   "id": "heartbeatboy-returns",
+   "title": "The Heartbeatboy Returns",
+   "album": "THE HEARTBEATBOY",
+   "file": "heartbeatboy-returns.mp3",
+   "appleTrackId": 1889545630,
+   "listen": "https://song.link/i/1889545630"
+  },
+  {
+   "id": "freeze",
+   "title": "Freeze",
+   "album": "THE HEARTBEATBOY",
+   "file": "freeze.mp3",
+   "appleTrackId": 1889545631,
+   "listen": "https://song.link/i/1889545631"
+  }
+ ]
+}
