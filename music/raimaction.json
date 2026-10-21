@@ -100,20 +100,6 @@
       "album": "THE RECLAIMED VOICE",
       "file": "we-miss-you.mp3",
       "listen": "https://song.link/i/6796768012"
-    },
-    {
-      "id": "war-instrumental",
-      "title": "War (Instrumental)",
-      "album": "THE RECLAIMED VOICE",
-      "file": "war-instrumental.mp3",
-      "listen": "https://song.link/i/6796768002"
-    },
-    {
-      "id": "im-saying-sorry-instrumental",
-      "title": "I'm Saying Sorry (Instrumental)",
-      "album": "THE RECLAIMED VOICE",
-      "file": "im-saying-sorry-instrumental.mp3",
-      "listen": "https://song.link/i/6796768011"
     }
   ]
 }
