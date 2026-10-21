@@ -1,8 +1,58 @@
 {
  "artist": "RAIMZY",
- "note": "Owner, 2026-10-14: only 2025-and-newer releases (THE HEARTBEATBOY, THE RECLAMED VOICE), curated to the game, only tracks Apple lists as NOT explicit. listen = song.link for the released track: streams there pay the artist; in-game playback does not.",
+ "note": "Owner, 2026-10-21: RAIMZY songs are RAIMSTORM's DEFAULT soundtrack, \"I'm the Bang\" first, then the rest in this order. Every RAIMZY release Apple lists as NOT explicit whose released master we hold; never THE HEARTBEATBOY album (explicit as an album). Colored Skin clean tracks, OSALOBUA and Find Happiness and Peace are left out only because the released audio is not on the Mac/Lexar (the UNITED STATES OF AFRICA 'RELOADED' WAVs are different, unreleased versions). Every file's duration matches Apple's catalogue. listen = song.link: streams there pay the artist; in-game playback does not.",
  "artist_link": "https://unitedmasters.com/raimzy",
+ "first": "im-the-bang",
  "tracks": [
+  {
+   "id": "im-the-bang",
+   "title": "I'm the Bang",
+   "album": "THE RECLAIMED VOICE",
+   "file": "im-the-bang.mp3",
+   "listen": "https://song.link/i/6796768014"
+  },
+  {
+   "id": "the-reclaimed-voice",
+   "title": "The Reclaimed Voice",
+   "album": "THE RECLAIMED VOICE",
+   "file": "the-reclaimed-voice.mp3",
+   "listen": "https://song.link/i/6796768013"
+  },
+  {
+   "id": "war",
+   "title": "War",
+   "album": "THE RECLAIMED VOICE",
+   "file": "war.mp3",
+   "listen": "https://song.link/i/6796768002"
+  },
+  {
+   "id": "birthday",
+   "title": "Birthday",
+   "album": "THE RECLAIMED VOICE",
+   "file": "birthday.mp3",
+   "listen": "https://song.link/i/6796768008"
+  },
+  {
+   "id": "love-in-the-club",
+   "title": "Love in the Club",
+   "album": "THE RECLAIMED VOICE",
+   "file": "love-in-the-club.mp3",
+   "listen": "https://song.link/i/6796768009"
+  },
+  {
+   "id": "love-is-not-enough",
+   "title": "Love Is Not Enough",
+   "album": "THE RECLAIMED VOICE",
+   "file": "love-is-not-enough.mp3",
+   "listen": "https://song.link/i/6796768010"
+  },
+  {
+   "id": "im-saying-sorry",
+   "title": "I'm Saying Sorry",
+   "album": "THE RECLAIMED VOICE",
+   "file": "im-saying-sorry.mp3",
+   "listen": "https://song.link/i/6796768011"
+  },
   {
    "id": "we-miss-you",
    "title": "We Miss You",
@@ -11,25 +61,18 @@
    "listen": "https://song.link/i/6796768012"
   },
   {
-   "id": "one-blood",
-   "title": "One Blood",
-   "album": "THE HEARTBEATBOY",
-   "file": "one-blood.mp3",
-   "listen": "https://song.link/i/1889545639"
+   "id": "hustle-and-struggle",
+   "title": "Hustle and Struggle",
+   "album": "THE RECLAIMED VOICE",
+   "file": "hustle-and-struggle.mp3",
+   "listen": "https://song.link/i/6796768015"
   },
   {
-   "id": "we-up",
-   "title": "We Up",
-   "album": "THE HEARTBEATBOY",
-   "file": "we-up.mp3",
-   "listen": "https://song.link/i/1889545632"
-  },
-  {
-   "id": "heartbeatboy-returns",
-   "title": "The Heartbeatboy Returns",
-   "album": "THE HEARTBEATBOY",
-   "file": "heartbeatboy-returns.mp3",
-   "listen": "https://song.link/i/1889545630"
+   "id": "warning",
+   "title": "Warning",
+   "album": "THE RECLAIMED VOICE",
+   "file": "warning.mp3",
+   "listen": "https://song.link/i/6796768016"
   },
   {
    "id": "war-instrumental",
