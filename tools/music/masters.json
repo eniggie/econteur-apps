@@ -1,0 +1,3 @@
+{
+  "_comment": "Pin a released master by hand: Apple trackId -> absolute path. The file must still be within 2 s of Apple's length. Normally empty: sync_raimzy.py finds masters itself."
+}

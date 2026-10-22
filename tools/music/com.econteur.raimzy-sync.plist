@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  RAIMZY in-game music sync (RaimAction + RAIMSTORM playlists in ~/econteur-apps/music).
+  Runs ~/econteur-apps/tools/music/sync_raimzy.py daily at 09:30 and at login.
+  ~/econteur-apps lives on the MacOverflow disk image, which mounts after login, so the job waits
+  up to 10 minutes for it before giving up (the next 09:30 run tries again).
+  Load:   launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.econteur.raimzy-sync.plist
+  Run:    launchctl kickstart gui/$(id -u)/com.econteur.raimzy-sync
+  Unload: launchctl bootout gui/$(id -u)/com.econteur.raimzy-sync
+-->
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.econteur.raimzy-sync</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/sh</string>
+		<string>-c</string>
+		<string>S="$HOME/econteur-apps/tools/music/sync_raimzy.py"; i=0; while [ ! -f "$S" ] &amp;&amp; [ $i -lt 60 ]; do sleep 10; i=$((i+1)); done; if [ ! -f "$S" ]; then echo "$(date '+%Y-%m-%d %H:%M:%S')  ERROR: $S not found (MacOverflow image not mounted?)"; exit 1; fi; cd "$HOME/econteur-apps" &amp;&amp; exec /usr/bin/python3 "$S"</string>
+	</array>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/Users/macbook/.local/bin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+		<key>LANG</key>
+		<string>en_US.UTF-8</string>
+	</dict>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>9</integer>
+		<key>Minute</key>
+		<integer>30</integer>
+	</dict>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>LowPriorityIO</key>
+	<true/>
+	<key>Nice</key>
+	<integer>10</integer>
+	<key>StandardOutPath</key>
+	<string>/Users/macbook/Library/Logs/raimzy-sync.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/macbook/Library/Logs/raimzy-sync.log</string>
+</dict>
+</plist>
