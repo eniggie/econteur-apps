@@ -35,12 +35,11 @@
 		<key>Minute</key>
 		<integer>30</integer>
 	</dict>
+	<!-- Not ProcessType=Background: on a busy Mac that throttled the job to ~0 CPU (2026-10-21). -->
 	<key>ProcessType</key>
-	<string>Background</string>
-	<key>LowPriorityIO</key>
-	<true/>
+	<string>Standard</string>
 	<key>Nice</key>
-	<integer>10</integer>
+	<integer>5</integer>
 	<key>StandardOutPath</key>
 	<string>/Users/macbook/Library/Logs/raimzy-sync.log</string>
 	<key>StandardErrorPath</key>
