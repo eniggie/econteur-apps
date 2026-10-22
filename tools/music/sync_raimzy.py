@@ -94,7 +94,12 @@ SKIP_NAME = re.compile(r"instrumental|\[(?:music|vocals|drums|bass|other|piano)\
 SKIP_DIRS = {".git", "node_modules", ".Trash", "_codex-copy"}
 
 TOLERANCE_S = 2.0          # owner rule: master length within +/-2 s of Apple's
-MATCH_THRESHOLD = 0.60     # preview correlation to accept a master; calibrated 2026-10-21: true pairs 0.75-0.90, other songs <= 0.36
+# Accepting a master needs BOTH a high preview correlation and a sharp peak. Calibrated 2026-10-21:
+# released masters vs their previews scored 0.75-0.93 with peak z 6.6-12.0; other songs and
+# single-instrument stems of the same length scored <= 0.53 with peak z <= 4.5.
+MATCH_THRESHOLD = 0.65
+PEAK_Z_MIN = 5.5
+STRONG_MATCH = 0.85        # a correlation this high is decisive on its own
 MAX_DOWNLOADS = 40         # iCloud files fetched per run at most (disk is tight on this Mac)
 DOWNLOAD_TIMEOUT_S = 900
 
@@ -317,18 +322,22 @@ def features(p: Path, start: float | None = None, length: float | None = None) -
         return [b[:n] for b in feats]
 
 
-def best_correlation(master: list[list[float]], probe: list[list[float]]) -> tuple[float, float]:
-    """Highest mean Pearson correlation of `probe` slid along `master`; returns (score, offset_s)."""
+def best_correlation(master: list[list[float]], probe: list[list[float]]) -> tuple[float, float, float]:
+    """Slide `probe` along `master`. Returns (score, offset_s, peak_z): the highest mean Pearson
+    correlation, where it is, and how far that peak stands above the correlations at every other
+    offset (in standard deviations). The same recording gives one sharp peak; a different song, or a
+    single-instrument stem that happens to share the tempo, gives a low, broad ridge."""
     m = len(probe[0])
     n = len(master[0])
     if m < 50 or n < m:
-        return 0.0, 0.0
+        return 0.0, 0.0, 0.0
     pz = []
     for b in probe:
         mu = sum(b) / m
         sd = math.sqrt(sum((x - mu) ** 2 for x in b) / m) or 1e-9
         pz.append([(x - mu) / sd for x in b])
     best, best_off = -1.0, 0
+    scores: list[float] = []
     nb = len(master)
     # running sums for fast window mean / sd
     pre = []
@@ -354,9 +363,15 @@ def best_correlation(master: list[list[float]], probe: list[list[float]]) -> tup
                 acc += seg[off + j] * pzb[j]
             tot += (acc / m - mu * sum(pzb) / m) / sd
         score = tot / nb
+        scores.append(score)
         if score > best:
             best, best_off = score, off
-    return best, best_off / FPS
+    rest = [x for i, x in enumerate(scores) if abs(i - best_off) > 2 * FPS]
+    if len(rest) < 10:
+        return best, best_off / FPS, 0.0
+    mu = sum(rest) / len(rest)
+    sd = math.sqrt(sum((x - mu) ** 2 for x in rest) / len(rest)) or 1e-9
+    return best, best_off / FPS, (best - mu) / sd
 
 
 def preview_features(t: dict) -> list[list[float]] | None:
@@ -499,31 +514,34 @@ class MasterFinder:
             self.previews[t["trackId"]] = preview_features(t)
         return self.previews[t["trackId"]]
 
-    def score(self, p: Path, t: dict) -> tuple[float | None, str]:
-        """(preview match, note) for one file, from the cache when known."""
+    def score(self, p: Path, t: dict) -> tuple[float | None, float, str]:
+        """(preview match, peak sharpness, note) for one file, from the cache when known."""
         want = t["trackTimeMillis"] / 1000.0
         k = file_key(p)
-        sk = f"score|{k}|{t['trackId']}"
-        if sk in self.cache:
-            d = self.cache.get(k)
-            return self.cache[sk], f"{p.name}: {d:.1f} s, preview match {self.cache[sk]:.2f} (cached)"
+        mk = f"match|{k}|{t['trackId']}"
+        if mk in self.cache:
+            sc, z = self.cache[mk]
+            return sc, z, f"{p.name}: {self.cache.get(k):.1f} s, preview match {sc:.2f} z {z:.1f} (cached)"
+        old = self.cache.get(f"score|{k}|{t['trackId']}")   # first version cached the score only
+        if old is not None and old < MATCH_THRESHOLD:
+            return old, 0.0, f"{p.name}: {self.cache.get(k):.1f} s, preview match {old:.2f} (cached)"
         prev = self.preview(t)
         if prev is None:
-            return None, f"{p.name}: Apple preview unavailable"
+            return None, 0.0, f"{p.name}: Apple preview unavailable"
         cloud = is_dataless(p)
         if cloud and not self.fetch(p):
-            return None, f"{p.name}: in iCloud only (not fetched this run)"
+            return None, 0.0, f"{p.name}: in iCloud only (not fetched this run)"
         try:
             d = probe_duration(p, self.cache)
             if d is None or abs(d - want) > TOLERANCE_S:
-                return None, f"{p.name}: {d if d is None else round(d, 1)} s"
+                return None, 0.0, f"{p.name}: {d if d is None else round(d, 1)} s"
             try:
-                sc, off = best_correlation(features(p), prev)
+                sc, off, z = best_correlation(features(p), prev)
             except Exception as e:
-                return None, f"{p.name}: decode failed ({e})"
-            self.cache[sk] = round(sc, 4)
+                return None, 0.0, f"{p.name}: decode failed ({e})"
+            self.cache[mk] = [round(sc, 4), round(z, 2)]
             self._save_soon()
-            return sc, f"{p.name}: {d:.1f} s, preview match {sc:.2f} @ {off:.0f}s"
+            return sc, z, f"{p.name}: {d:.1f} s, preview match {sc:.2f} z {z:.1f} @ {off:.0f}s"
         finally:
             if cloud:
                 icloud_evict(p)
@@ -548,9 +566,9 @@ class MasterFinder:
             return None, "no released master on this Mac yet"
         tried, best = [], None
         for p in cands:
-            sc, note = self.score(p, t)
+            sc, z, note = self.score(p, t)
             tried.append(note)
-            if sc is None or sc < MATCH_THRESHOLD:
+            if sc is None or not (sc >= STRONG_MATCH or (sc >= MATCH_THRESHOLD and z >= PEAK_Z_MIN)):
                 continue
             lossless = p.suffix.lower() in LOSSLESS
             if best is None or sc > best[0] + 0.02 or (abs(sc - best[0]) <= 0.02 and lossless and not best[2]):
@@ -562,9 +580,12 @@ class MasterFinder:
             return best[1], f"{d:.1f} s vs Apple {want:.1f} s, preview match {best[0]:.2f}"
         # Details go to the log; the committed status file gets a stable line (no counts or scores
         # that change with which drives happen to be mounted).
-        scored = sorted((self.cache.get(f"score|{file_key(p)}|{t['trackId']}") or 0, p.name) for p in cands)
+        def known(p: Path) -> float:
+            v = self.cache.get(f"match|{file_key(p)}|{t['trackId']}")
+            return v[0] if v else (self.cache.get(f"score|{file_key(p)}|{t['trackId']}") or 0)
+        scored = sorted((known(p), p.name) for p in cands)
         if scored:
-            log(f"      closest: {scored[-1][1]} at {scored[-1][0]:.2f} (needs {MATCH_THRESHOLD:.2f})")
+            log(f"      closest: {scored[-1][1]} at {scored[-1][0]:.2f} (needs {MATCH_THRESHOLD:.2f} and peak z {PEAK_Z_MIN})")
         return None, "no released master on this Mac yet"
 
 
