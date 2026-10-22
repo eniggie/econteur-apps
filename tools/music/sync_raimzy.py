@@ -209,10 +209,16 @@ def load_cache() -> dict:
 
 
 def save_cache(c: dict) -> None:
+    """Merge into the cache on disk (another run may have added to it meanwhile)."""
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    tmp = PROBE_CACHE.with_suffix(".tmp")
-    tmp.write_text(json.dumps(c))
-    tmp.replace(PROBE_CACHE)
+    with open(CACHE_DIR / "cache.lock", "w") as lk:
+        fcntl.flock(lk, fcntl.LOCK_EX)
+        merged = load_cache()
+        merged.update(c)
+        c.update(merged)
+        tmp = PROBE_CACHE.with_suffix(f".{os.getpid()}.tmp")
+        tmp.write_text(json.dumps(merged))
+        tmp.replace(PROBE_CACHE)
 
 
 def is_dataless(p: Path) -> bool:
@@ -522,7 +528,7 @@ class MasterFinder:
             return p, f"pinned in masters.json ({d:.1f} s vs Apple {want:.1f} s)"
         cands = self.candidates(t)
         if not cands:
-            return None, "no file within 2 s of Apple's length"
+            return None, "no released master on this Mac yet"
         tried, best = [], None
         for p in cands:
             sc, note = self.score(p, t)
@@ -532,11 +538,17 @@ class MasterFinder:
             lossless = p.suffix.lower() in LOSSLESS
             if best is None or sc > best[0] + 0.02 or (abs(sc - best[0]) <= 0.02 and lossless and not best[2]):
                 best = (sc, p, lossless)
+        for n in tried:
+            log(f"      {n}")
         if best:
             d = self.cache.get(file_key(best[1]))
             return best[1], f"{d:.1f} s vs Apple {want:.1f} s, preview match {best[0]:.2f}"
-        shown = [n for n in tried if "match" in n] or tried
-        return None, "no verified master; checked " + "; ".join(shown[:6]) + (f" (+{len(tried) - 6} more)" if len(tried) > 6 else "")
+        # Details go to the log; the committed status file gets a stable line (no counts or scores
+        # that change with which drives happen to be mounted).
+        scored = sorted((self.cache.get(f"score|{file_key(p)}|{t['trackId']}") or 0, p.name) for p in cands)
+        if scored:
+            log(f"      closest: {scored[-1][1]} at {scored[-1][0]:.2f} (needs {MATCH_THRESHOLD:.2f})")
+        return None, "no released master on this Mac yet"
 
 
 # ---------------------------------------------------------------------------------------------
@@ -544,8 +556,19 @@ class MasterFinder:
 # ---------------------------------------------------------------------------------------------
 def encode(master: Path, dest: Path, title: str, album: str, want_s: float) -> None:
     tmp = dest.with_name(f".{dest.stem}.partial.mp3")
+    # Two-pass loudnorm: measure, then normalise linearly to -16 LUFS integrated.
+    target = "I=-16:TP=-1.5:LRA=11"
+    meas = subprocess.run([FFMPEG, "-hide_banner", "-nostdin", "-i", str(master), "-map", "0:a:0", "-af",
+                           f"loudnorm={target}:print_format=json", "-f", "null", "-"],
+                          capture_output=True, text=True, timeout=900)
+    af = f"loudnorm={target}"
+    m = re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", meas.stderr)
+    if m:
+        j = json.loads(m.group(0))
+        af = (f"loudnorm={target}:measured_I={j['input_i']}:measured_TP={j['input_tp']}:"
+              f"measured_LRA={j['input_lra']}:measured_thresh={j['input_thresh']}:offset={j['target_offset']}:linear=true")
     cmd = [FFMPEG, "-v", "error", "-nostdin", "-y", "-i", str(master), "-map", "0:a:0", "-map_metadata", "-1",
-           "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", "-ac", "2",
+           "-af", af, "-ar", "44100", "-ac", "2",
            "-c:a", "libmp3lame", "-b:a", "128k",
            "-metadata", "artist=RAIMZY", "-metadata", f"title={title}", "-metadata", f"album={album}",
            str(tmp)]

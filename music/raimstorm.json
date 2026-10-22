@@ -1,6 +1,6 @@
 {
   "artist": "RAIMZY",
-  "note": "Owner, 2026-10-21: RAIMZY songs are RAIMSTORM's DEFAULT soundtrack, \"I'm the Bang\" first, then the rest in this order. Every RAIMZY release Apple lists as NOT explicit whose released master we hold; never THE HEARTBEATBOY album (explicit as an album). Colored Skin clean tracks, OSALOBUA and Find Happiness and Peace are left out only because the released audio is not on the Mac/Lexar (the UNITED STATES OF AFRICA 'RELOADED' WAVs are different, unreleased versions). Every file's duration matches Apple's catalogue. listen = song.link: streams there pay the artist; in-game playback does not.",
+  "note": "Kept in step automatically by tools/music/sync_raimzy.py (daily, launchd): every released RAIMZY song Apple lists as notExplicit, no instrumentals (owner, 2026-10-21: all future songs added automatically, no instrumentals). A song is added only once its released master is on the Mac (length within 2 s of Apple's, audio matching Apple's preview); songs still waiting for audio are listed in tools/music/raimzy-sync-status.md. listen = song.link (streams there pay the artist); apple_music_id / apple_music_url = the released Apple Music track, for subscriber playback through Apple Music. RAIMSTORM: RAIMZY songs are the DEFAULT soundtrack and \"first\" (I'm the Bang) always opens the list.",
   "artist_link": "https://unitedmasters.com/raimzy",
   "first": "im-the-bang",
   "tracks": [

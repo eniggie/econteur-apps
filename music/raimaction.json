@@ -1,6 +1,6 @@
 {
   "artist": "RAIMZY",
-  "note": "Owner, 2026-10-14: only 2025-and-newer releases (THE HEARTBEATBOY, THE RECLAMED VOICE), curated to the game, only tracks Apple lists as NOT explicit. listen = song.link for the released track: streams there pay the artist; in-game playback does not.",
+  "note": "Kept in step automatically by tools/music/sync_raimzy.py (daily, launchd): every released RAIMZY song Apple lists as notExplicit, no instrumentals (owner, 2026-10-21: all future songs added automatically, no instrumentals). A song is added only once its released master is on the Mac (length within 2 s of Apple's, audio matching Apple's preview); songs still waiting for audio are listed in tools/music/raimzy-sync-status.md. listen = song.link (streams there pay the artist); apple_music_id / apple_music_url = the released Apple Music track, for subscriber playback through Apple Music.",
   "artist_link": "https://unitedmasters.com/raimzy",
   "tracks": [
     {
