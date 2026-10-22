@@ -396,9 +396,12 @@ def walk_sources() -> list[Path]:
         try:
             os.listdir(root)
         except OSError as e:
+            exe = Path(sys.executable).resolve()
+            app = next((q / "Resources/Python.app" for q in exe.parents if q.name.startswith("3.")
+                        and (q / "Resources/Python.app").exists()), exe)
             raise SourceUnreadable(
                 f"cannot read {root}: {e.strerror}. ACTION FOR USER: System Settings > Privacy & Security > "
-                f"Full Disk Access > add {Path(sys.executable).resolve()} (the Python this job runs), then "
+                f"Full Disk Access > + > add {app} (the Python this job runs; Cmd-Shift-G to type the path), then "
                 f"`launchctl kickstart gui/$(id -u)/com.econteur.raimzy-sync`.") from e
         for dirpath, dirnames, filenames in os.walk(root):
             dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS and not d.startswith(".")]
