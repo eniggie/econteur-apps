@@ -380,12 +380,26 @@ def preview_features(t: dict) -> list[list[float]] | None:
 # ---------------------------------------------------------------------------------------------
 # Finding a master
 # ---------------------------------------------------------------------------------------------
+class SourceUnreadable(RuntimeError):
+    pass
+
+
 def walk_sources() -> list[Path]:
+    """Audio files in SOURCES. A source that exists but cannot be listed (macOS privacy/TCC: a launchd
+    job needs Full Disk Access for iCloud Drive and external drives) raises, so a run never mistakes
+    "not allowed to look" for "no master"."""
     files = []
     for root in SOURCES:
         if not root.exists():
             log(f"source not available: {root}")
             continue
+        try:
+            os.listdir(root)
+        except OSError as e:
+            raise SourceUnreadable(
+                f"cannot read {root}: {e.strerror}. ACTION FOR USER: System Settings > Privacy & Security > "
+                f"Full Disk Access > add {Path(sys.executable).resolve()} (the Python this job runs), then "
+                f"`launchctl kickstart gui/$(id -u)/com.econteur.raimzy-sync`.") from e
         for dirpath, dirnames, filenames in os.walk(root):
             dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS and not d.startswith(".")]
             for fn in filenames:
