@@ -273,7 +273,7 @@ def check():
         if p.get("poweredByRaimovia") and p["slug"] != "raimcalls":
             errs.append(f"{p['slug']}: poweredByRaimovia is only true for RaimCalls")
         text = json.dumps(p).lower()
-        for bad in ("dr. oviawe\"", " md ", "physician", "501(c)(3) charity", "tax-deductible\""):
+        for bad in ("dr. oviawe\"", " md ", "physician", "not a 501(c)(3)", "not tax-deductible"):
             if bad in text: errs.append(f"{p['slug']}: forbidden wording '{bad}'")
     return errs
 

@@ -84,7 +84,7 @@
     },
     {
       "q": "Is the RAIMZEAL Health Foundation a charity?",
-      "a": "RAIMZEAL Health Foundation, Inc. is a Georgia nonprofit corporation. It is not a registered charity and not a 501(c)(3): its application for federal tax exemption was filed in September 2026 and has not been granted. Donations to it are not tax-deductible."
+      "a": "Yes. RAIMZEAL Health Foundation, Inc. is a Georgia nonprofit corporation recognized by the IRS as a 501(c)(3) public charity, effective August 21, 2026. Donations are tax-deductible to the extent allowed by law."
     },
     {
       "q": "When is V3EDGE coming to iPhone and Android?",
@@ -242,7 +242,7 @@
   ],
   "llmsNotes": [
     "Founder Dr. Ephraim Oviawe holds a PhD; he is not a medical doctor. RAIMZEAL is a wellness app and does not give medical advice.",
-    "RAIMZEAL Health Foundation, Inc. is a Georgia nonprofit corporation, not a registered charity or 501(c)(3); donations to it are not tax-deductible.",
+    "RAIMZEAL Health Foundation, Inc. is a Georgia nonprofit corporation recognized by the IRS as a 501(c)(3) public charity, effective August 21, 2026. Donations are tax-deductible to the extent allowed by law.",
     "Raimovia does not answer or place phone calls; AI phone calling is the separate RaimCalls app.",
     "V3EDGE is web-only today; its iPhone, iPad and Android apps have no release date."
   ],
@@ -2130,7 +2130,7 @@
       ],
       "notes": [
         "RAIMFUN is made for fun. It makes no claims about improving memory, intelligence or health.",
-        "RAIMFUN is sponsored by RAIMZEAL Health Foundation, Inc., a Georgia nonprofit corporation. It is not a registered charity, and donations to it are not tax-deductible."
+        "RAIMFUN is sponsored by RAIMZEAL Health Foundation, Inc., a 501(c)(3) public charity. Donations to it are tax-deductible to the extent allowed by law."
       ],
       "howto": [
         "Install RAIMFUN from Google Play. The iPhone and iPad app is waiting for App Store review.",

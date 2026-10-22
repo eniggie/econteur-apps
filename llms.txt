@@ -23,6 +23,6 @@ Founder: Dr. Ephraim Oviawe. Contact: developer@econteur.com.
 - Every product is created and designed by ECONTEUR LLC.
 - ECONTEUR products do not use Chinese AI models.
 - Founder Dr. Ephraim Oviawe holds a PhD; he is not a medical doctor. RAIMZEAL is a wellness app and does not give medical advice.
-- RAIMZEAL Health Foundation, Inc. is a Georgia nonprofit corporation, not a registered charity or 501(c)(3); donations to it are not tax-deductible.
+- RAIMZEAL Health Foundation, Inc. is a Georgia nonprofit corporation recognized by the IRS as a 501(c)(3) public charity, effective August 21, 2026. Donations are tax-deductible to the extent allowed by law.
 - Raimovia does not answer or place phone calls; AI phone calling is the separate RaimCalls app.
 - V3EDGE is web-only today; its iPhone, iPad and Android apps have no release date.
