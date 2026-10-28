@@ -746,7 +746,7 @@
       ],
       "notes": [
         "RaimCalls uses OpenAI for speech and understanding. The in-app consent screen names the provider before you start.",
-        "Plans are monthly in-app subscriptions: Foundation $19.99, Rise $49, Reign $99 and Legacy $199 (US prices; your local price is shown in the app). Each plan lists its monthly voice minutes, calls, texts and hold time before you buy. The iPhone app, which includes a 7-day Foundation trial, is waiting for App Store review."
+        "Plans are monthly in-app subscriptions: Personal $9.99 (no business line), Foundation $17.99, Rise $43.99, Reign $87.99 and Legacy $169.99 (US prices; your local price is shown in the app). Each plan lists its monthly voice minutes, calls, texts and hold time before you buy. The iPhone app, which includes a 7-day Foundation trial, is waiting for App Store review."
       ],
       "howto": [
         "Install RaimCalls from Google Play. The iPhone app is waiting for App Store review.",
@@ -774,7 +774,7 @@
         },
         {
           "q": "What is the cheapest AI receptionist for a small business?",
-          "a": "Smith.ai has a free plan with 25 calls, and Rosie starts at $49 a month for 250 minutes. RaimCalls starts at $19.99 a month and adds something they don't: it makes calls for you too."
+          "a": "Smith.ai has a free plan with 25 calls, and Rosie starts at $49 a month for 250 minutes. RaimCalls starts at $9.99 a month (Personal, no business line) or $17.99 with a business line, and adds something they don't: it makes calls for you too."
         },
         {
           "q": "Is Ruby worth it versus an AI receptionist?",
@@ -806,7 +806,7 @@
         "rows": [
           {
             "feature": "Price from",
-            "us": "$19.99/mo",
+            "us": "$9.99/mo",
             "them": [
               "Free",
               "$99.9/mo (annual)",
@@ -1004,7 +1004,7 @@
         "honest": [
           {
             "t": "More minutes per dollar elsewhere",
-            "d": "Rosie includes 250 minutes for $49 a month and My AI Front Desk 200 minutes for $99, against 125 live voice minutes on RaimCalls Rise at $49. If you only need answering, they give you more minutes for the money, and Smith.ai and Google have free plans."
+            "d": "Rosie includes 250 minutes for $49 a month and My AI Front Desk 200 minutes for $99, against 125 live voice minutes on RaimCalls Rise at $43.99. If you only need answering, they give you more minutes for the money, and Smith.ai and Google have free plans."
           },
           {
             "t": "Human backup and specialist tools",
