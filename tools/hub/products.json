@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://www.econteur.com",
+  "baseUrl": "https://eniggie.github.io/econteur-apps",
   "pathPrefix": "/econteur-apps",
   "email": "developer@econteur.com",
   "founder": "Dr. Ephraim Oviawe",
@@ -76,7 +76,7 @@
     },
     {
       "q": "Which ECONTEUR apps are free?",
-      "a": "RAIMZEAL's Foundation plan is free forever. RAIMFUN is free with no ads or purchases. V3EDGE is free with no paid plans today. RaimAction has 35 free operations and optional packs, and SparkReset has a free version with optional Premium. RaimCalls and Raimovia are paid business tools; Raimovia starts with a 7-day trial."
+      "a": "RAIMZEAL's Foundation plan is free forever. RAIMFUN is free with no ads or purchases. V3EDGE is free with no paid plans today. RaimAction has 6 operations free forever plus a Premium operation free each week, and RaimAction Premium unlocks the rest, and SparkReset has a free version with optional Premium. RaimCalls and Raimovia are paid business tools; Raimovia starts with a 7-day trial."
     },
     {
       "q": "Do ECONTEUR apps use Chinese AI?",
@@ -96,7 +96,7 @@
     },
     {
       "q": "Which ECONTEUR apps are on iPhone today?",
-      "a": "RAIMZEAL is live on the App Store. RaimCalls, GetIntoStores, RAIMFUN, RaimAction and SparkReset are waiting for App Store review, and all of them are already live on Google Play."
+      "a": "RAIMZEAL and RaimAction are live on the App Store. RaimCalls, GetIntoStores, RAIMFUN and SparkReset are waiting for App Store review, and all of them are already live on Google Play."
     },
     {
       "q": "Is RAIMZEAL medical advice?",
@@ -2384,17 +2384,20 @@
         "play"
       ],
       "icon": "/assets/icons/raimaction.png",
-      "tagline": "Courage, not violence: 35 free operations, online co-op for up to four, and no ads or loot boxes.",
-      "summary": "RaimAction is a third-person action game about courage, not violence. Play 35 free operations on your own, even offline, or team up online with two to four players using a room code. There are no ads and no loot boxes.",
-      "who": "For players who want tight action and co-op with friends, without ads or loot boxes.",
+      "tagline": "50 action games in one app: 6 free forever, plays offline, TEAM UP online with a friend, and no ads or loot boxes.",
+      "summary": "RaimAction is 50 third-person action games (operations) in one app for iPhone, iPad and Android. Six are free forever and one Premium operation is free each week. It plays offline with no account and no ads, and TEAM UP lets two players join online with a 4-digit room code. RAIMACTION is a game about courage, not violence.",
+      "who": "For players who want console-feel action on a phone or tablet, solo and offline or with a friend anywhere in the world, without ads or loot boxes.",
       "status": {
-        "iOS": "review",
+        "iOS": "live",
         "Android": "live"
       },
-      "statusNote": {
-        "iOS": "Waiting for App Store review"
-      },
+      "statusNote": {},
       "get": [
+        {
+          "label": "Download on the App Store",
+          "url": "https://apps.apple.com/us/app/raimaction/id6808669604",
+          "platform": "iOS"
+        },
         {
           "label": "Get it on Google Play",
           "url": "https://play.google.com/store/apps/details?id=com.raimzy.raimaction",
@@ -2404,68 +2407,51 @@
       "offers": [
         {
           "@type": "Offer",
-          "name": "RaimAction (free)",
           "price": "0",
-          "priceCurrency": "USD"
-        },
-        {
-          "@type": "Offer",
-          "name": "Premium pack",
-          "price": "4.49",
-          "priceCurrency": "USD"
-        },
-        {
-          "@type": "Offer",
-          "name": "All premium packs",
-          "price": "8.89",
-          "priceCurrency": "USD"
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "description": "Free download. 6 operations free forever and one Premium operation free each week; RaimAction Premium (yearly auto-renewing or Lifetime one-time) is an optional in-app purchase."
         }
       ],
       "features": [
         {
-          "t": "35 free operations",
-          "d": "A full set of missions you can play without paying anything."
+          "t": "50 games in one app",
+          "d": "Each operation is its own game. Six are free forever (AEGIS, STRIKE, LAST STAND, RELIC RUN, DELTA and ECHO), and one Premium operation is free to play each week."
         },
         {
-          "t": "16 operators, 9 weapons",
-          "d": "Pick the operator and loadout that suit your style."
+          "t": "TEAM UP online",
+          "d": "Host a room, share its 4-digit code, and a friend anywhere in the world joins you. HARD is built for two."
         },
         {
-          "t": "Three difficulty levels",
-          "d": "EASY, MEDIUM or HARD, so new and seasoned players both get a fair fight."
+          "t": "Plays offline, no account",
+          "d": "Play solo with no connection and no sign-in. TEAM UP and the champions boards use the internet."
         },
         {
-          "t": "Online co-op for 2 to 4",
-          "d": "Share a room code and play together. Co-op needs an internet connection."
+          "t": "16 operators",
+          "d": "SWAT is the default. RAIMACTION, the star operator, carries ADA GUARD, the automatic Guardian Strike and royal regalia. Michelle and 13 more operators complete the roster."
         },
         {
-          "t": "Solo play offline",
-          "d": "Play operations on your own with no connection at all."
+          "t": "Console feel",
+          "d": "PlayStation, Xbox and Backbone controllers work on every screen, with haptics and a Photo Mode."
+        },
+        {
+          "t": "EASY, MEDIUM or HARD",
+          "d": "Pick the challenge that suits you; HARD is built for two players."
         },
         {
           "t": "Champions boards",
-          "d": "Compare runs with other players, with report and block tools built in."
+          "d": "Post your best runs under a nickname, with report and block built in."
         },
         {
-          "t": "Optional RAIMZY soundtrack",
-          "d": "Switch on music by RAIMZY, or turn it off."
+          "t": "Songs by RAIMZY",
+          "d": "An optional soundtrack of songs by RAIMZY. Apple Music subscribers can play it through Apple Music."
         },
         {
-          "t": "Fair extras",
-          "d": "Four premium packs at $4.49 each, or all of them for $8.89. No loot boxes and no ads."
+          "t": "Fair by design",
+          "d": "No ads, no loot boxes and nothing pay-to-win. Premium unlocks operations; Guardian Pass rewards are looks and merits only."
         }
       ],
       "coming": [
-        {
-          "t": "55 operations and RaimAction Premium",
-          "d": "Every operation rebuilt to have its own place and sky. 11 stay free, and Premium (yearly or lifetime) opens the rest. Players who already have the 35 free operations keep them.",
-          "when": "Date not set"
-        },
-        {
-          "t": "Guardian Pass and regalia skins",
-          "d": "A season track with new skins, planned for version 2.6.1.",
-          "when": "Date not set"
-        },
         {
           "t": "STORM NIGHT rescue chapter",
           "d": "A new chapter built around rescue missions.",
@@ -2473,217 +2459,598 @@
         }
       ],
       "howto": [
-        "Install RaimAction from Google Play. The iPhone and iPad version is waiting for App Store review.",
-        "Choose your operator, weapon and difficulty.",
-        "Play an operation solo, or share a room code to bring in up to three friends online."
+        "Install RaimAction free from the App Store (iPhone and iPad) or Google Play (Android phones and tablets).",
+        "Pick your operator (SWAT is the default) and EASY, MEDIUM or HARD.",
+        "Play one of the six free operations solo, even offline, or TEAM UP: host a room and share its 4-digit code with a friend."
       ],
-      "seoTitle": "RaimAction: Free Co-op Action Game, No Ads or Loot Boxes",
-      "seoDescription": "RaimAction is a third-person action game about courage, not violence: 35 free operations, online co-op for 2–4 players, no ads and no loot boxes.",
+      "seoTitle": "RaimAction (Raim Action): 50 Action Games, Offline + Team Up",
+      "seoDescription": "RaimAction is 50 action games in one app for iPhone, iPad and Android: 6 free forever, plays offline, no ads, no account. Team up online by room code.",
       "faq": [
         {
           "q": "Is RaimAction free?",
-          "a": "Yes. The 35 operations are free. Four optional premium packs cost $4.49 each, or $8.89 for all of them, and there's no subscription."
+          "a": "Yes. RaimAction is free to download. Six operations (AEGIS, STRIKE, LAST STAND, RELIC RUN, DELTA and ECHO) are free forever, and one Premium operation is free to play each week. RaimAction Premium unlocks the other 44 operations, either as a yearly subscription that renews automatically or as a one-time Lifetime purchase. Prices are shown in the app and vary by country."
         },
         {
-          "q": "Can I play RaimAction offline?",
-          "a": "Yes, solo operations play offline. Co-op needs an internet connection."
+          "q": "Does RaimAction work offline?",
+          "a": "Yes. You can play solo with no internet connection and no account. TEAM UP, the online two-player mode, and the champions boards need a connection."
         },
         {
-          "q": "How does co-op work?",
-          "a": "One player creates a room and shares the code; two to four players can join online."
+          "q": "Can I play RaimAction with a friend in another country?",
+          "a": "Yes. With TEAM UP (online co-op), one player hosts a room and shares its 4-digit code, and a friend anywhere in the world joins. HARD is built for two players."
         },
         {
-          "q": "Does RaimAction have loot boxes or ads?",
-          "a": "No. There are no loot boxes and no ads. Extras are clearly priced, one-time packs."
+          "q": "Is RaimAction on Android and iPhone?",
+          "a": "Yes. RaimAction is on the App Store for iPhone and iPad and on Google Play for Android phones and tablets. It plays in landscape."
         },
         {
-          "q": "RaimAction or Call of Duty: Mobile?",
-          "a": "Call of Duty: Mobile requires an internet connection and centres on competitive multiplayer. RaimAction focuses on solo and co-op operations, and solo play works offline."
+          "q": "Who made RaimAction?",
+          "a": "RaimAction is created and designed by ECONTEUR LLC, founded by Dr. Ephraim Oviawe, who performs as RAIMZY, “The Heartbeatboy”. His songs are the game’s optional soundtrack. The free operations are sponsored by RAIMZEAL Health Foundation, Inc."
         },
         {
-          "q": "Is RaimAction like Space Marshals?",
-          "a": "Both are action games with campaign missions. Space Marshals 3 sells chapters at $4.99 each and lists no multiplayer; RaimAction adds online co-op."
+          "q": "Does RaimAction have ads or loot boxes?",
+          "a": "No. There are no ads and no loot boxes, and nothing is pay-to-win: Premium unlocks operations, and Guardian Pass rewards are looks and merits only."
         },
         {
-          "q": "Is RaimAction on iPhone?",
-          "a": "Not yet. It is live on Google Play, and the iPhone and iPad version is waiting for App Store review."
+          "q": "Can I play RaimAction with a controller?",
+          "a": "Yes. PlayStation, Xbox and Backbone controllers work on every screen, with haptics."
+        },
+        {
+          "q": "What is RaimAction about?",
+          "a": "RAIMACTION is a game about courage, not violence: face what you fear, keep your mind busy, and outthink the challenge in front of you."
+        },
+        {
+          "q": "Is it “RaimAction” or “Raim Action”?",
+          "a": "The official name is RaimAction, and its star operator is written RAIMACTION. People also search for “Raim Action”, “RaimAction game” or “the RAIMZY game”, and phones sometimes autocorrect it to “rain action” or “reaction”. They all mean this game."
+        },
+        {
+          "q": "How is RaimAction different from PUBG Mobile or Call of Duty: Mobile?",
+          "a": "Both are large online multiplayer games. On Google Play both carry the “Contains ads” label and a notice that in-game purchases include random items, and the Call of Duty: Mobile listing says an internet connection is required. RaimAction plays offline, has no ads and no loot boxes, and is built around 50 solo and TEAM UP operations. See the full, sourced comparison."
         }
       ],
       "compare": {
         "competitors": [
+          "PUBG MOBILE",
           "Call of Duty: Mobile",
+          "Free Fire",
+          "Fortnite",
+          "Genshin Impact",
+          "Brawl Stars",
+          "Delta Force",
           "Warframe",
           "Destiny: Rising",
-          "Shadowgun Legends",
-          "Space Marshals 3",
-          "Dead Trigger 2",
-          "Mech Arena",
-          "Pixel Gun 3D"
+          "Zenless Zone Zero",
+          "Dead Trigger 2"
         ],
-        "checked": "2026-10-17",
-        "blurb": "Free operations, offline solo and co-op with no ads or loot boxes, next to eight mobile action games.",
+        "checked": "2026-10-28",
+        "blurb": "50 action games in one app that plays offline, with no ads and no loot boxes, next to 11 top mobile action games. Every cell sourced.",
         "rows": [
           {
             "feature": "How you pay",
-            "us": "Free + $4.49 packs",
+            "us": "Free; Premium (yearly or Lifetime) unlocks 44 more",
+            "usSrc": "ra-as",
             "them": [
-              "Free + IAP",
-              "Free to play",
-              "Free to play",
-              "Free to play",
-              "$4.99/chapter",
-              "Free + IAP",
-              "Free + IAP",
-              "Free + IAP"
+              "Free + in-app purchases",
+              "Free + in-app purchases",
+              "Free + in-app purchases",
+              "Free + in-app purchases",
+              "Free + in-app purchases",
+              "Free + in-app purchases",
+              "Free + in-app purchases",
+              "Free + in-app purchases",
+              "Free + in-app purchases",
+              "Free + in-app purchases",
+              "Free + in-app purchases"
+            ],
+            "themSrc": [
+              "pubg-as",
+              "cod-as",
+              "ff-as",
+              "fn-as",
+              "gi-as",
+              "bs-as",
+              "df-as",
+              "wf-as",
+              "dr-as",
+              "zzz-as",
+              "dt2-as"
             ]
           },
           {
-            "feature": "Solo play offline",
-            "us": "y",
+            "feature": "Ads (Google Play “Contains ads” label)",
+            "us": "No ads",
+            "usSrc": "ra-gp",
             "them": [
-              "n",
-              "?",
-              "?",
-              "p",
-              "?",
-              "y",
-              "n",
-              "?"
+              "Contains ads",
+              "Contains ads",
+              "No label",
+              "No label",
+              "No label",
+              "No label",
+              "No label",
+              "No label",
+              "No label",
+              "No label",
+              "Contains ads"
+            ],
+            "themSrc": [
+              "pubg-gp",
+              "cod-gp",
+              "ff-gp",
+              "fn-gp",
+              "gi-gp",
+              "bs-gp",
+              "df-gp",
+              "wf-gp",
+              "dr-gp",
+              "zzz-gp",
+              "dt2-gp"
             ]
           },
           {
-            "feature": "Online co-op",
-            "us": "2–4 players",
+            "feature": "Purchases that include random items (Google Play notice)",
+            "us": "No — no loot boxes",
+            "usSrc": "ra-gp",
             "them": [
-              "y",
-              "y",
-              "y",
-              "y",
-              "n",
-              "?",
-              "p",
-              "y"
+              "Yes",
+              "Yes",
+              "Yes",
+              "Yes",
+              "Yes",
+              "Yes",
+              "Yes",
+              "Yes",
+              "Yes",
+              "Yes",
+              "Yes"
+            ],
+            "themSrc": [
+              "pubg-gp",
+              "cod-gp",
+              "ff-gp",
+              "fn-gp",
+              "gi-gp",
+              "bs-gp",
+              "df-gp",
+              "wf-gp",
+              "dr-gp",
+              "zzz-gp",
+              "dt2-gp"
             ]
           },
           {
-            "feature": "PvP",
-            "us": "n",
+            "feature": "Plays offline",
+            "us": "Yes — solo, no account",
+            "usSrc": "ra-as",
             "them": [
-              "y",
-              "p",
-              "?",
-              "y",
-              "n",
-              "p",
-              "y",
-              "y"
+              "No — needs internet",
+              "No — internet required",
+              "—",
+              "No — online only",
+              "—",
+              "No — battles are online",
+              "—",
+              "—",
+              "—",
+              "—",
+              "—"
+            ],
+            "themSrc": [
+              "pubg-net",
+              "cod-as",
+              null,
+              "fn-off",
+              null,
+              "bs-sup",
+              null,
+              null,
+              null,
+              null,
+              null
             ]
           },
           {
-            "feature": "Campaign or missions",
-            "us": "35 operations",
+            "feature": "Play with friends",
+            "us": "TEAM UP: 2 players online by 4-digit room code",
+            "usSrc": "ra-as",
             "them": [
-              "p",
-              "y",
-              "y",
-              "y",
-              "y",
-              "y",
-              "n",
-              "y"
+              "Squads; 100-player matches",
+              "Online multiplayer and battle royale squads",
+              "Squads of up to 4",
+              "Duos, trios and squads of 4",
+              "Co-op with friends across platforms",
+              "3v3 and 5v5 teams",
+              "Squads; 48-player Warfare",
+              "Co-op squads",
+              "6-player co-op strikes",
+              "—",
+              "—"
+            ],
+            "themSrc": [
+              "pubg-gp",
+              "cod-gp",
+              "ff-gp",
+              "fn-gp",
+              "gi-gp",
+              "bs-gp",
+              "df-gp",
+              "wf-as",
+              "dr-gp",
+              null,
+              null
             ]
           },
           {
-            "feature": "No loot boxes",
-            "us": "y",
+            "feature": "Game controllers",
+            "us": "Yes — PlayStation, Xbox, Backbone",
+            "usSrc": "ra-as",
             "them": [
-              "n",
-              "?",
-              "?",
-              "?",
-              "y",
-              "?",
-              "n",
-              "n"
+              "—",
+              "Yes",
+              "—",
+              "Yes",
+              "Yes (press report)",
+              "—",
+              "—",
+              "Yes",
+              "Yes",
+              "—",
+              "—"
+            ],
+            "themSrc": [
+              null,
+              "cod-as",
+              null,
+              "fn-ctl",
+              "gi-ctl",
+              null,
+              null,
+              "wf-faq",
+              "dr-as",
+              null,
+              null
             ]
           },
           {
-            "feature": "No ads",
-            "us": "y",
+            "feature": "Platforms",
+            "us": "iPhone, iPad, Android",
+            "usSrc": "ra-as",
             "them": [
-              "n",
-              "?",
-              "?",
-              "?",
-              "?",
-              "n",
-              "?",
-              "n"
+              "iOS, Android",
+              "iOS, Android",
+              "iOS, Android",
+              "iOS, Android",
+              "iOS, Android",
+              "iOS, Android",
+              "iOS, Android",
+              "iOS, Android",
+              "iOS, Android",
+              "iOS, Android",
+              "iOS, Android"
+            ],
+            "themSrc": [
+              "pubg-gp",
+              "cod-gp",
+              "ff-gp",
+              "fn-gp",
+              "gi-gp",
+              "bs-gp",
+              "df-gp",
+              "wf-gp",
+              "dr-gp",
+              "zzz-gp",
+              "dt2-gp"
+            ]
+          },
+          {
+            "feature": "What's inside",
+            "us": "50 distinct games (operations)",
+            "usSrc": "ra-as",
+            "them": [
+              "Battle royale (100 players), Payload, 4v4 Arena, Infection",
+              "Multiplayer modes, battle royale, extraction",
+              "50-player battle royale, 4v4 Clash Squad",
+              "Battle Royale, Zero Build, Reload, Blitz, LEGO Fortnite, Festival, player-made islands",
+              "Open-world action RPG",
+              "3v3 and 5v5 PvP modes, battle royale",
+              "Extraction operations, 48-player Warfare",
+              "Story-driven online action, co-op missions",
+              "Campaign missions, co-op strikes, PvE and PvP",
+              "Story-driven 3D action, squads of up to 3 characters",
+              "33 battlefields, 600+ scenarios"
+            ],
+            "themSrc": [
+              "pubg-gp",
+              "cod-as",
+              "ff-gp",
+              "fn-as",
+              "gi-as",
+              "bs-as",
+              "df-gp",
+              "wf-as",
+              "dr-gp",
+              "zzz-gp",
+              "dt2-gp"
             ]
           }
         ],
-        "sources": [
-          {
-            "name": "Call of Duty: Mobile (App Store)",
-            "url": "https://apps.apple.com/us/app/call-of-duty-mobile/id1287282214"
+        "sourceMap": {
+          "ra-as": {
+            "name": "RaimAction — App Store listing",
+            "url": "https://apps.apple.com/us/app/id6808669604"
           },
-          {
-            "name": "Warframe mobile (mein-mmo)",
-            "url": "https://mein-mmo.de/en/warframe-mobile-release-infos,1548361"
+          "ra-gp": {
+            "name": "RaimAction — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.raimzy.raimaction"
           },
-          {
-            "name": "Warframe (ESRB)",
-            "url": "https://www.esrb.org/ratings/40330"
+          "pubg-as": {
+            "name": "PUBG MOBILE — App Store listing",
+            "url": "https://apps.apple.com/us/app/id1330123889"
           },
-          {
-            "name": "Destiny: Rising (GamingTrend)",
-            "url": "https://gamingtrend.com/news/destiny-rising-arrives-on-the-mobile-scene-and-you-can-download-it-now"
+          "pubg-gp": {
+            "name": "PUBG MOBILE — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.tencent.ig"
           },
-          {
-            "name": "Shadowgun Legends (App Store)",
-            "url": "https://apps.apple.com/gb/app/shadowgun-legends-online-fps/id1091251242"
+          "cod-as": {
+            "name": "Call of Duty: Mobile — App Store listing",
+            "url": "https://apps.apple.com/us/app/id1287282214"
           },
-          {
-            "name": "Space Marshals 3 (App Store)",
-            "url": "https://apps.apple.com/us/app/space-marshals-3/id1501495423"
+          "cod-gp": {
+            "name": "Call of Duty: Mobile — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter"
           },
-          {
-            "name": "Dead Trigger 2 (App Store)",
-            "url": "https://apps.apple.com/us/app/dead-trigger-2-zombie-games/id720063540"
+          "ff-as": {
+            "name": "Free Fire — App Store listing",
+            "url": "https://apps.apple.com/us/app/id1300146617"
           },
-          {
-            "name": "Mech Arena (App Store)",
-            "url": "https://apps.apple.com/us/app/mech-arena-shooting-game/id1377591228"
+          "ff-gp": {
+            "name": "Free Fire — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.dts.freefireth"
           },
-          {
-            "name": "Pixel Gun 3D (App Store)",
-            "url": "https://apps.apple.com/us/app/pixel-gun-3d-fps-shooter/id640111933"
+          "fn-as": {
+            "name": "Fortnite — App Store listing",
+            "url": "https://apps.apple.com/us/app/id6483539426"
+          },
+          "fn-gp": {
+            "name": "Fortnite — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.epicgames.fortnite"
+          },
+          "gi-as": {
+            "name": "Genshin Impact — App Store listing",
+            "url": "https://apps.apple.com/us/app/id1517783697"
+          },
+          "gi-gp": {
+            "name": "Genshin Impact — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact"
+          },
+          "bs-as": {
+            "name": "Brawl Stars — App Store listing",
+            "url": "https://apps.apple.com/us/app/id1229016807"
+          },
+          "bs-gp": {
+            "name": "Brawl Stars — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars"
+          },
+          "df-as": {
+            "name": "Delta Force — App Store listing",
+            "url": "https://apps.apple.com/us/app/id6451399876"
+          },
+          "df-gp": {
+            "name": "Delta Force — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.proxima.dfm"
+          },
+          "wf-as": {
+            "name": "Warframe — App Store listing",
+            "url": "https://apps.apple.com/us/app/id1520001008"
+          },
+          "wf-gp": {
+            "name": "Warframe — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile"
+          },
+          "dr-as": {
+            "name": "Destiny: Rising — App Store listing",
+            "url": "https://apps.apple.com/us/app/id1593326563"
+          },
+          "dr-gp": {
+            "name": "Destiny: Rising — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.netease.g108na"
+          },
+          "zzz-as": {
+            "name": "Zenless Zone Zero — App Store listing",
+            "url": "https://apps.apple.com/us/app/id1606356401"
+          },
+          "zzz-gp": {
+            "name": "Zenless Zone Zero — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.HoYoverse.Nap"
+          },
+          "dt2-as": {
+            "name": "Dead Trigger 2 — App Store listing",
+            "url": "https://apps.apple.com/us/app/id720063540"
+          },
+          "dt2-gp": {
+            "name": "Dead Trigger 2 — Google Play listing",
+            "url": "https://play.google.com/store/apps/details?id=com.madfingergames.deadtrigger2"
+          },
+          "pubg-net": {
+            "name": "PUBG MOBILE official page (“Requires a stable internet connection”)",
+            "url": "https://www.pubgmobile.com/event/igxiaomi/"
+          },
+          "fn-off": {
+            "name": "Epic Games help: Can I play Fortnite in offline mode?",
+            "url": "https://www.epicgames.com/help/en-US/c-Category_Fortnite/c-Fortnite_Gameplay/can-i-play-fortnite-in-offline-mode-a000084909"
+          },
+          "fn-ctl": {
+            "name": "Fortnite FAQ: supported controllers",
+            "url": "https://www.fortnite.com/faq?lang=en-US"
+          },
+          "gi-ctl": {
+            "name": "Tom's Guide: Genshin Impact controller support on Android and iOS",
+            "url": "https://www.tomsguide.com/phones/android-phones/genshin-impact-on-android-finally-adds-controller-support-4-years-after-ios"
+          },
+          "bs-sup": {
+            "name": "Supercell support: Brawl Stars servers (a dropped connection hands your brawler to a bot)",
+            "url": "https://support.supercell.com/brawl-stars/en/articles/battle-sites.html"
+          },
+          "wf-faq": {
+            "name": "Warframe support: Warframe Mobile iOS FAQ",
+            "url": "https://support.warframe.com/hc/en-us/articles/24289387685901-Warframe-Mobile-iOS-FAQ"
           }
-        ],
+        },
+        "method": "Every competitor cell comes from that game's own App Store or Google Play listing, or the publisher's help pages, checked on 2026-10-28 in the US stores; one controller cell cites a press report and says so. “Contains ads” and the random-items notice are Google Play's own labels. “—” means we could not verify it from a public source, not that the feature is missing.",
         "advantages": [
           {
-            "t": "No ads, no loot boxes",
-            "d": "Extras are clearly priced one-time packs. Call of Duty: Mobile, Mech Arena and Pixel Gun 3D list loot boxes on the App Store."
+            "t": "Plays offline, no account",
+            "d": "Solo play needs no connection and no sign-in. Call of Duty: Mobile's listing says an internet connection is required, and Epic says Fortnite is online-only."
           },
           {
-            "t": "Solo play works offline",
-            "d": "Call of Duty: Mobile states that an internet connection is required."
+            "t": "No ads, no paid random items",
+            "d": "All 11 games here carry Google Play's notice that in-game purchases include random items, and three carry the “Contains ads” label. RaimAction has neither."
           },
           {
-            "t": "35 operations free",
-            "d": "A full campaign to play before you ever consider a pack."
+            "t": "50 different games in one app",
+            "d": "Each operation is its own game: six are free forever, and a Premium operation is free each week."
+          },
+          {
+            "t": "TEAM UP by room code",
+            "d": "Share a 4-digit code and a friend anywhere in the world joins. HARD is built for two."
+          },
+          {
+            "t": "Console feel",
+            "d": "PlayStation, Xbox and Backbone controllers on every screen, haptics and a Photo Mode."
           }
         ],
         "honest": [
           {
             "t": "Scale and live content",
-            "d": "Warframe, Destiny: Rising and Call of Duty: Mobile have big studios behind them, large player bases and PvP modes."
+            "d": "These games come from large studios, with very large player bases, seasonal events and competitive play. RaimAction is made by a small independent company."
           },
           {
-            "t": "Store presence",
-            "d": "RaimAction's iPhone and iPad version is still waiting for its first App Store approval."
+            "t": "Bigger squads and PvP",
+            "d": "TEAM UP is for two players. Many of these games run squads of four or more and player-versus-player matches."
           }
         ]
+      },
+      "canonical": "/raimaction/",
+      "notes": [
+        "The free operations are sponsored by RAIMZEAL Health Foundation, Inc. The Premium operations are created and powered by ECONTEUR LLC.",
+        "RaimAction Premium unlocks the other 44 operations, either yearly (renews automatically) or Lifetime (one-time purchase). Prices are shown in the app and vary by country."
+      ],
+      "landing": {
+        "path": "/raimaction/",
+        "comparePath": "/raimaction/compare.html",
+        "title": "RaimAction (Raim Action) — 50 Offline Action Games · Team Up Online",
+        "description": "RaimAction: 50 action games in one app for iPhone, iPad and Android. 6 free forever, plays offline, no ads, no account. TEAM UP online with a friend by room code.",
+        "compareTitle": "RaimAction vs PUBG Mobile, Call of Duty: Mobile, Free Fire & 8 More",
+        "compareDescription": "RaimAction compared with 11 top mobile action games on price model, ads, random-item purchases, offline play, team play and controllers. Every cell sourced.",
+        "appStoreId": "6808669604",
+        "hero": {
+          "webp": "/raimaction/raimaction-hero.webp",
+          "jpg": "/raimaction/raimaction-hero.jpg",
+          "width": 800,
+          "height": 1200,
+          "alt": "RAIMACTION, the star operator of RaimAction, in royal regalia"
+        },
+        "og": {
+          "path": "/raimaction/raimaction-og.jpg",
+          "width": 1200,
+          "height": 630,
+          "alt": "RaimAction: 50 action games in one app, team up online with a friend, plays offline, no ads, no account. RAIMACTION, the star operator, in royal regalia."
+        },
+        "operatorsLine": "Play as RAIMACTION, the star operator, or as SWAT (the default operator), Michelle and 13 other operators.",
+        "purpose": "RAIMACTION is a game about courage, not violence: face what you fear, keep your mind busy, and outthink the challenge in front of you.",
+        "searchNames": "Looking for “Raim Action”, “RaimAction game” or “the RAIMZY game”? You are in the right place. Phones sometimes autocorrect the name to “rain action” or “reaction”.",
+        "freeOps": [
+          "AEGIS",
+          "STRIKE",
+          "LAST STAND",
+          "RELIC RUN",
+          "DELTA",
+          "ECHO"
+        ],
+        "donate": "https://donate.stripe.com/bJe28r1Gocfl5LJaRf6J200",
+        "legal": [
+          [
+            "Privacy Policy",
+            "/raimaction/privacy.html"
+          ],
+          [
+            "Terms of Use",
+            "/raimaction/terms.html"
+          ],
+          [
+            "Support",
+            "/raimaction/support.html"
+          ],
+          [
+            "Delete your data",
+            "/raimaction/delete-data.html"
+          ]
+        ],
+        "lede": "RaimAction is 50 third-person action games (operations) in one app for iPhone, iPad and Android. Six are free forever and one Premium operation is free each week. It plays offline with no account and no ads, and TEAM UP lets two players join online with a 4-digit room code."
+      },
+      "ld": {
+        "@type": [
+          "VideoGame",
+          "MobileApplication"
+        ],
+        "alternateName": [
+          "Raim Action",
+          "RaimAction game",
+          "RAIMACTION"
+        ],
+        "applicationCategory": "GameApplication",
+        "applicationSubCategory": "Action",
+        "genre": [
+          "Action",
+          "Third-person action"
+        ],
+        "gamePlatform": [
+          "iPhone",
+          "iPad",
+          "Android"
+        ],
+        "operatingSystem": "iOS, iPadOS, Android",
+        "playMode": [
+          "SinglePlayer",
+          "CoOp"
+        ],
+        "numberOfPlayers": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 2
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Dr. Ephraim Oviawe",
+          "alternateName": "RAIMZY"
+        },
+        "creator": {
+          "@type": "Organization",
+          "name": "ECONTEUR LLC"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "ECONTEUR LLC"
+        },
+        "musicBy": {
+          "@type": "Person",
+          "name": "RAIMZY"
+        },
+        "sponsor": {
+          "@type": "Organization",
+          "name": "RAIMZEAL Health Foundation, Inc."
+        },
+        "sameAs": [
+          "https://apps.apple.com/us/app/raimaction/id6808669604",
+          "https://play.google.com/store/apps/details?id=com.raimzy.raimaction"
+        ],
+        "installUrl": "https://apps.apple.com/us/app/raimaction/id6808669604",
+        "downloadUrl": [
+          "https://apps.apple.com/us/app/raimaction/id6808669604",
+          "https://play.google.com/store/apps/details?id=com.raimzy.raimaction"
+        ]
+      },
+      "wordLimits": {
+        "co-op": 1
       }
     },
     {
@@ -3412,5 +3779,6 @@
         }
       ]
     }
-  ]
+  ],
+  "baseUrlNote": "Canonical origin for canonicals, sitemap, robots and llms.txt. Set to https://www.econteur.com (and pathPrefix to \"\") only after econteur.com DNS serves this repo; until then www.econteur.com/products/... returns 404."
 }

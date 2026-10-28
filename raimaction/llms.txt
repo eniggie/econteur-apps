@@ -1,0 +1,111 @@
+# RaimAction
+
+> RaimAction is 50 third-person action games (operations) in one app for iPhone, iPad and Android. Six are free forever and one Premium operation is free each week. It plays offline with no account and no ads, and TEAM UP lets two players join online with a 4-digit room code. RAIMACTION is a game about courage, not violence.
+
+RAIMACTION is a game about courage, not violence: face what you fear, keep your mind busy, and outthink the challenge in front of you.
+
+Official page: https://eniggie.github.io/econteur-apps/raimaction/
+Made by: ECONTEUR LLC (founder Dr. Ephraim Oviawe, who performs as RAIMZY). Contact: developer@econteur.com.
+Download on the App Store: https://apps.apple.com/us/app/raimaction/id6808669604
+Get it on Google Play: https://play.google.com/store/apps/details?id=com.raimzy.raimaction
+
+## Facts
+- 50 games in one app: Each operation is its own game. Six are free forever (AEGIS, STRIKE, LAST STAND, RELIC RUN, DELTA and ECHO), and one Premium operation is free to play each week.
+- TEAM UP online: Host a room, share its 4-digit code, and a friend anywhere in the world joins you. HARD is built for two.
+- Plays offline, no account: Play solo with no connection and no sign-in. TEAM UP and the champions boards use the internet.
+- 16 operators: SWAT is the default. RAIMACTION, the star operator, carries ADA GUARD, the automatic Guardian Strike and royal regalia. Michelle and 13 more operators complete the roster.
+- Console feel: PlayStation, Xbox and Backbone controllers work on every screen, with haptics and a Photo Mode.
+- EASY, MEDIUM or HARD: Pick the challenge that suits you; HARD is built for two players.
+- Champions boards: Post your best runs under a nickname, with report and block built in.
+- Songs by RAIMZY: An optional soundtrack of songs by RAIMZY. Apple Music subscribers can play it through Apple Music.
+- Fair by design: No ads, no loot boxes and nothing pay-to-win. Premium unlocks operations; Guardian Pass rewards are looks and merits only.
+- The free operations are sponsored by RAIMZEAL Health Foundation, Inc. The Premium operations are created and powered by ECONTEUR LLC.
+- RaimAction Premium unlocks the other 44 operations, either yearly (renews automatically) or Lifetime (one-time purchase). Prices are shown in the app and vary by country.
+- Play as RAIMACTION, the star operator, or as SWAT (the default operator), Michelle and 13 other operators.
+- Looking for “Raim Action”, “RaimAction game” or “the RAIMZY game”? You are in the right place. Phones sometimes autocorrect the name to “rain action” or “reaction”.
+- Prices are not listed here because they vary by country; the app shows them.
+
+## How to start
+1. Install RaimAction free from the App Store (iPhone and iPad) or Google Play (Android phones and tablets).
+2. Pick your operator (SWAT is the default) and EASY, MEDIUM or HARD.
+3. Play one of the six free operations solo, even offline, or TEAM UP: host a room and share its 4-digit code with a friend.
+
+## FAQ
+### Is RaimAction free?
+Yes. RaimAction is free to download. Six operations (AEGIS, STRIKE, LAST STAND, RELIC RUN, DELTA and ECHO) are free forever, and one Premium operation is free to play each week. RaimAction Premium unlocks the other 44 operations, either as a yearly subscription that renews automatically or as a one-time Lifetime purchase. Prices are shown in the app and vary by country.
+
+### Does RaimAction work offline?
+Yes. You can play solo with no internet connection and no account. TEAM UP, the online two-player mode, and the champions boards need a connection.
+
+### Can I play RaimAction with a friend in another country?
+Yes. With TEAM UP (online co-op), one player hosts a room and shares its 4-digit code, and a friend anywhere in the world joins. HARD is built for two players.
+
+### Is RaimAction on Android and iPhone?
+Yes. RaimAction is on the App Store for iPhone and iPad and on Google Play for Android phones and tablets. It plays in landscape.
+
+### Who made RaimAction?
+RaimAction is created and designed by ECONTEUR LLC, founded by Dr. Ephraim Oviawe, who performs as RAIMZY, “The Heartbeatboy”. His songs are the game’s optional soundtrack. The free operations are sponsored by RAIMZEAL Health Foundation, Inc.
+
+### Does RaimAction have ads or loot boxes?
+No. There are no ads and no loot boxes, and nothing is pay-to-win: Premium unlocks operations, and Guardian Pass rewards are looks and merits only.
+
+### Can I play RaimAction with a controller?
+Yes. PlayStation, Xbox and Backbone controllers work on every screen, with haptics.
+
+### What is RaimAction about?
+RAIMACTION is a game about courage, not violence: face what you fear, keep your mind busy, and outthink the challenge in front of you.
+
+### Is it “RaimAction” or “Raim Action”?
+The official name is RaimAction, and its star operator is written RAIMACTION. People also search for “Raim Action”, “RaimAction game” or “the RAIMZY game”, and phones sometimes autocorrect it to “rain action” or “reaction”. They all mean this game.
+
+### How is RaimAction different from PUBG Mobile or Call of Duty: Mobile?
+Both are large online multiplayer games. On Google Play both carry the “Contains ads” label and a notice that in-game purchases include random items, and the Call of Duty: Mobile listing says an internet connection is required. RaimAction plays offline, has no ads and no loot boxes, and is built around 50 solo and TEAM UP operations. See the full, sourced comparison.
+
+## Comparison with 11 mobile action games (checked 2026-10-28)
+
+Every competitor cell comes from that game's own App Store or Google Play listing, or the publisher's help pages, checked on 2026-10-28 in the US stores; one controller cell cites a press report and says so. “Contains ads” and the random-items notice are Google Play's own labels. “—” means we could not verify it from a public source, not that the feature is missing.
+
+| Feature | RaimAction | PUBG MOBILE | Call of Duty: Mobile | Free Fire | Fortnite | Genshin Impact | Brawl Stars | Delta Force | Warframe | Destiny: Rising | Zenless Zone Zero | Dead Trigger 2 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| How you pay | Free; Premium (yearly or Lifetime) unlocks 44 more | Free + in-app purchases | Free + in-app purchases | Free + in-app purchases | Free + in-app purchases | Free + in-app purchases | Free + in-app purchases | Free + in-app purchases | Free + in-app purchases | Free + in-app purchases | Free + in-app purchases | Free + in-app purchases |
+| Ads (Google Play “Contains ads” label) | No ads | Contains ads | Contains ads | No label | No label | No label | No label | No label | No label | No label | No label | Contains ads |
+| Purchases that include random items (Google Play notice) | No — no loot boxes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Plays offline | Yes — solo, no account | No — needs internet | No — internet required | — | No — online only | — | No — battles are online | — | — | — | — | — |
+| Play with friends | TEAM UP: 2 players online by 4-digit room code | Squads; 100-player matches | Online multiplayer and battle royale squads | Squads of up to 4 | Duos, trios and squads of 4 | Co-op with friends across platforms | 3v3 and 5v5 teams | Squads; 48-player Warfare | Co-op squads | 6-player co-op strikes | — | — |
+| Game controllers | Yes — PlayStation, Xbox, Backbone | — | Yes | — | Yes | Yes (press report) | — | — | Yes | Yes | — | — |
+| Platforms | iPhone, iPad, Android | iOS, Android | iOS, Android | iOS, Android | iOS, Android | iOS, Android | iOS, Android | iOS, Android | iOS, Android | iOS, Android | iOS, Android | iOS, Android |
+| What's inside | 50 distinct games (operations) | Battle royale (100 players), Payload, 4v4 Arena, Infection | Multiplayer modes, battle royale, extraction | 50-player battle royale, 4v4 Clash Squad | Battle Royale, Zero Build, Reload, Blitz, LEGO Fortnite, Festival, player-made islands | Open-world action RPG | 3v3 and 5v5 PvP modes, battle royale | Extraction operations, 48-player Warfare | Story-driven online action, co-op missions | Campaign missions, co-op strikes, PvE and PvP | Story-driven 3D action, squads of up to 3 characters | 33 battlefields, 600+ scenarios |
+
+Sources:
+- RaimAction — App Store listing: https://apps.apple.com/us/app/id6808669604
+- RaimAction — Google Play listing: https://play.google.com/store/apps/details?id=com.raimzy.raimaction
+- PUBG MOBILE — App Store listing: https://apps.apple.com/us/app/id1330123889
+- PUBG MOBILE — Google Play listing: https://play.google.com/store/apps/details?id=com.tencent.ig
+- Call of Duty: Mobile — App Store listing: https://apps.apple.com/us/app/id1287282214
+- Call of Duty: Mobile — Google Play listing: https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter
+- Free Fire — App Store listing: https://apps.apple.com/us/app/id1300146617
+- Free Fire — Google Play listing: https://play.google.com/store/apps/details?id=com.dts.freefireth
+- Fortnite — App Store listing: https://apps.apple.com/us/app/id6483539426
+- Fortnite — Google Play listing: https://play.google.com/store/apps/details?id=com.epicgames.fortnite
+- Genshin Impact — App Store listing: https://apps.apple.com/us/app/id1517783697
+- Genshin Impact — Google Play listing: https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact
+- Brawl Stars — App Store listing: https://apps.apple.com/us/app/id1229016807
+- Brawl Stars — Google Play listing: https://play.google.com/store/apps/details?id=com.supercell.brawlstars
+- Delta Force — App Store listing: https://apps.apple.com/us/app/id6451399876
+- Delta Force — Google Play listing: https://play.google.com/store/apps/details?id=com.proxima.dfm
+- Warframe — App Store listing: https://apps.apple.com/us/app/id1520001008
+- Warframe — Google Play listing: https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile
+- Destiny: Rising — App Store listing: https://apps.apple.com/us/app/id1593326563
+- Destiny: Rising — Google Play listing: https://play.google.com/store/apps/details?id=com.netease.g108na
+- Zenless Zone Zero — App Store listing: https://apps.apple.com/us/app/id1606356401
+- Zenless Zone Zero — Google Play listing: https://play.google.com/store/apps/details?id=com.HoYoverse.Nap
+- Dead Trigger 2 — App Store listing: https://apps.apple.com/us/app/id720063540
+- Dead Trigger 2 — Google Play listing: https://play.google.com/store/apps/details?id=com.madfingergames.deadtrigger2
+- PUBG MOBILE official page (“Requires a stable internet connection”): https://www.pubgmobile.com/event/igxiaomi/
+- Epic Games help: Can I play Fortnite in offline mode?: https://www.epicgames.com/help/en-US/c-Category_Fortnite/c-Fortnite_Gameplay/can-i-play-fortnite-in-offline-mode-a000084909
+- Fortnite FAQ: supported controllers: https://www.fortnite.com/faq?lang=en-US
+- Tom's Guide: Genshin Impact controller support on Android and iOS: https://www.tomsguide.com/phones/android-phones/genshin-impact-on-android-finally-adds-controller-support-4-years-after-ios
+- Supercell support: Brawl Stars servers (a dropped connection hands your brawler to a bot): https://support.supercell.com/brawl-stars/en/articles/battle-sites.html
+- Warframe support: Warframe Mobile iOS FAQ: https://support.warframe.com/hc/en-us/articles/24289387685901-Warframe-Mobile-iOS-FAQ
+
+Full comparison page: https://eniggie.github.io/econteur-apps/raimaction/compare.html

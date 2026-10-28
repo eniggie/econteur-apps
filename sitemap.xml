@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://www.econteur.com/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/compare/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/roadmap/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/legal/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/raimzeal/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/raimcalls/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/raimovia/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/v3edge/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/getintostores/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/raimfun/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/raimaction/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/sparkreset/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/raimzy/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/riosovia/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/raimosa/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/loveonplanet/</loc><lastmod>2026-10-28</lastmod></url>
-<url><loc>https://www.econteur.com/products/raimwire/</loc><lastmod>2026-10-28</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url><loc>https://eniggie.github.io/econteur-apps/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/compare/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/roadmap/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/legal/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/raimzeal/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/raimcalls/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/raimovia/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/v3edge/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/getintostores/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/raimfun/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/raimaction/</loc><lastmod>2026-10-28</lastmod><image:image><image:loc>https://eniggie.github.io/econteur-apps/raimaction/raimaction-hero.jpg</image:loc></image:image></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/sparkreset/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/raimzy/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/riosovia/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/raimosa/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/loveonplanet/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/products/raimwire/</loc><lastmod>2026-10-28</lastmod></url>
+<url><loc>https://eniggie.github.io/econteur-apps/raimaction/compare.html</loc><lastmod>2026-10-28</lastmod></url>
 </urlset>
