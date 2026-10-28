@@ -76,7 +76,7 @@
     },
     {
       "q": "Which ECONTEUR apps are free?",
-      "a": "RAIMZEAL's Foundation plan is free forever. RAIMFUN is free with no ads or purchases. V3EDGE is free with no paid plans today. RaimAction has 6 operations free forever plus a Premium operation free each week, and RaimAction Premium unlocks the rest, and SparkReset has a free version with optional Premium. RaimCalls and Raimovia are paid business tools; Raimovia starts with a 7-day trial."
+      "a": "RAIMZEAL's Foundation plan is free forever. RAIMFUN is free with no ads or purchases. V3EDGE is free with no paid plans today. RaimAction has 6 operations free forever plus a Premium operation free each week, and RaimAction Premium unlocks the rest, and SparkReset has a free version with optional Premium. RaimCalls and Raimovia are paid business tools."
     },
     {
       "q": "Do ECONTEUR apps use Chinese AI?",
@@ -675,8 +675,16 @@
       "offers": [
         {
           "@type": "Offer",
+          "name": "Personal",
+          "price": "9.99",
+          "priceCurrency": "USD",
+          "category": "subscription",
+          "description": "Billed monthly"
+        },
+        {
+          "@type": "Offer",
           "name": "Foundation",
-          "price": "49.00",
+          "price": "17.99",
           "priceCurrency": "USD",
           "category": "subscription",
           "description": "Billed monthly"
@@ -684,7 +692,7 @@
         {
           "@type": "Offer",
           "name": "Rise",
-          "price": "149.00",
+          "price": "43.99",
           "priceCurrency": "USD",
           "category": "subscription",
           "description": "Billed monthly"
@@ -692,7 +700,7 @@
         {
           "@type": "Offer",
           "name": "Reign",
-          "price": "349.00",
+          "price": "87.99",
           "priceCurrency": "USD",
           "category": "subscription",
           "description": "Billed monthly"
@@ -700,7 +708,7 @@
         {
           "@type": "Offer",
           "name": "Legacy",
-          "price": "799.00",
+          "price": "169.99",
           "priceCurrency": "USD",
           "category": "subscription",
           "description": "Billed monthly"
@@ -1119,7 +1127,7 @@
       ],
       "notes": [
         "Raimovia does not answer or place phone calls. For AI phone calls, use RaimCalls, a separate ECONTEUR app.",
-        "Plans are billed monthly: Foundation $99, Rise $299 and Reign $799. Legacy ($2,499) is arranged directly. Foundation starts with a 7-day trial."
+        "Plans are billed monthly: Foundation $99, Rise $299 and Reign $799. Legacy ($2,499) is arranged directly."
       ],
       "howto": [
         "Go to raimovia.com and start the 7-day Foundation trial, or install the Android app from Google Play.",
@@ -1159,7 +1167,7 @@
         },
         {
           "q": "How much does Raimovia cost?",
-          "a": "Foundation is $99 a month with a 7-day trial, Rise is $299 and Reign is $799. Legacy, at $2,499 a month, is arranged directly."
+          "a": "Foundation is $99 a month, Rise is $299 and Reign is $799. Legacy, at $2,499 a month, is arranged directly."
         }
       ],
       "compare": {
