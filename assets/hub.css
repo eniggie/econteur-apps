@@ -163,6 +163,7 @@ footer.site a{text-decoration:none;display:block;padding:3px 0}
 footer.site a:hover{color:var(--ink)}
 .made{margin-top:30px;font-size:14px}
 .made strong{color:var(--ink)}
+footer.site .made a{display:inline;padding:0;color:var(--ink);text-decoration:underline;text-underline-offset:3px}
 
 /* Game landing page (e.g. /raimaction/) and its comparison page */
 .game-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:44px;align-items:center;padding:44px 0 20px}

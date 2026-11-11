@@ -3,6 +3,12 @@
   "pathPrefix": "/econteur-apps",
   "email": "developer@econteur.com",
   "founder": "Dr. Ephraim Oviawe",
+  "founderSite": {
+    "url": "https://raimzy.com/",
+    "name": "raimzy.com",
+    "footerLine": "More from the founder: raimzy.com",
+    "aboutLine": "Music, books, courses, products and services from Dr. Ephraim Oviawe and ECONTEUR LLC, all in one place at raimzy.com."
+  },
   "foundingDate": "2011-11-11",
   "since": " since 2011",
   "logo": "/assets/favicon.svg",
@@ -3029,7 +3035,11 @@
         "author": {
           "@type": "Person",
           "name": "Dr. Ephraim Oviawe",
-          "alternateName": "RAIMZY"
+          "alternateName": "RAIMZY",
+          "url": "https://raimzy.com",
+          "sameAs": [
+            "https://raimzy.com"
+          ]
         },
         "creator": {
           "@type": "Organization",
@@ -3041,7 +3051,11 @@
         },
         "musicBy": {
           "@type": "Person",
-          "name": "RAIMZY"
+          "name": "RAIMZY",
+          "url": "https://raimzy.com",
+          "sameAs": [
+            "https://raimzy.com"
+          ]
         },
         "sponsor": {
           "@type": "Organization",

@@ -8,9 +8,11 @@ Rules baked in (owner decisions): every product says "Created and designed by
 ECONTEUR LLC"; "Powered by Raimovia" appears ONLY on products whose data says
 poweredByRaimovia=true (true only where it is true); store badges only for
 LIVE listings; "coming" items never get an invented date; no invented numbers,
-ratings or testimonials; comparison cells carry sources.
+ratings or testimonials; comparison cells carry sources. The footer and the
+About section link the founder's own site (founderSite: raimzy.com, his music,
+books, courses, products and services).
 """
-import html, json, os, sys, datetime
+import html, json, os, re, sys, datetime
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 DATA = os.path.join(os.path.dirname(__file__), "products.json")
@@ -19,6 +21,14 @@ BASE = SITE["baseUrl"].rstrip("/")          # canonical origin, e.g. https://www
 PREFIX = SITE.get("pathPrefix", "")          # "" on econteur.com, "/econteur-apps" on GitHub Pages
 TODAY = datetime.date.today().isoformat()
 e = lambda s: html.escape(str(s), quote=True)
+FOUNDER_SITE = SITE.get("founderSite") or {}  # raimzy.com: footer line, About line and the founder's JSON-LD
+
+def founder_line(key):  # a founderSite line as HTML, with the site's name in it linked to the site
+    fs = FOUNDER_SITE
+    if not fs.get(key):
+        return ""
+    link = f'<a href="{e(fs["url"])}" rel="me noopener">{e(fs["name"])}</a>'
+    return e(fs[key]).replace(e(fs["name"]), link, 1)
 
 def url(path):  # absolute canonical URL for a site path like "/products/raimzeal/"
     return BASE + path
@@ -86,6 +96,7 @@ def page_path(p):  # the product's canonical page (its own official page when it
 
 def foot():
     prods = "".join(f'<a href="{href(page_path(p))}">{e(p["name"])}</a>' for p in SITE["products"] if not p.get("hidden"))
+    more = founder_line("footerLine")
     return f"""</main>
 <footer class="site"><div class="wrap">
 <div class="cols">
@@ -93,17 +104,21 @@ def foot():
 <div><h4>Company</h4><a href="{href('/#about')}">About ECONTEUR</a><a href="{href('/roadmap/')}">Coming next</a><a href="{href('/compare/')}">Compare</a><a href="{href('/legal/')}">Privacy, terms &amp; support</a></div>
 <div><h4>Contact</h4><a href="mailto:{e(SITE['email'])}">{e(SITE['email'])}</a></div>
 </div>
-<p class="made">Every product here is <strong>created and designed by ECONTEUR LLC</strong>{e(SITE.get('since',''))}. Founded by {e(SITE['founder'])}.</p>
+<p class="made">Every product here is <strong>created and designed by ECONTEUR LLC</strong>{e(SITE.get('since',''))}. Founded by {e(SITE['founder'])}.{'<br>' + more if more else ''}</p>
 <p class="made">© {datetime.date.today().year} ECONTEUR LLC. App Store is a service mark of Apple Inc. Google Play is a trademark of Google LLC. Competitor names belong to their owners and are used only to compare publicly available information.</p>
 </div></footer>
 <script src="{href('/assets/hub.js')}" defer></script>
 </body></html>
 """
 
+FOUNDER_LD = {"@type": "Person", "name": SITE["founder"]}
+if FOUNDER_SITE.get("url"):  # his own site; the same values are on his Person nodes in products.json (RaimAction ld)
+    FOUNDER_LD.update({"url": FOUNDER_SITE["url"].rstrip("/"), "sameAs": [FOUNDER_SITE["url"].rstrip("/")]})
+
 SITE_LD = {
     "@context": "https://schema.org", "@type": "Organization", "name": "ECONTEUR LLC",
     "url": BASE + "/", "email": SITE["email"], "foundingDate": SITE.get("foundingDate"),
-    "founder": {"@type": "Person", "name": SITE["founder"]},
+    "founder": FOUNDER_LD,
     "logo": url(SITE["logo"]) if SITE.get("logo") else None,
 }
 SITE_LD = {k: v for k, v in SITE_LD.items() if v}
@@ -312,6 +327,7 @@ def home():
     values = "".join(f'<div class="value reveal"><div class="ico" aria-hidden="true">{v["icon"]}</div><h3>{e(v["t"])}</h3><p>{e(v["d"])}</p></div>' for v in SITE["values"])
     faq = SITE["faq"]
     faq_html = "".join(f"<details><summary>{e(q['q'])}</summary><p>{e(q['a'])}</p></details>" for q in faq)
+    about_site = f'<p>{founder_line("aboutLine")}</p>' if FOUNDER_SITE.get("aboutLine") else ""
     itemlist = {"@context": "https://schema.org", "@type": "ItemList", "name": "Products by ECONTEUR LLC",
                 "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": url(page_path(p)), "name": p["name"]} for i, p in enumerate(ps)]}
     body = f"""<div class="wrap">
@@ -324,7 +340,7 @@ def home():
 <div class="chips" role="group" aria-label="Filter products">{chips}</div></div>
 <p id="filter-status" class="skip" aria-live="polite"></p>
 <div class="grid">{''.join(card(p) for p in ps)}</div></section>
-<section id="about"><div class="sec-head reveal"><div><h2>{e(SITE['aboutTitle'])}</h2><p>{e(SITE['aboutText'])}</p></div></div><div class="values">{values}</div></section>
+<section id="about"><div class="sec-head reveal"><div><h2>{e(SITE['aboutTitle'])}</h2><p>{e(SITE['aboutText'])}</p>{about_site}</div></div><div class="values">{values}</div></section>
 <section class="faq" id="faq"><div class="sec-head reveal"><div><h2>Questions people ask</h2></div></div>{faq_html}</section>
 </div>"""
     write("/", head(SITE["seoTitle"], SITE["seoDescription"], "/", [itemlist, faq_ld(faq)]) + body + foot())
@@ -421,8 +437,79 @@ def write(path, doc):
     os.makedirs(os.path.dirname(out), exist_ok=True)
     open(out, "w").write(doc)
 
+# Owner wording rules, checked sentence by sentence on EVERY string in products.json: site copy (FAQ, llmsNotes,
+# About) as well as every product. RAIMZEAL Health Foundation, Inc. is a 501(c)(3) public charity (IRS Letter 947,
+# effective 2026-08-21), so copy may say donations to it are tax-deductible to the extent allowed by law.
+# Still forbidden: the founder's name without "Ephraim"; MD or physician (he holds a PhD); the Foundation's old
+# pre-approval status; and calling any purchase from ECONTEUR LLC (Premium, subscriptions, in-app purchases, merch)
+# tax-deductible, because a purchase is never a donation. Saying a purchase is NOT tax-deductible is allowed.
+PURCHASE = re.compile(r"\b(?:premium|purchas\w*|subscri\w*|in-app|buy\w*|bought|merch\w*|shop\w*)\b")
+DONATION = re.compile(r"\b(?:donat\w*|gifts?)\b")
+NOT_DEDUCTIBLE = re.compile(r"\b(?:not|never|non|isn['’]t|aren['’]t)\b[\s-]+(?:\w+[\s-]+){0,2}deductib")
+SENTENCE_END = re.compile(r'(?<=[.!?])(?<!Dr\.)\s+(?=[A-Z0-9“"])')
+WORDING_SELFTEST = [  # (sentence, allowed?): a rule change can never silently block accurate copy or let a false claim through
+    ("Donations are tax-deductible to the extent allowed by law.", True),
+    ("RAIMZEAL Health Foundation, Inc. is a Georgia nonprofit corporation recognized by the IRS as a 501(c)(3) public charity.", True),
+    ("RaimAction Premium is a purchase from ECONTEUR LLC, not a donation, and is not tax-deductible.", True),
+    ("Is RaimAction Premium tax-deductible?", True),
+    ("Founded by Dr. Ephraim Oviawe.", True),
+    ("It is not a registered charity and not a 501(c)(3).", False),
+    ("Donations to it are not tax-deductible.", False),
+    ("RaimAction Premium is tax-deductible.", False),
+    ("Your subscription counts as a tax-deductible donation.", False),
+    ("Ask Dr. Oviawe.", False),
+    ("Dr. Jane Doe, MD, built it.", False),
+]
+
+def wording_errors(s, key=""):
+    """Each owner wording rule that string s breaks, with the sentence that breaks it (empty list: s is fine)."""
+    if s.startswith(("http://", "https://", "mailto:", "/", "#")):
+        return []  # URLs and paths are not copy
+    out = []
+    for sent in SENTENCE_END.split(s):
+        low = sent.lower()
+        whys = []
+        if key != "familyName" and re.search(r"(?<!ephraim )\boviawe\b", low):
+            whys.append('write "Dr. Ephraim Oviawe" in full')
+        if re.search(r"(?<![\w./])m\.?d\b|physician", low):
+            whys.append("he holds a PhD: never MD or physician")
+        if re.search(r"\bnot (?:yet )?(?:a |an )?(?:registered )?(?:charity|501\(c\)\(3\))", low):
+            whys.append("stale: the Foundation is a 501(c)(3) public charity, effective 2026-08-21")
+        if PURCHASE.search(low):
+            if "deductib" in low and not NOT_DEDUCTIBLE.search(low) and not sent.rstrip().endswith("?"):
+                whys.append("a purchase from ECONTEUR LLC is never a donation and never tax-deductible")
+        elif DONATION.search(low) and NOT_DEDUCTIBLE.search(low):
+            whys.append("stale: donations to the Foundation are tax-deductible to the extent allowed by law")
+        out += [f'{why}: "{sent[:100]}"' for why in whys]
+    return out
+
+def strings(x, path, key=""):  # every string in the data, with where it is (e.g. "site.faq[3].a") and its key
+    if isinstance(x, str):
+        yield path, key, x
+    elif isinstance(x, dict):
+        for k, v in x.items():
+            yield from strings(v, f"{path}.{k}", k)
+    elif isinstance(x, list):
+        for i, v in enumerate(x):
+            yield from strings(v, f"{path}[{i}]", key)
+
 def check():
     errs = []
+    for s, allowed in WORDING_SELFTEST:
+        if (not wording_errors(s)) != allowed:
+            errs.append(f"wording rule self-test: {s!r} should be {'allowed' if allowed else 'blocked'}")
+    texts = list(strings({k: v for k, v in SITE.items() if k != "products"}, "site"))
+    for p in SITE["products"]:
+        texts += strings(p, p.get("slug", "?"))
+    for where, key, s in texts:
+        errs += [f"{where}: {why}" for why in wording_errors(s, key)]
+    fs = FOUNDER_SITE
+    if fs:
+        if not str(fs.get("url", "")).startswith("https://") or not fs.get("name"):
+            errs.append("site.founderSite needs an https url and a name")
+        for k in ("footerLine", "aboutLine"):
+            if fs.get(k) and fs.get("name") and fs["name"] not in fs[k]:
+                errs.append(f"site.founderSite.{k} must contain '{fs['name']}', which becomes the link")
     for p in SITE["products"]:
         for k in ("slug", "name", "category", "tagline", "summary", "features", "status", "filters", "seoTitle", "seoDescription"):
             if not p.get(k): errs.append(f"{p.get('slug')}: missing {k}")
@@ -455,9 +542,6 @@ def check():
             if own.count(word.lower()) > most: errs.append(f"{p['slug']}: '{word}' appears {own.count(word.lower())}x in our own copy (max {most})")
         if "aggregaterating" in json.dumps(p).lower() or "ratingvalue" in json.dumps(p).lower():
             errs.append(f"{p['slug']}: no ratings in structured data — we never publish ratings we did not collect")
-        text = json.dumps(p).lower()
-        for bad in ("dr. oviawe\"", " md ", "physician", "not a 501(c)(3)", "not tax-deductible"):
-            if bad in text: errs.append(f"{p['slug']}: forbidden wording '{bad}'")
     return errs
 
 if __name__ == "__main__":
