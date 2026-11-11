@@ -2083,21 +2083,34 @@
         "play"
       ],
       "icon": "/assets/icons/raimfun.png",
-      "tagline": "33 thinking games for kids, seniors and everyone: free, with no ads, no purchases and no sign-in.",
-      "summary": "RAIMFUN is a collection of 33 thinking games with big buttons, a relaxed mode with no clock, and layouts that fit any phone or tablet. It is free, with no ads, no in-app purchases and no tracking, and it plays offline.",
+      "tagline": "66 thinking games for kids, seniors and everyone: free, with no ads, no purchases and no sign-in.",
+      "summary": "RAIMFUN is a collection of 66 thinking games with big buttons, a relaxed mode with no clock, and layouts that fit any phone, tablet or laptop. It is free, with no ads, no in-app purchases and no tracking, and it plays offline. You can also play it in a web browser at play.raimfun.com.",
       "who": "For kids, grandparents and everyone in between who want a calm, fair game to play.",
       "status": {
-        "iOS": "review",
-        "Android": "live"
+        "iOS": "live",
+        "Android": "live",
+        "Web": "web"
       },
-      "statusNote": {
-        "iOS": "Waiting for App Store review"
-      },
+      "statusNote": {},
       "get": [
+        {
+          "label": "Play in your browser",
+          "url": "https://play.raimfun.com/",
+          "platform": "Web"
+        },
+        {
+          "label": "Download on the App Store",
+          "url": "https://apps.apple.com/us/app/raimfun/id6804205586",
+          "platform": "iOS"
+        },
         {
           "label": "Get it on Google Play",
           "url": "https://play.google.com/store/apps/details?id=com.econteur.raimfun",
           "platform": "Android"
+        },
+        {
+          "label": "Official site: raimfun.com",
+          "url": "https://raimfun.com/"
         }
       ],
       "offers": [
@@ -2110,7 +2123,7 @@
       ],
       "features": [
         {
-          "t": "33 games in one app",
+          "t": "66 games in one app",
           "d": "Puzzles, word games, memory and logic games, each with its own Champion Board."
         },
         {
@@ -2147,16 +2160,16 @@
         "RAIMFUN is sponsored by RAIMZEAL Health Foundation, Inc., a 501(c)(3) public charity. Donations to it are tax-deductible to the extent allowed by law."
       ],
       "howto": [
-        "Install RAIMFUN from Google Play. The iPhone and iPad app is waiting for App Store review.",
+        "Install RAIMFUN from the App Store or Google Play, or play it in your web browser at play.raimfun.com.",
         "Choose a nickname. There's no account to create.",
-        "Pick any of the 33 games, and switch on relaxed mode if you'd rather play without a clock."
+        "Pick any of the 66 games, and switch on relaxed mode if you'd rather play without a clock."
       ],
-      "seoTitle": "RAIMFUN: 33 Free Thinking Games, No Ads, No Sign-In",
-      "seoDescription": "RAIMFUN is 33 free thinking games for kids, seniors and everyone: no ads, no in-app purchases, no sign-in, big buttons, and it plays offline.",
+      "seoTitle": "RAIMFUN: 66 Free Thinking Games, No Ads, No Sign-In",
+      "seoDescription": "RAIMFUN is 66 free thinking games for kids, seniors and everyone: no ads, no in-app purchases, no sign-in, big buttons, and it plays offline.",
       "faq": [
         {
           "q": "Is RAIMFUN a free alternative to Lumosity?",
-          "a": "RAIMFUN is a free collection of 33 thinking games with no ads, purchases or sign-in. Lumosity sells Premium plans priced from $11.99 to $89.00 on the App Store. RAIMFUN is for fun and makes no brain-training claims."
+          "a": "RAIMFUN is a free collection of 66 thinking games with no ads, purchases or sign-in. Lumosity sells Premium plans priced from $11.99 to $89.00 on the App Store. RAIMFUN is for fun and makes no brain-training claims."
         },
         {
           "q": "Is RAIMFUN really free?",
@@ -2195,7 +2208,7 @@
           "Words With Friends 2"
         ],
         "checked": "2026-10-17",
-        "blurb": "33 games, free with no ads, purchases or sign-in, next to the best-known puzzle and brain-game apps.",
+        "blurb": "66 games, free with no ads, purchases or sign-in, next to the best-known puzzle and brain-game apps.",
         "rows": [
           {
             "feature": "Price",
@@ -2283,7 +2296,7 @@
           },
           {
             "feature": "30+ distinct games",
-            "us": "33",
+            "us": "66",
             "them": [
               "y",
               "y",
@@ -2368,7 +2381,7 @@
             "d": "No ads, no purchases, no subscription and no account. You only choose a nickname."
           },
           {
-            "t": "33 games and a Champion Board",
+            "t": "66 games and a Champion Board",
             "d": "A wide range of games with a board for each, and the whole library is open to everyone."
           },
           {
@@ -2416,6 +2429,10 @@
           "label": "Get it on Google Play",
           "url": "https://play.google.com/store/apps/details?id=com.raimzy.raimaction",
           "platform": "Android"
+        },
+        {
+          "label": "Official site: raimaction.com",
+          "url": "https://raimaction.com/"
         }
       ],
       "offers": [
@@ -2602,7 +2619,7 @@
           },
           {
             "feature": "Purchases that include random items (Google Play notice)",
-            "us": "No — no loot boxes",
+            "us": "No: no loot boxes",
             "usSrc": "ra-gp",
             "them": [
               "Yes",
@@ -2633,20 +2650,20 @@
           },
           {
             "feature": "Plays offline",
-            "us": "Yes — solo, no account",
+            "us": "Yes: solo, no account",
             "usSrc": "ra-as",
             "them": [
-              "No — needs internet",
-              "No — internet required",
-              "—",
-              "No — online only",
-              "—",
-              "No — battles are online",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—"
+              "No: needs internet",
+              "No: internet required",
+              "Not verified",
+              "No: online only",
+              "Not verified",
+              "No: battles are online",
+              "Not verified",
+              "Not verified",
+              "Not verified",
+              "Not verified",
+              "Not verified"
             ],
             "themSrc": [
               "pubg-net",
@@ -2676,8 +2693,8 @@
               "Squads; 48-player Warfare",
               "Co-op squads",
               "6-player co-op strikes",
-              "—",
-              "—"
+              "Not verified",
+              "Not verified"
             ],
             "themSrc": [
               "pubg-gp",
@@ -2695,20 +2712,20 @@
           },
           {
             "feature": "Game controllers",
-            "us": "Yes — PlayStation, Xbox, Backbone",
+            "us": "Yes: PlayStation, Xbox, Backbone",
             "usSrc": "ra-as",
             "them": [
-              "—",
+              "Not verified",
               "Yes",
-              "—",
+              "Not verified",
               "Yes",
               "Yes (press report)",
-              "—",
-              "—",
+              "Not verified",
+              "Not verified",
               "Yes",
               "Yes",
-              "—",
-              "—"
+              "Not verified",
+              "Not verified"
             ],
             "themSrc": [
               null,
@@ -2789,99 +2806,99 @@
         ],
         "sourceMap": {
           "ra-as": {
-            "name": "RaimAction — App Store listing",
+            "name": "RaimAction on the App Store",
             "url": "https://apps.apple.com/us/app/id6808669604"
           },
           "ra-gp": {
-            "name": "RaimAction — Google Play listing",
+            "name": "RaimAction on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.raimzy.raimaction"
           },
           "pubg-as": {
-            "name": "PUBG MOBILE — App Store listing",
+            "name": "PUBG MOBILE on the App Store",
             "url": "https://apps.apple.com/us/app/id1330123889"
           },
           "pubg-gp": {
-            "name": "PUBG MOBILE — Google Play listing",
+            "name": "PUBG MOBILE on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.tencent.ig"
           },
           "cod-as": {
-            "name": "Call of Duty: Mobile — App Store listing",
+            "name": "Call of Duty: Mobile on the App Store",
             "url": "https://apps.apple.com/us/app/id1287282214"
           },
           "cod-gp": {
-            "name": "Call of Duty: Mobile — Google Play listing",
+            "name": "Call of Duty: Mobile on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.activision.callofduty.shooter"
           },
           "ff-as": {
-            "name": "Free Fire — App Store listing",
+            "name": "Free Fire on the App Store",
             "url": "https://apps.apple.com/us/app/id1300146617"
           },
           "ff-gp": {
-            "name": "Free Fire — Google Play listing",
+            "name": "Free Fire on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.dts.freefireth"
           },
           "fn-as": {
-            "name": "Fortnite — App Store listing",
+            "name": "Fortnite on the App Store",
             "url": "https://apps.apple.com/us/app/id6483539426"
           },
           "fn-gp": {
-            "name": "Fortnite — Google Play listing",
+            "name": "Fortnite on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.epicgames.fortnite"
           },
           "gi-as": {
-            "name": "Genshin Impact — App Store listing",
+            "name": "Genshin Impact on the App Store",
             "url": "https://apps.apple.com/us/app/id1517783697"
           },
           "gi-gp": {
-            "name": "Genshin Impact — Google Play listing",
+            "name": "Genshin Impact on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.miHoYo.GenshinImpact"
           },
           "bs-as": {
-            "name": "Brawl Stars — App Store listing",
+            "name": "Brawl Stars on the App Store",
             "url": "https://apps.apple.com/us/app/id1229016807"
           },
           "bs-gp": {
-            "name": "Brawl Stars — Google Play listing",
+            "name": "Brawl Stars on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.supercell.brawlstars"
           },
           "df-as": {
-            "name": "Delta Force — App Store listing",
+            "name": "Delta Force on the App Store",
             "url": "https://apps.apple.com/us/app/id6451399876"
           },
           "df-gp": {
-            "name": "Delta Force — Google Play listing",
+            "name": "Delta Force on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.proxima.dfm"
           },
           "wf-as": {
-            "name": "Warframe — App Store listing",
+            "name": "Warframe on the App Store",
             "url": "https://apps.apple.com/us/app/id1520001008"
           },
           "wf-gp": {
-            "name": "Warframe — Google Play listing",
+            "name": "Warframe on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.digitalextremes.warframemobile"
           },
           "dr-as": {
-            "name": "Destiny: Rising — App Store listing",
+            "name": "Destiny: Rising on the App Store",
             "url": "https://apps.apple.com/us/app/id1593326563"
           },
           "dr-gp": {
-            "name": "Destiny: Rising — Google Play listing",
+            "name": "Destiny: Rising on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.netease.g108na"
           },
           "zzz-as": {
-            "name": "Zenless Zone Zero — App Store listing",
+            "name": "Zenless Zone Zero on the App Store",
             "url": "https://apps.apple.com/us/app/id1606356401"
           },
           "zzz-gp": {
-            "name": "Zenless Zone Zero — Google Play listing",
+            "name": "Zenless Zone Zero on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.HoYoverse.Nap"
           },
           "dt2-as": {
-            "name": "Dead Trigger 2 — App Store listing",
+            "name": "Dead Trigger 2 on the App Store",
             "url": "https://apps.apple.com/us/app/id720063540"
           },
           "dt2-gp": {
-            "name": "Dead Trigger 2 — Google Play listing",
+            "name": "Dead Trigger 2 on Google Play",
             "url": "https://play.google.com/store/apps/details?id=com.madfingergames.deadtrigger2"
           },
           "pubg-net": {
@@ -2909,7 +2926,7 @@
             "url": "https://support.warframe.com/hc/en-us/articles/24289387685901-Warframe-Mobile-iOS-FAQ"
           }
         },
-        "method": "Every competitor cell comes from that game's own App Store or Google Play listing, or the publisher's help pages, checked on 2026-10-28 in the US stores; one controller cell cites a press report and says so. “Contains ads” and the random-items notice are Google Play's own labels. “—” means we could not verify it from a public source, not that the feature is missing.",
+        "method": "Every competitor cell comes from that game's own App Store or Google Play listing, or the publisher's help pages, checked on 2026-10-28 in the US stores; one controller cell cites a press report and says so. “Contains ads” and the random-items notice are Google Play's own labels. “Not verified” means we could not confirm it from a public source, not that the feature is missing.",
         "advantages": [
           {
             "t": "Plays offline, no account",
@@ -2951,7 +2968,7 @@
       "landing": {
         "path": "/raimaction/",
         "comparePath": "/raimaction/compare.html",
-        "title": "RaimAction (Raim Action) — 50 Offline Action Games · Team Up Online",
+        "title": "RaimAction (Raim Action): 50 Offline Action Games · Team Up Online",
         "description": "RaimAction: 50 action games in one app for iPhone, iPad and Android. 6 free forever, plays offline, no ads, no account. TEAM UP online with a friend by room code.",
         "compareTitle": "RaimAction vs PUBG Mobile, Call of Duty: Mobile, Free Fire & 8 More",
         "compareDescription": "RaimAction compared with 11 top mobile action games on price model, ads, random-item purchases, offline play, team play and controllers. Every cell sourced.",

@@ -36,6 +36,7 @@ def url(path):  # absolute canonical URL for a site path like "/products/raimzea
 def href(path):  # link usable on whichever host serves the site
     return PREFIX + path
 
+UNVERIFIED = "Not verified"  # comparison cell we could not confirm from a public source
 STATUS_LABEL = {"live": "Live", "review": "In review", "soon": "Coming soon", "testflight": "Beta", "web": "Live on the web"}
 
 def pill(platform, st):
@@ -160,7 +161,7 @@ def get_buttons(p):
     out = []
     for g in p.get("get", []):
         out.append(f'<a class="btn {"primary" if not out else "ghost"}" href="{e(g["url"])}" rel="noopener">{e(g["label"])}</a>')
-    return "".join(out) or '<span class="pill soon">Not available to download yet — see status below</span>'
+    return "".join(out) or '<span class="pill soon">Not available to download yet. See the status below.</span>'
 
 SYM = {"y": '<span class="y" aria-label="Yes">✓</span>', "n": '<span class="n" aria-label="No">✗</span>', "p": '<span class="p" aria-label="Partly">◐</span>'}
 
@@ -176,7 +177,7 @@ def compare_table(p):
     def cell(v, sid=None, us=False):
         cls = ' class="us"' if us else ""
         body = SYM.get(v) or e(v)
-        return f"<td{cls}>{body}{ref(sid) if v != '—' else ''}</td>"
+        return f"<td{cls}>{body}{ref(sid) if v != UNVERIFIED else ''}</td>"
     headrow = '<th scope="col">Feature</th>' + f'<th scope="col" class="us">{e(p["name"])}</th>' + "".join(f'<th scope="col">{e(x)}</th>' for x in cols)
     rows = ""
     for r in c["rows"]:
@@ -207,9 +208,9 @@ def comparison(p):
     full = (p.get("landing") or {}).get("comparePath")
     more = f'<p style="margin-top:14px"><a class="btn ghost" href="{href(full)}">See the full comparison with every source</a></p>' if full else ""
     return f"""<section id="compare"><div class="sec-head reveal"><div><h2>{e(p['name'])} vs the top alternatives</h2>
-<p>Side by side with {len(cols)} well-known alternatives, from their public pages (checked {e(c.get('checked', TODAY))}). ✓ yes · ◐ partly · ✗ no · — not verified.</p></div></div>
+<p>Side by side with {len(cols)} well-known alternatives, from their public pages (checked {e(c.get('checked', TODAY))}). ✓ yes · ◐ partly · ✗ no · Not verified: no public source we could check.</p></div></div>
 {table}
-<p class="src">Prices and features change — check each company’s page before you buy. Spotted something out of date? Email {e(SITE['email'])}. Names and trademarks belong to their owners.</p>
+<p class="src">Prices and features change, so check each company’s page before you buy. Spotted something out of date? Email {e(SITE['email'])}. Names and trademarks belong to their owners.</p>
 {srcs}{more}
 {wins_lists(p)}
 </section>"""
@@ -217,7 +218,7 @@ def comparison(p):
 def product_page(p):
     path = f'/products/{p["slug"]}/'
     feats = "".join(f"<li><strong>{e(f['t'])}</strong><span>{e(f['d'])}</span></li>" for f in p["features"])
-    coming = "".join(f"<li><strong>{e(f['t'])}</strong><span>{e(f.get('d',''))} — {e(f.get('when','date not set'))}</span></li>" for f in p.get("coming", []))
+    coming = "".join(f"<li><strong>{e(f['t'])}</strong><span>{e(f.get('d',''))} ({e(f.get('when','date not set'))})</span></li>" for f in p.get("coming", []))
     notes = "".join(f'<p class="note">{e(n)}</p>' for n in p.get("notes", []))
     faq = p.get("faq", [])
     faq_html = "".join(f"<details><summary>{e(q['q'])}</summary><p>{e(q['a'])}</p></details>" for q in faq)
@@ -306,7 +307,7 @@ def game_landing(p):
 </section>
 <section><p class="note">{e(c.get('method', ''))}</p></section>
 <section style="padding-top:0">{table}
-<p class="src">Prices and features change — check each publisher's page before you buy. Spotted something out of date? Email {e(SITE['email'])}. Game names and trademarks belong to their owners and are used only to compare publicly available information.</p>
+<p class="src">Prices and features change, so check each publisher's page before you buy. Spotted something out of date? Email {e(SITE['email'])}. Game names and trademarks belong to their owners and are used only to compare publicly available information.</p>
 <h2 style="margin:34px 0 10px;font-size:1.4rem">Sources</h2>{srcs}
 {wins_lists(p)}
 </section>
@@ -348,7 +349,7 @@ def home():
 def compare_index():
     ps = [p for p in SITE["products"] if p.get("compare") and not p.get("hidden")]
     cards = "".join(f'<article class="card reveal"><span class="glare"></span><div class="card-top">{icon(p)}<div><div class="cat">{e(p["category"])}</div><h3>{e(p["name"])} vs {e(", ".join(p["compare"]["competitors"][:3]))} +{max(0,len(p["compare"]["competitors"])-3)}</h3></div></div><p>{e(p["compare"].get("blurb", p["tagline"]))}</p><a class="more stretch" href="{href((p.get("landing") or {}).get("comparePath") or "/products/" + p["slug"] + "/#compare")}">See the comparison</a></article>' for p in ps)
-    body = f"""<div class="wrap"><section class="hero" style="padding-bottom:10px"><h1>Compare <span class="grad">honestly</span></h1><p class="lede">Each ECONTEUR product next to the best-known alternatives — what each one does, what it costs, and where others are stronger.</p></section>
+    body = f"""<div class="wrap"><section class="hero" style="padding-bottom:10px"><h1>Compare <span class="grad">honestly</span></h1><p class="lede">Each ECONTEUR product next to the best-known alternatives: what each one does, what it costs, and where others are stronger.</p></section>
 <section><div class="grid">{cards}</div></section></div>"""
     write("/compare/", head("Compare ECONTEUR apps with the alternatives | ECONTEUR LLC", "Honest side-by-side comparisons of RAIMZEAL, V3EDGE, RaimCalls, Raimovia and more with their top competitors: features, prices and free plans.", "/compare/", [crumbs_ld([("ECONTEUR", "/"), ("Compare", "/compare/")])]) + body + foot())
 
@@ -363,12 +364,12 @@ def roadmap():
             items.append((p, c["t"], c.get("when", "Date not set")))
     rows = "".join(f'<div class="item reveal">{icon(p)}<div><div class="cat">{e(p["name"])}</div><strong>{e(what)}</strong><div style="color:var(--muted);font-size:15px">{e(when)}</div></div></div>' for p, what, when in items)
     body = f"""<div class="wrap"><section class="hero" style="padding-bottom:10px"><h1>What’s <span class="grad">coming next</span></h1><p class="lede">{e(SITE['roadmapLede'])}</p></section><section><div class="road">{rows}</div></section></div>"""
-    write("/roadmap/", head("Coming soon from ECONTEUR LLC — apps in review and new features", "What ECONTEUR LLC is releasing next: apps in App Store and Google Play review, upcoming features and new products. No invented dates.", "/roadmap/", [crumbs_ld([("ECONTEUR", "/"), ("Coming next", "/roadmap/")])]) + body + foot())
+    write("/roadmap/", head("Coming soon from ECONTEUR LLC: apps in review and new features", "What ECONTEUR LLC is releasing next: apps in App Store and Google Play review, upcoming features and new products. No invented dates.", "/roadmap/", [crumbs_ld([("ECONTEUR", "/"), ("Coming next", "/roadmap/")])]) + body + foot())
 
 def legal():
     rows = "".join(f'<li><strong>{e(l["name"])}</strong><span>' + " · ".join(f'<a href="{href(x["path"])}">{e(x["label"])}</a>' for x in l["links"]) + "</span></li>" for l in SITE["legal"])
     body = f"""<div class="wrap"><section class="p-hero"><h1>Privacy, terms &amp; support</h1><p class="lede" style="text-align:left;margin:14px 0 0">Legal and support pages for apps published by ECONTEUR LLC. Questions: <a href="mailto:{e(SITE['email'])}">{e(SITE['email'])}</a>.</p></section><section><ul class="feat">{rows}</ul></section></div>"""
-    write("/legal/", head("Privacy, terms & support — ECONTEUR LLC apps", "Privacy policies, terms of use, support and data deletion for every app made by ECONTEUR LLC.", "/legal/") + body + foot())
+    write("/legal/", head("Privacy, terms & support for ECONTEUR LLC apps", "Privacy policies, terms of use, support and data deletion for every app made by ECONTEUR LLC.", "/legal/") + body + foot())
 
 AI_AND_SEARCH_BOTS = ["Googlebot", "Google-Extended", "Bingbot", "Applebot", "Applebot-Extended", "DuckDuckBot", "DuckAssistBot",
     "YandexBot", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "anthropic-ai",
@@ -396,7 +397,7 @@ def seo_files():
     for p in ps:
         lp = p.get("landing")
         if not lp: continue
-        lines += ["", f"## {p['name']} — key facts", f"- Official page: {url(lp['path'])}"]
+        lines += ["", f"## {p['name']}: key facts", f"- Official page: {url(lp['path'])}"]
         if lp.get("comparePath"): lines.append(f"- Sourced comparison with {len(p['compare']['competitors'])} mobile action games: {url(lp['comparePath'])}")
         lines += [f"- {g['label']}: {g['url']}" for g in p.get("get", [])]
         lines.append(f"- Full facts for AI assistants: {url(lp['path'] + 'llms.txt')}")
@@ -529,7 +530,7 @@ def check():
                     srcs = r.get("themSrc") or []
                     if len(srcs) != n: errs.append(f"{p['slug']}: row '{r['feature']}' themSrc has {len(srcs)} entries, expected {n}")
                     for v, sid in zip(r["them"], srcs):
-                        if v != "—" and sid not in smap: errs.append(f"{p['slug']}: row '{r['feature']}' cell '{v}' has no valid source ({sid})")
+                        if v != UNVERIFIED and sid not in smap: errs.append(f"{p['slug']}: row '{r['feature']}' cell '{v}' has no valid source ({sid})")
                     if r.get("usSrc") not in smap: errs.append(f"{p['slug']}: row '{r['feature']}' our cell has no valid source")
         for key in ("advantages", "honest"):
             for a in (p.get("compare") or {}).get(key, []):
