@@ -30,6 +30,13 @@ def founder_line(key):  # a founderSite line as HTML, with the site's name in it
     link = f'<a href="{e(fs["url"])}" rel="me noopener">{e(fs["name"])}</a>'
     return e(fs[key]).replace(e(fs["name"]), link, 1)
 
+def founder_credit():  # the footer credit worded the same on every ECONTEUR site (owner SEO rule 2026-11-20)
+    fs = FOUNDER_SITE
+    if not fs.get("aboutUrl"):
+        return ""
+    return (f'Created by <a href="{e(fs["aboutUrl"])}">{e(SITE["founder"])}</a> (RAIMZY), founder of ECONTEUR LLC'
+            + (f'<br><a href="{e(fs["productsUrl"])}">{e(fs["productsLinkText"])}</a>' if fs.get("productsUrl") else ""))
+
 def url(path):  # absolute canonical URL for a site path like "/products/raimzeal/"
     return BASE + path
 
@@ -67,6 +74,7 @@ def head(title, desc, path, extra_ld=(), og_image=None, og=None, extra_head="", 
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
+<meta name="author" content="{e(SITE['founder'])}">
 <link rel="canonical" href="{e(canon)}">
 <meta name="theme-color" content="#0d0b14" media="(prefers-color-scheme: dark)"><meta name="theme-color" content="#f7f6fb" media="(prefers-color-scheme: light)">
 <meta property="og:type" content="website"><meta property="og:site_name" content="ECONTEUR LLC">
@@ -97,7 +105,7 @@ def page_path(p):  # the product's canonical page (its own official page when it
 
 def foot():
     prods = "".join(f'<a href="{href(page_path(p))}">{e(p["name"])}</a>' for p in SITE["products"] if not p.get("hidden"))
-    more = founder_line("footerLine")
+    more = founder_credit()
     return f"""</main>
 <footer class="site"><div class="wrap">
 <div class="cols">
@@ -112,17 +120,26 @@ def foot():
 </body></html>
 """
 
-FOUNDER_LD = {"@type": "Person", "name": SITE["founder"]}
-if FOUNDER_SITE.get("url"):  # his own site; the same values are on his Person nodes in products.json (RaimAction ld)
-    FOUNDER_LD.update({"url": FOUNDER_SITE["url"].rstrip("/"), "sameAs": [FOUNDER_SITE["url"].rstrip("/")]})
+# One founder entity on every ECONTEUR site (owner SEO rule 2026-11-20): the Person lives at raimzy.com and every
+# creator/author/founder reference here points at its @id.
+FOUNDER_ID = FOUNDER_SITE.get("personId") or "https://raimzy.com/#raimzy"
+FOUNDER_REF = {"@id": FOUNDER_ID}
+PERSON_LD = {"@type": "Person", "@id": FOUNDER_ID, "name": SITE["founder"],
+             "alternateName": FOUNDER_SITE.get("alternateName") or ["RAIMZY"],
+             "url": FOUNDER_SITE.get("aboutUrl") or FOUNDER_SITE.get("url", "https://raimzy.com/about")}
+ORG_ID = BASE + "/#org"
+ORG_REF = {"@id": ORG_ID}
 
 SITE_LD = {
-    "@context": "https://schema.org", "@type": "Organization", "name": "ECONTEUR LLC",
+    "@context": "https://schema.org", "@type": "Organization", "@id": ORG_ID, "name": "ECONTEUR LLC",
     "url": BASE + "/", "email": SITE["email"], "foundingDate": SITE.get("foundingDate"),
-    "founder": FOUNDER_LD,
+    "founder": FOUNDER_REF,
     "logo": url(SITE["logo"]) if SITE.get("logo") else None,
+    "brand": [{"@type": "Brand", "name": p["name"], "url": url(p.get("canonical") or f'/products/{p["slug"]}/')}
+              for p in SITE["products"] if not p.get("hidden")],
 }
 SITE_LD = {k: v for k, v in SITE_LD.items() if v}
+SITE_LD = {"@context": "https://schema.org", "@graph": [{k: v for k, v in SITE_LD.items() if k != "@context"}, PERSON_LD]}
 
 def faq_ld(items):
     return {"@context": "https://schema.org", "@type": "FAQPage",
@@ -137,7 +154,7 @@ def app_ld(p):
     d = {"@context": "https://schema.org", "@type": "SoftwareApplication" if p.get("kind") != "game" else "VideoGame",
          "name": p["name"], "description": p["summary"], "applicationCategory": p.get("schemaCategory", "Application"),
          "operatingSystem": os_, "url": url(page_path(p)),
-         "author": {"@type": "Organization", "name": "ECONTEUR LLC"}, "creator": {"@type": "Organization", "name": "ECONTEUR LLC"}}
+         "author": FOUNDER_REF, "creator": FOUNDER_REF, "publisher": ORG_REF}
     if p.get("offers"):
         d["offers"] = p["offers"]
     if p.get("icon"):
@@ -145,7 +162,8 @@ def app_ld(p):
     lp = p.get("landing") or {}
     if lp.get("hero"):
         d["image"] = [url(lp["hero"]["jpg"])] + ([url(lp["og"]["path"])] if lp.get("og") else [])
-    d.update(p.get("ld", {}))   # alternateName, sameAs, author, publisher… — must match the visible page
+    d.update(p.get("ld", {}))   # alternateName, sameAs… — must match the visible page
+    d.update({"author": FOUNDER_REF, "creator": FOUNDER_REF, "publisher": ORG_REF})  # one founder entity, always
     return {k: v for k, v in d.items() if v}
 
 def card(p):
@@ -454,6 +472,8 @@ WORDING_SELFTEST = [  # (sentence, allowed?): a rule change can never silently b
     ("RaimAction Premium is a purchase from ECONTEUR LLC, not a donation, and is not tax-deductible.", True),
     ("Is RaimAction Premium tax-deductible?", True),
     ("Founded by Dr. Ephraim Oviawe.", True),
+    ("Also known as Dr. Ephraim Osagie Oviawe.", True),  # his full legal name (founder Person alternateName)
+    ("Osagie Oviawe wrote it.", False),
     ("It is not a registered charity and not a 501(c)(3).", False),
     ("Donations to it are not tax-deductible.", False),
     ("RaimAction Premium is tax-deductible.", False),
@@ -470,7 +490,7 @@ def wording_errors(s, key=""):
     for sent in SENTENCE_END.split(s):
         low = sent.lower()
         whys = []
-        if key != "familyName" and re.search(r"(?<!ephraim )\boviawe\b", low):
+        if key != "familyName" and re.search(r"(?<!ephraim )(?<!ephraim osagie )\boviawe\b", low):
             whys.append('write "Dr. Ephraim Oviawe" in full')
         if re.search(r"(?<![\w./])m\.?d\b|physician", low):
             whys.append("he holds a PhD: never MD or physician")
@@ -508,7 +528,7 @@ def check():
     if fs:
         if not str(fs.get("url", "")).startswith("https://") or not fs.get("name"):
             errs.append("site.founderSite needs an https url and a name")
-        for k in ("footerLine", "aboutLine"):
+        for k in ("aboutLine",):
             if fs.get(k) and fs.get("name") and fs["name"] not in fs[k]:
                 errs.append(f"site.founderSite.{k} must contain '{fs['name']}', which becomes the link")
     for p in SITE["products"]:

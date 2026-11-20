@@ -6,8 +6,15 @@
   "founderSite": {
     "url": "https://raimzy.com/",
     "name": "raimzy.com",
-    "footerLine": "More from the founder: raimzy.com",
-    "aboutLine": "Music, books, courses, products and services from Dr. Ephraim Oviawe and ECONTEUR LLC, all in one place at raimzy.com."
+    "aboutLine": "Music, books, courses, products and services from Dr. Ephraim Oviawe and ECONTEUR LLC, all in one place at raimzy.com.",
+    "personId": "https://raimzy.com/#raimzy",
+    "alternateName": [
+      "RAIMZY",
+      "Dr. Ephraim Osagie Oviawe"
+    ],
+    "aboutUrl": "https://raimzy.com/about",
+    "productsUrl": "https://raimzy.com/products",
+    "productsLinkText": "More about ECONTEUR LLC products on raimzy.com"
   },
   "foundingDate": "2011-11-11",
   "since": " since 2011",
@@ -3052,30 +3059,8 @@
           "minValue": 1,
           "maxValue": 2
         },
-        "author": {
-          "@type": "Person",
-          "name": "Dr. Ephraim Oviawe",
-          "alternateName": "RAIMZY",
-          "url": "https://raimzy.com",
-          "sameAs": [
-            "https://raimzy.com"
-          ]
-        },
-        "creator": {
-          "@type": "Organization",
-          "name": "ECONTEUR LLC"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "ECONTEUR LLC"
-        },
         "musicBy": {
-          "@type": "Person",
-          "name": "RAIMZY",
-          "url": "https://raimzy.com",
-          "sameAs": [
-            "https://raimzy.com"
-          ]
+          "@id": "https://raimzy.com/#raimzy"
         },
         "sponsor": {
           "@type": "Organization",
