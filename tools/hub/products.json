@@ -1767,18 +1767,21 @@
       "summary": "GetIntoStores is a store for DRM-free ebooks and digital products from independent creators, with built-in readers for PDF, EPUB, audio and video. It opens with 45 ebooks by Dr. Ephraim Oviawe, priced from $6.69 to $10.99, each with a free sample.",
       "who": "For readers who want to buy direct from authors, and for creators who want their own store without building one.",
       "status": {
-        "iOS": "review",
+        "iOS": "live",
         "Android": "live",
         "Web": "live"
       },
-      "statusNote": {
-        "iOS": "Waiting for App Store review"
-      },
+      "statusNote": {},
       "get": [
         {
           "label": "Visit getintostores.com",
           "url": "https://www.getintostores.com",
           "platform": "Web"
+        },
+        {
+          "label": "Download on the App Store",
+          "url": "https://apps.apple.com/us/app/getintostores-digital-store/id6817560577",
+          "platform": "iOS"
         },
         {
           "label": "Get it on Google Play",
@@ -3093,6 +3096,83 @@
       }
     },
     {
+      "slug": "raimstorm",
+      "name": "RAIMSTORM",
+      "category": "Co-op rescue game",
+      "kind": "game",
+      "schemaCategory": "GameApplication",
+      "filters": [
+        "play"
+      ],
+      "icon": "/assets/icons/raimstorm.png",
+      "tagline": "A 3D storm-rescue game for two: pull people out of floods, avalanches, hailstorms and tornadoes together.",
+      "summary": "RAIMSTORM is a 3D storm-rescue game built for two players, on one phone or two. Seven rescues are free for everyone, with more in Premium. There are no ads and no account. Play it in your browser at play.raimstorm.com or get it on Google Play.",
+      "who": "For two people who want to play together, side by side or on two phones.",
+      "status": {
+        "Android": "live",
+        "Web": "web",
+        "iOS": "soon"
+      },
+      "statusNote": {
+        "iOS": "Not on the App Store yet"
+      },
+      "get": [
+        {
+          "label": "Play in your browser",
+          "url": "https://play.raimstorm.com/",
+          "platform": "Web"
+        },
+        {
+          "label": "Get it on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.econteur.raimstorm",
+          "platform": "Android"
+        },
+        {
+          "label": "Official site: raimstorm.com",
+          "url": "https://raimstorm.com/"
+        }
+      ],
+      "features": [
+        {
+          "t": "Rescue together",
+          "d": "Two players pull people out of floods, avalanches, hailstorms and tornadoes."
+        },
+        {
+          "t": "One phone or two",
+          "d": "Play side by side on one phone, or each on your own."
+        },
+        {
+          "t": "Seven free rescues",
+          "d": "Free for everyone, with more rescues in Premium."
+        },
+        {
+          "t": "No ads, no account",
+          "d": "Start playing without signing up."
+        }
+      ],
+      "howto": [
+        "Play in your browser at play.raimstorm.com, or install it from Google Play.",
+        "Pick a rescue and play with a friend on one phone or two.",
+        "Questions? Email developer@econteur.com."
+      ],
+      "seoTitle": "RAIMSTORM: Storm-Rescue Game to Play Together",
+      "seoDescription": "RAIMSTORM from ECONTEUR LLC is a 3D storm-rescue game for two, on one phone or two. Seven rescues free, more in Premium, no ads, no account.",
+      "faq": [
+        {
+          "q": "Is RAIMSTORM free?",
+          "a": "Seven rescues are free for everyone. Premium unlocks the rest."
+        },
+        {
+          "q": "Can two people play on one phone?",
+          "a": "Yes. RAIMSTORM is built for two players, on one phone or on two."
+        },
+        {
+          "q": "Is RAIMSTORM on iPhone?",
+          "a": "Not on the App Store yet. Play it on Android or in your browser at play.raimstorm.com."
+        }
+      ]
+    },
+    {
       "slug": "sparkreset",
       "name": "SparkReset",
       "category": "Home tidying",
@@ -3500,97 +3580,76 @@
       ]
     },
     {
-      "slug": "riosovia",
-      "name": "RIOSOVIA",
-      "category": "Money app (in testing)",
+      "slug": "raimwire",
+      "name": "RaimWire",
+      "category": "Money planning (web app)",
       "schemaCategory": "FinanceApplication",
       "filters": [
         "money"
       ],
-      "tagline": "Send money, practice investing and learn money skills: a pan-African app now in sandbox testing.",
-      "summary": "RIOSOVIA is a pan-African money app in testing. It lets you send money between users, practice investing, take short money lessons and quizzes, and ask the Ovia AI money coach. Everything runs in sandbox mode today, so no real money moves.",
-      "who": "Built first for people in Nigeria, Ghana, Kenya and South Africa.",
+      "icon": "/assets/icons/raimwire.png",
+      "tagline": "Plan your goals, learn and explore in a web app that is free for now. No money moves in it yet.",
+      "summary": "RaimWire runs at raimwire.com as a web app: set goals, learn the basics, and walk through what sending and receiving will look like with a practice receipt, without moving any money. Sending, cards, savings and loans are coming soon. RaimWire is not a bank, does not hold customer money and holds no financial licence.",
+      "who": "For anyone who wants to plan and learn before money is involved.",
       "status": {
-        "iOS": "soon",
-        "Android": "soon"
+        "Web": "live"
       },
-      "statusNote": {
-        "iOS": "Internal testing only",
-        "Android": "Not on Google Play yet"
-      },
+      "statusNote": {},
+      "get": [
+        {
+          "label": "Open raimwire.com",
+          "url": "https://raimwire.com/",
+          "platform": "Web"
+        }
+      ],
       "features": [
         {
-          "t": "Send money between users",
-          "d": "Transfers between RIOSOVIA users, running in sandbox mode during testing."
+          "t": "Plan your goals",
+          "d": "Set goals and see the steps toward them."
         },
         {
-          "t": "Practice investing",
-          "d": "Build a practice portfolio and learn how investing works, with no real money at stake."
+          "t": "Learn",
+          "d": "Learn the basics at your own pace."
         },
         {
-          "t": "Money lessons and quizzes",
-          "d": "Short lessons with quizzes to build everyday money skills."
+          "t": "Practice transfers",
+          "d": "Walk through sending and receiving step by step, ending with a practice receipt. No real money moves."
         },
         {
-          "t": "Ovia AI money coach",
-          "d": "Ask questions about budgeting, saving and the app itself."
+          "t": "Works in your browser",
+          "d": "Add it to your Home Screen and it opens like an app."
         },
         {
-          "t": "Africa first",
-          "d": "Designed for Nigeria, Ghana, Kenya and South Africa from the start."
-        },
-        {
-          "t": "Established payment partners",
-          "d": "Planned payment rails are Paystack and Stripe."
+          "t": "Clear limits",
+          "d": "No money moves today. RaimWire is not a bank, does not hold customer money and holds no financial licence."
         }
       ],
       "coming": [
         {
-          "t": "Public release",
-          "d": "RIOSOVIA in the App Store and on Google Play.",
-          "when": "Date not set"
-        },
-        {
-          "t": "Real-money transfers",
-          "d": "Only once the required licences are in place.",
+          "t": "Sending, cards, savings and loans",
+          "d": "Shown in the app as coming soon.",
           "when": "Date not set"
         }
       ],
-      "notes": [
-        "RIOSOVIA is in sandbox testing. No real money is sent, held or invested, and RIOSOVIA is not yet licensed to provide financial services.",
-        "Nothing in RIOSOVIA, including the Ovia AI money coach, is financial or investment advice."
-      ],
       "howto": [
-        "RIOSOVIA is in internal testing and isn't available to download yet.",
-        "Check this page or Coming next for its release.",
-        "Questions about RIOSOVIA? Email developer@econteur.com."
+        "Open raimwire.com in your browser.",
+        "On iPhone, tap Share in Safari, then Add to Home Screen. On Android, use your browser's install option.",
+        "Questions about RaimWire? Email support@raimwire.com."
       ],
-      "seoTitle": "RIOSOVIA: Pan-African Money App (Sandbox Testing)",
-      "seoDescription": "RIOSOVIA is a pan-African money app in testing: send money, practice investing, learn money skills and ask Ovia AI. Sandbox only, no real money yet.",
+      "seoTitle": "RaimWire: Plan Your Goals and Learn, Free for Now",
+      "seoDescription": "RaimWire is a web app at raimwire.com to plan goals, learn and practise transfers, free for now. No money moves; it is not a bank.",
       "faq": [
         {
-          "q": "Can I download RIOSOVIA?",
-          "a": "Not yet. RIOSOVIA is in internal testing and isn't in the App Store or on Google Play. There's no release date yet."
+          "q": "Is RaimWire a bank?",
+          "a": "No. RaimWire is not a bank, does not hold customer money and holds no financial licence."
         },
         {
-          "q": "Does RIOSOVIA move real money?",
-          "a": "No. Everything runs in sandbox mode today, and RIOSOVIA is not yet licensed to provide financial services."
+          "q": "Does money move in RaimWire?",
+          "a": "Not today. Sending, cards, savings and loans are shown as coming soon, and the practice flow never moves real money."
         },
         {
-          "q": "Which countries is RIOSOVIA for?",
-          "a": "It is built first for Nigeria, Ghana, Kenya and South Africa."
-        },
-        {
-          "q": "Can I invest with RIOSOVIA?",
-          "a": "Only in practice. The investing feature is a sandbox for learning; no real money is invested."
-        },
-        {
-          "q": "Which payment providers will RIOSOVIA use?",
-          "a": "The planned payment rails are Paystack and Stripe."
-        },
-        {
-          "q": "Does RIOSOVIA give financial advice?",
-          "a": "No. The lessons and the Ovia AI money coach are educational and are not financial or investment advice."
+          "q": "How do I get RaimWire?",
+          "a": "Open raimwire.com in your browser. You can add it to your Home Screen so it opens like an app; there is nothing to download from a store."
         }
       ]
     },
@@ -3744,77 +3803,6 @@
         {
           "q": "Who makes LoveOnPlanet?",
           "a": "LoveOnPlanet is created and designed by ECONTEUR LLC."
-        }
-      ]
-    },
-    {
-      "slug": "raimwire",
-      "name": "RaimWire",
-      "category": "Action game (in development)",
-      "kind": "game",
-      "schemaCategory": "GameApplication",
-      "filters": [
-        "play"
-      ],
-      "tagline": "Grapple, swing and fly across six city districts, plus an endless mode. In development.",
-      "summary": "RaimWire is a grapple-swing action game in development: swing through six districts, then test yourself in an endless mode.",
-      "who": "For players who love fast, fluid movement games.",
-      "status": {
-        "iOS": "soon",
-        "Android": "soon"
-      },
-      "statusNote": {
-        "iOS": "In development, date not set",
-        "Android": "In development, date not set"
-      },
-      "features": [
-        {
-          "t": "Grapple-swing movement",
-          "d": "Fire a line, swing and keep your momentum going."
-        },
-        {
-          "t": "Six districts",
-          "d": "Six distinct districts to swing through."
-        },
-        {
-          "t": "Endless mode",
-          "d": "Keep going as far as you can."
-        }
-      ],
-      "coming": [
-        {
-          "t": "iPhone and Android release",
-          "d": "RaimWire in the App Store and on Google Play.",
-          "when": "Date not set"
-        }
-      ],
-      "howto": [
-        "RaimWire is in development and isn't available to download yet.",
-        "Check this page or Coming next for its release.",
-        "Questions? Email developer@econteur.com."
-      ],
-      "seoTitle": "RaimWire: Grapple-Swing Action Game (In Development)",
-      "seoDescription": "RaimWire is a grapple-swing action game in development from ECONTEUR LLC: six city districts to swing through, plus an endless mode.",
-      "faq": [
-        {
-          "q": "Is RaimWire available?",
-          "a": "Not yet. RaimWire is in development."
-        },
-        {
-          "q": "When will RaimWire launch?",
-          "a": "There's no release date yet. We'll announce one only when it's certain."
-        },
-        {
-          "q": "What kind of game is RaimWire?",
-          "a": "A grapple-swing action game with six districts and an endless mode."
-        },
-        {
-          "q": "Which platforms will RaimWire be on?",
-          "a": "iPhone and Android are planned."
-        },
-        {
-          "q": "Who makes RaimWire?",
-          "a": "RaimWire is created and designed by ECONTEUR LLC."
         }
       ]
     }
