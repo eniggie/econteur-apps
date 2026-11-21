@@ -1,0 +1,8 @@
+
+# Internal tools and agent files: never published (backup: private repo eniggie/econteur-hub-tools)
+tools/
+.claude/
+.env*
+*.p8
+*.pem
+*.key
